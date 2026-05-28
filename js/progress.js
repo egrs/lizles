@@ -62,6 +62,18 @@ const Progress = (() => {
     toRemove.forEach(key => localStorage.removeItem(key));
   };
 
+  // Wipe every lizles progress key, leaving UI settings (lizles:__settings) intact.
+  const resetAll = () => {
+    const prefix = `${PREFIX}:`;
+    const keep = `${PREFIX}:__settings`;
+    const toRemove = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith(prefix) && key !== keep) toRemove.push(key);
+    }
+    toRemove.forEach(key => localStorage.removeItem(key));
+  };
+
   // Returns all flagged ids for a topic (for export later).
   const flaggedIds = (slug) => {
     const prefix = `${PREFIX}:${slug}:`;
@@ -77,5 +89,5 @@ const Progress = (() => {
     return out;
   };
 
-  return { record, flag, weight, reset, getAgg, getItem, flaggedIds };
+  return { record, flag, weight, reset, resetAll, getAgg, getItem, flaggedIds };
 })();

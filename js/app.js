@@ -40,7 +40,18 @@
       </a>`;
   }).join('');
 
-  root.innerHTML = cards;
+  root.innerHTML = cards + `
+    <div class="home-footer">
+      <button class="btn ghost" id="reset-all">Voortgang wissen</button>
+    </div>
+  `;
+
+  document.getElementById('reset-all').addEventListener('click', () => {
+    if (confirm('Alle voortgang wissen op dit toestel? Dit zet alles terug op 0.')) {
+      Progress.resetAll();
+      location.reload();
+    }
+  });
 })();
 
 function escapeHtml(s) {

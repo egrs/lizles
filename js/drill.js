@@ -113,7 +113,34 @@
     root.appendChild(card);
 
     const renderer = Exercises.forType(item.type);
-    renderer.mount(card, item);
+    renderer.mount(card, item, (chosen) => {
+      const isCorrect = typeof renderer.isCorrect === 'function'
+        ? renderer.isCorrect(chosen, item)
+        : chosen === item.answer;
+
+      renderer.reveal(chosen, isCorrect, item);
+      Progress.record(slug, item.id, isCorrect);
+      if (!isCorrect) wrongIds.push(item.id);
+
+      const fb = document.createElement('div');
+      fb.className = 'feedback ' + (isCorrect ? 'correct' : 'wrong');
+      fb.innerHTML = `<strong>${isCorrect ? 'Goed zo!' : 'Helaas.'}</strong>${item.explanation ? `<div class="explain">${escapeHtml(item.explanation)}</div>` : ''}`;
+      card.appendChild(fb);
+
+      const bar = document.createElement('div');
+      bar.className = 'actionbar';
+      const nextBtn = document.createElement('button');
+      nextBtn.className = 'btn';
+      nextBtn.textContent = 'Volgende';
+      nextBtn.addEventListener('click', () => {
+        bar.remove();
+        cursor += 1;
+        renderCurrent();
+      });
+      bar.appendChild(nextBtn);
+      document.body.appendChild(bar);
+      nextBtn.focus();
+    });
 
     // Meta row: confidence badge + report link.
     const meta = document.createElement('div');
@@ -131,43 +158,6 @@
       e.target.textContent = wasFlagged ? 'Klopt dit niet?' : '⚑ gemeld';
     });
     card.appendChild(meta);
-
-    // Action bar (Check / Volgende).
-    const bar = document.createElement('div');
-    bar.className = 'actionbar';
-    const checkBtn = document.createElement('button');
-    checkBtn.className = 'btn'; checkBtn.textContent = 'Controleer';
-    bar.appendChild(checkBtn);
-    document.body.appendChild(bar);
-    root.dataset.barAttached = '1';
-
-    let revealed = false;
-    checkBtn.addEventListener('click', () => {
-      if (!revealed) {
-        const chosen = renderer.answer();
-        if (chosen == null || (typeof chosen === 'object' && Object.keys(chosen).length === 0)) return;
-        const isCorrect = typeof renderer.isCorrect === 'function'
-          ? renderer.isCorrect(chosen, item)
-          : chosen === item.answer;
-
-        renderer.reveal(chosen, isCorrect, item);
-        Progress.record(slug, item.id, isCorrect);
-        if (!isCorrect) wrongIds.push(item.id);
-
-        const fb = document.createElement('div');
-        fb.className = 'feedback ' + (isCorrect ? 'correct' : 'wrong');
-        fb.innerHTML = `<strong>${isCorrect ? 'Goed zo!' : 'Helaas.'}</strong>${item.explanation ? `<div class="explain">${escapeHtml(item.explanation)}</div>` : ''}`;
-        card.appendChild(fb);
-
-        checkBtn.textContent = 'Volgende';
-        revealed = true;
-      } else {
-        // Clean up the bar (it's per-render).
-        bar.remove();
-        cursor += 1;
-        renderCurrent();
-      }
-    });
   }
 
   function renderSummary() {

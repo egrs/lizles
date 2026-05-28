@@ -1,6 +1,6 @@
 // Per-type renderers. Each one returns an object with:
-//   - mount(container, item)        → render the question UI
-//   - answer()                       → return current attempt (or null if none)
+//   - mount(container, item, onSubmit) → render the question UI; call onSubmit(answer) as soon
+//                                         as the answer is complete (auto-submit, no confirm step)
 //   - reveal(answer, isCorrect, item) → show feedback styling
 // The drill engine handles feedback text, "Volgende", and persistence.
 
@@ -16,130 +16,88 @@ const Exercises = (() => {
     return b;
   };
 
+  // Shared chip-question mounter: cloze / mcq / trans-intrans all use the same shape.
+  // `choicesField` says whether to read item.choices (cloze) or item.options (mcq, trans-intrans).
+  const mountChipQuestion = function (container, item, onSubmit, { promptText, choicesField }) {
+    container.innerHTML = '';
+
+    const prompt = document.createElement('p');
+    prompt.className = 'prompt';
+    prompt.textContent = promptText;
+    container.appendChild(prompt);
+
+    const sentenceEl = document.createElement('p');
+    sentenceEl.className = 'sentence';
+    const [before, after] = item.sentence.split('___');
+    sentenceEl.appendChild(document.createTextNode(before ?? ''));
+    const blank = document.createElement('span');
+    blank.className = 'blank';
+    blank.textContent = '____';
+    sentenceEl.appendChild(blank);
+    sentenceEl.appendChild(document.createTextNode(after ?? ''));
+    container.appendChild(sentenceEl);
+
+    const choices = document.createElement('div');
+    choices.className = 'choices';
+    const buttons = (item[choicesField] || []).map(opt =>
+      chip(opt, () => {
+        if (this._locked) return;
+        this._locked = true;
+        buttons.forEach(b => b.classList.toggle('selected', b.textContent === opt));
+        blank.textContent = opt;
+        blank.classList.add('filled');
+        onSubmit(opt);
+      })
+    );
+    buttons.forEach(b => choices.appendChild(b));
+    container.appendChild(choices);
+
+    this._blank = blank;
+    this._buttons = buttons;
+    this._locked = false;
+  };
+
+  const revealChipQuestion = function (chosen, isCorrect, item) {
+    this._locked = true;
+    this._blank.classList.add(isCorrect ? 'correct' : 'wrong');
+    if (!isCorrect) this._blank.textContent = item.answer;
+    this._buttons.forEach(b => {
+      b.disabled = true;
+      if (b.textContent === item.answer) b.classList.add('correct');
+      else if (b.textContent === chosen && !isCorrect) b.classList.add('wrong');
+    });
+  };
+
   // ----- CLOZE: single blank, sentence with ___; choices on chips. -----
   const cloze = {
-    mount(container, item) {
-      let chosen = null;
-      container.innerHTML = '';
-
-      const prompt = document.createElement('p');
-      prompt.className = 'prompt';
-      prompt.textContent = 'Vul het juiste woord in';
-      container.appendChild(prompt);
-
-      const sentenceEl = document.createElement('p');
-      sentenceEl.className = 'sentence';
-      const [before, after] = item.sentence.split('___');
-      sentenceEl.appendChild(document.createTextNode(before ?? ''));
-      const blank = document.createElement('span');
-      blank.className = 'blank';
-      blank.textContent = '____';
-      sentenceEl.appendChild(blank);
-      sentenceEl.appendChild(document.createTextNode(after ?? ''));
-      container.appendChild(sentenceEl);
-
-      const choices = document.createElement('div');
-      choices.className = 'choices';
-      const buttons = (item.choices || []).map(opt =>
-        chip(opt, () => {
-          if (this._locked) return;
-          chosen = opt;
-          buttons.forEach(b => b.classList.toggle('selected', b.textContent === opt));
-          blank.textContent = opt;
-          blank.classList.add('filled');
-        })
-      );
-      buttons.forEach(b => choices.appendChild(b));
-      container.appendChild(choices);
-
-      this._blank = blank;
-      this._buttons = buttons;
-      this._chosen = () => chosen;
-      this._locked = false;
+    mount(container, item, onSubmit) {
+      mountChipQuestion.call(this, container, item, onSubmit,
+        { promptText: 'Vul het juiste woord in', choicesField: 'choices' });
     },
-    answer() { return this._chosen(); },
-    reveal(chosen, isCorrect, item) {
-      this._locked = true;
-      this._blank.classList.add(isCorrect ? 'correct' : 'wrong');
-      if (!isCorrect) this._blank.textContent = item.answer;
-      this._buttons.forEach(b => {
-        b.disabled = true;
-        if (b.textContent === item.answer) b.classList.add('correct');
-        else if (b.textContent === chosen && !isCorrect) b.classList.add('wrong');
-      });
-    },
+    reveal: revealChipQuestion,
   };
 
-  // ----- MCQ: same idea but no sentence blank — full sentence visible, answer is option chosen. -----
+  // ----- MCQ: full sentence with placeholder, choose from options. -----
   const mcq = {
-    mount(container, item) {
-      let chosen = null;
-      container.innerHTML = '';
-
-      const prompt = document.createElement('p');
-      prompt.className = 'prompt';
-      prompt.textContent = 'Kies het juiste woord';
-      container.appendChild(prompt);
-
-      const sentenceEl = document.createElement('p');
-      sentenceEl.className = 'sentence';
-      // Show sentence with a ___ placeholder visually (same as cloze) so the eye anchors.
-      const [before, after] = item.sentence.split('___');
-      sentenceEl.appendChild(document.createTextNode(before ?? ''));
-      const blank = document.createElement('span');
-      blank.className = 'blank';
-      blank.textContent = '____';
-      sentenceEl.appendChild(blank);
-      sentenceEl.appendChild(document.createTextNode(after ?? ''));
-      container.appendChild(sentenceEl);
-
-      const choices = document.createElement('div');
-      choices.className = 'choices';
-      const buttons = (item.options || []).map(opt =>
-        chip(opt, () => {
-          if (this._locked) return;
-          chosen = opt;
-          buttons.forEach(b => b.classList.toggle('selected', b.textContent === opt));
-          blank.textContent = opt;
-          blank.classList.add('filled');
-        })
-      );
-      buttons.forEach(b => choices.appendChild(b));
-      container.appendChild(choices);
-
-      this._blank = blank;
-      this._buttons = buttons;
-      this._chosen = () => chosen;
-      this._locked = false;
+    mount(container, item, onSubmit) {
+      mountChipQuestion.call(this, container, item, onSubmit,
+        { promptText: 'Kies het juiste woord', choicesField: 'options' });
     },
-    answer() { return this._chosen(); },
-    reveal(chosen, isCorrect, item) {
-      this._locked = true;
-      this._blank.classList.add(isCorrect ? 'correct' : 'wrong');
-      if (!isCorrect) this._blank.textContent = item.answer;
-      this._buttons.forEach(b => {
-        b.disabled = true;
-        if (b.textContent === item.answer) b.classList.add('correct');
-        else if (b.textContent === chosen && !isCorrect) b.classList.add('wrong');
-      });
-    },
+    reveal: revealChipQuestion,
   };
 
-  // ----- TRANS-INTRANS: two-button variant (same shape as MCQ, but conventionally 2 options). -----
-  // Re-uses the MCQ rendering — separate object so we can show a slightly different prompt.
+  // ----- TRANS-INTRANS: two-button variant (same shape as MCQ, different prompt). -----
   const transIntrans = {
-    mount(container, item) {
-      mcq.mount.call(this, container, item);
-      const prompt = container.querySelector('.prompt');
-      if (prompt) prompt.textContent = 'Wat doet iemand vs. waar iets is';
+    mount(container, item, onSubmit) {
+      mountChipQuestion.call(this, container, item, onSubmit,
+        { promptText: 'Wat doet iemand vs. waar iets is', choicesField: 'options' });
     },
-    answer() { return this._chosen(); },
-    reveal(chosen, isCorrect, item) { mcq.reveal.call(this, chosen, isCorrect, item); },
+    reveal: revealChipQuestion,
   };
 
   // ----- MATCH: pair left items with right items by tapping one of each. -----
   const match = {
-    mount(container, item) {
+    mount(container, item, onSubmit) {
       container.innerHTML = '';
       const prompt = document.createElement('p');
       prompt.className = 'prompt';
@@ -149,6 +107,7 @@ const Exercises = (() => {
       const shuffle = arr => arr.map(v => [Math.random(), v]).sort((a, b) => a[0] - b[0]).map(([, v]) => v);
       const leftItems  = shuffle(item.pairs.map((p, i) => ({ idx: i, text: p.left })));
       const rightItems = shuffle(item.pairs.map((p, i) => ({ idx: i, text: p.right })));
+      const totalPairs = item.pairs.length;
 
       const grid = document.createElement('div');
       grid.className = 'match-grid';
@@ -170,6 +129,10 @@ const Exercises = (() => {
         selectedRight.classList.remove('selected'); selectedRight.classList.add('paired');
         selectedLeft.dataset.paired = '1'; selectedRight.dataset.paired = '1';
         selectedLeft = null; selectedRight = null;
+        if (Object.keys(pairs).length >= totalPairs) {
+          this._locked = true;
+          onSubmit(pairs);
+        }
       };
 
       const makeCell = (text, idx, side) => {
@@ -201,14 +164,6 @@ const Exercises = (() => {
       container.appendChild(grid);
 
       this._cells = container.querySelectorAll('.match-cell');
-    },
-    answer() {
-      // Return null until all pairs are placed.
-      const total = Object.keys(this._pairs).length;
-      const cells = this._cells || [];
-      const expectedLefts = Array.from(cells).filter(c => c.dataset.side === 'L').length;
-      if (total < expectedLefts) return null;
-      return this._pairs;
     },
     reveal(chosen, isCorrect, item) {
       this._locked = true;
