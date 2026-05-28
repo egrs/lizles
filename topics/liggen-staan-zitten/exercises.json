@@ -864,7 +864,134 @@
     "confidence": "verified"
   },
   {
-    "id": "lsz-rev-001",
+    "id": "lsz-c-070",
+    "type": "cloze",
+    "sentence": "Hij ___ op eigen benen.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "'Op eigen benen staan' = 'zelfstandig zijn, voor jezelf zorgen'.",
+    "tags": [
+      "idiom-staan"
+    ],
+    "source": "book:tweede-ronde-uitdrukkingen-les31",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-c-071",
+    "type": "cloze",
+    "sentence": "Ze ___ met haar mond vol tanden.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "'Met je mond vol tanden staan' = 'sprakeloos zijn; niets kunnen zeggen'.",
+    "tags": [
+      "idiom-staan"
+    ],
+    "source": "book:tweede-ronde-uitdrukkingen-les23",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-c-072",
+    "type": "cloze",
+    "sentence": "Het plan ___ goed in elkaar.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "'In elkaar zitten' = 'samengesteld zijn; goed gestructureerd zijn'.",
+    "tags": [
+      "idiom-zitten"
+    ],
+    "source": "book:tweede-ronde-uitdrukkingen-les1",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-c-073",
+    "type": "cloze",
+    "sentence": "De stemming ___ er goed in op het feestje.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "'De stemming zit er goed in' = 'iedereen is in een goed humeur, de sfeer is goed'.",
+    "tags": [
+      "idiom-zitten"
+    ],
+    "source": "book:tweede-ronde-uitdrukkingen-les38",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-c-074",
+    "type": "cloze",
+    "sentence": "Hij weet wat hem te doen ___.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "'Wat je te doen staat' = 'wat je moet doen, wat van je verwacht wordt'.",
+    "tags": [
+      "idiom-staan"
+    ],
+    "source": "book:tweede-ronde-uitdrukkingen-les23",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-c-075",
+    "type": "cloze",
+    "sentence": "Hij kan nog niet eens lopen, laat ___ rennen.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "'Laat staan' = 'let alone' / 'om over X nog maar te zwijgen'. Vaste uitdrukking — niets met letterlijk staan.",
+    "tags": [
+      "idiom-staan",
+      "tricky"
+    ],
+    "source": "book:tweede-ronde-uitdrukkingen-les22",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-c-076",
+    "type": "cloze",
+    "sentence": "Vorig jaar heeft hij de grote stap ___ — hij is verhuisd naar Australië.",
+    "answer": "gezet",
+    "choices": [
+      "gelegen",
+      "gestaan",
+      "gezet",
+      "gehangen"
+    ],
+    "explanation": "'De stap zetten' = 'een belangrijke beslissing nemen en uitvoeren'. (Voltooid deelwoord: gezet.)",
+    "tags": [
+      "idiom-zetten"
+    ],
+    "source": "book:tweede-ronde-uitdrukkingen-les6",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-c-077",
     "type": "cloze",
     "sentence": "Het ___ voor de hand dat we morgen vroeg moeten beginnen.",
     "answer": "ligt",
@@ -874,16 +1001,15 @@
       "zit",
       "hangt"
     ],
-    "explanation": "'Voor de hand liggen' = 'duidelijk / vanzelfsprekend zijn'.",
+    "explanation": "'Voor de hand liggen' = 'duidelijk / vanzelfsprekend zijn'. Bevestigd in de uitdrukkingenlijst van Tweede ronde (les 21).",
     "tags": [
-      "idiom-liggen",
-      "review"
+      "idiom-liggen"
     ],
-    "source": "freeform:voor-de-hand-liggen",
-    "confidence": "review"
+    "source": "book:tweede-ronde-uitdrukkingen-les21",
+    "confidence": "verified"
   },
   {
-    "id": "lsz-rev-002",
+    "id": "lsz-rev-001",
     "type": "cloze",
     "sentence": "Aan mij ___ het niet, hoor.",
     "answer": "ligt",
@@ -902,7 +1028,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-003",
+    "id": "lsz-rev-002",
     "type": "cloze",
     "sentence": "Mijn opa ___ al twee weken in het ziekenhuis.",
     "answer": "ligt",
@@ -921,7 +1047,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-004",
+    "id": "lsz-rev-003",
     "type": "cloze",
     "sentence": "Waar ___ de afstandsbediening?",
     "answer": "ligt",
@@ -940,7 +1066,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-005",
+    "id": "lsz-rev-004",
     "type": "cloze",
     "sentence": "Het hotel ___ aan zee.",
     "answer": "ligt",
@@ -959,7 +1085,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-006",
+    "id": "lsz-rev-005",
     "type": "cloze",
     "sentence": "De brug ___ over de rivier.",
     "answer": "ligt",
@@ -978,7 +1104,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-007",
+    "id": "lsz-rev-006",
     "type": "cloze",
     "sentence": "Sinds zijn ontslag ___ hij maar wat op de bank.",
     "answer": "ligt",
@@ -997,7 +1123,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-008",
+    "id": "lsz-rev-007",
     "type": "cloze",
     "sentence": "Het kind ___ al een uur te slapen.",
     "answer": "ligt",
@@ -1016,7 +1142,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-009",
+    "id": "lsz-rev-008",
     "type": "cloze",
     "sentence": "Het ___ vandaag in de krant.",
     "answer": "staat",
@@ -1035,7 +1161,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-010",
+    "id": "lsz-rev-009",
     "type": "cloze",
     "sentence": "Daar ___ ik volledig achter.",
     "answer": "sta",
@@ -1054,7 +1180,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-011",
+    "id": "lsz-rev-010",
     "type": "cloze",
     "sentence": "Het eten ___ klaar op tafel.",
     "answer": "staat",
@@ -1073,7 +1199,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-012",
+    "id": "lsz-rev-011",
     "type": "cloze",
     "sentence": "Wij ___ voor een belangrijke keuze.",
     "answer": "staan",
@@ -1092,7 +1218,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-013",
+    "id": "lsz-rev-012",
     "type": "cloze",
     "sentence": "Hij ___ op het punt te vertrekken.",
     "answer": "staat",
@@ -1111,7 +1237,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-014",
+    "id": "lsz-rev-013",
     "type": "cloze",
     "sentence": "Ik ___ versteld van haar talent.",
     "answer": "sta",
@@ -1130,7 +1256,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-015",
+    "id": "lsz-rev-014",
     "type": "cloze",
     "sentence": "Het bedrijf ___ er financieel goed voor.",
     "answer": "staat",
@@ -1149,7 +1275,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-016",
+    "id": "lsz-rev-015",
     "type": "cloze",
     "sentence": "Het standbeeld ___ midden op het plein.",
     "answer": "staat",
@@ -1168,7 +1294,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-017",
+    "id": "lsz-rev-016",
     "type": "cloze",
     "sentence": "Mijn collega ___ er goed voor met zijn nieuwe baan.",
     "answer": "staat",
@@ -1187,7 +1313,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-018",
+    "id": "lsz-rev-017",
     "type": "cloze",
     "sentence": "Daar ___ een addertje onder het gras.",
     "answer": "zit",
@@ -1206,7 +1332,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-019",
+    "id": "lsz-rev-018",
     "type": "cloze",
     "sentence": "We ___ vast in het verkeer.",
     "answer": "zitten",
@@ -1225,7 +1351,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-020",
+    "id": "lsz-rev-019",
     "type": "cloze",
     "sentence": "Ik ___ er helemaal doorheen.",
     "answer": "zit",
@@ -1244,7 +1370,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-021",
+    "id": "lsz-rev-020",
     "type": "cloze",
     "sentence": "Hij ___ in de problemen.",
     "answer": "zit",
@@ -1263,7 +1389,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-022",
+    "id": "lsz-rev-021",
     "type": "cloze",
     "sentence": "Ze ___ goed in haar vel.",
     "answer": "zit",
@@ -1282,7 +1408,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-023",
+    "id": "lsz-rev-022",
     "type": "cloze",
     "sentence": "Daar ___ niets anders op dan accepteren.",
     "answer": "zit",
@@ -1301,7 +1427,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-024",
+    "id": "lsz-rev-023",
     "type": "cloze",
     "sentence": "Het ___ er niet in dat we vandaag nog klaar zijn.",
     "answer": "zit",
@@ -1320,7 +1446,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-025",
+    "id": "lsz-rev-024",
     "type": "cloze",
     "sentence": "Hij ___ goed bij kas.",
     "answer": "zit",
@@ -1339,7 +1465,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-026",
+    "id": "lsz-rev-025",
     "type": "cloze",
     "sentence": "De sleutels ___ in mijn jaszak.",
     "answer": "zitten",
@@ -1358,7 +1484,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-027",
+    "id": "lsz-rev-026",
     "type": "cloze",
     "sentence": "Er ___ pennen en potloden in de la.",
     "answer": "zitten",
@@ -1377,7 +1503,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-028",
+    "id": "lsz-rev-027",
     "type": "cloze",
     "sentence": "Onze toekomst ___ aan een zijden draadje.",
     "answer": "hangt",
@@ -1396,7 +1522,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-029",
+    "id": "lsz-rev-028",
     "type": "cloze",
     "sentence": "Het ___ van het weer af of we gaan.",
     "answer": "hangt",
@@ -1415,7 +1541,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-030",
+    "id": "lsz-rev-029",
     "type": "cloze",
     "sentence": "Hij ___ de hele dag rond in de stad.",
     "answer": "hangt",
@@ -1434,7 +1560,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-031",
+    "id": "lsz-rev-030",
     "type": "cloze",
     "sentence": "Er ___ een onheilspellende sfeer in de lucht.",
     "answer": "hangt",
@@ -1453,7 +1579,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-032",
+    "id": "lsz-rev-031",
     "type": "cloze",
     "sentence": "Op die muur ___ allemaal foto's van de kinderen.",
     "answer": "hangen",
@@ -1472,7 +1598,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-033",
+    "id": "lsz-rev-032",
     "type": "cloze",
     "sentence": "De jas ___ aan de kapstok.",
     "answer": "hangt",
@@ -1491,7 +1617,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-034",
+    "id": "lsz-rev-033",
     "type": "cloze",
     "sentence": "— Waar ___ mijn jas? — Aan de kapstok in de hal.",
     "answer": "hangt",
@@ -1510,7 +1636,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-035",
+    "id": "lsz-rev-034",
     "type": "cloze",
     "sentence": "— Waar ___ de auto? — In de garage.",
     "answer": "staat",
@@ -1529,7 +1655,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-036",
+    "id": "lsz-rev-035",
     "type": "cloze",
     "sentence": "— Waar ___ mijn telefoon? — Op de keukentafel.",
     "answer": "ligt",
@@ -1548,7 +1674,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-037",
+    "id": "lsz-rev-036",
     "type": "cloze",
     "sentence": "— ___ het eten al op tafel? — Bijna, nog vijf minuten.",
     "answer": "Staat",
@@ -1567,7 +1693,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-038",
+    "id": "lsz-rev-037",
     "type": "cloze",
     "sentence": "— ___ jullie hier al lang? — Een halfuurtje.",
     "answer": "Zitten",
@@ -1586,7 +1712,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-039",
+    "id": "lsz-rev-038",
     "type": "cloze",
     "sentence": "Het moet hier ergens ___.",
     "answer": "liggen",
@@ -1605,7 +1731,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-040",
+    "id": "lsz-rev-039",
     "type": "cloze",
     "sentence": "Die fiets mag daar niet ___.",
     "answer": "staan",
@@ -1624,7 +1750,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-041",
+    "id": "lsz-rev-040",
     "type": "cloze",
     "sentence": "De jas moet aan de kapstok ___.",
     "answer": "hangen",
@@ -1643,7 +1769,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-042",
+    "id": "lsz-rev-041",
     "type": "cloze",
     "sentence": "Je portemonnee kan in je tas ___.",
     "answer": "zitten",
@@ -1662,7 +1788,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-043",
+    "id": "lsz-rev-042",
     "type": "cloze",
     "sentence": "Laat die papieren maar ___.",
     "answer": "liggen",
@@ -1681,7 +1807,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-044",
+    "id": "lsz-rev-043",
     "type": "trans-intrans",
     "sentence": "De ober ___ het glas water op tafel.",
     "answer": "zet",
@@ -1698,7 +1824,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-045",
+    "id": "lsz-rev-044",
     "type": "trans-intrans",
     "sentence": "De receptioniste ___ de map met documenten op de balie.",
     "answer": "legt",
@@ -1715,7 +1841,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-046",
+    "id": "lsz-rev-045",
     "type": "trans-intrans",
     "sentence": "Mijn zus ___ haar paspoort in de kluis.",
     "answer": "stopt",
@@ -1732,7 +1858,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-047",
+    "id": "lsz-rev-046",
     "type": "mcq",
     "sentence": "Mijn opa ___ in het ziekenhuis met een gebroken heup.",
     "answer": "ligt",
@@ -1751,7 +1877,7 @@
     "confidence": "review"
   },
   {
-    "id": "lsz-rev-048",
+    "id": "lsz-rev-047",
     "type": "mcq",
     "sentence": "De situatie ___ ons niet aan.",
     "answer": "staat",
@@ -2270,87 +2396,107 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2s-001",
+    "id": "lsz-tpl-T1s-026",
     "type": "cloze",
-    "sentence": "De vaas ___ op het dressoir.",
-    "answer": "staat",
+    "sentence": "De krant ___ op de grond.",
+    "answer": "ligt",
     "choices": [
       "ligt",
       "staat",
       "zit",
       "hangt"
     ],
-    "explanation": "De vaas staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "explanation": "De krant is plat / horizontaal — dus gebruik je liggen.",
     "tags": [
       "basic-rule",
-      "staan",
+      "liggen",
       "template"
     ],
-    "source": "template:T2-upright-on-surface",
+    "source": "template:T1-flat-on-surface",
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2s-002",
+    "id": "lsz-tpl-T1s-027",
     "type": "cloze",
-    "sentence": "De vaas ___ op het aanrecht.",
-    "answer": "staat",
+    "sentence": "De krant ___ op de vloer.",
+    "answer": "ligt",
     "choices": [
       "ligt",
       "staat",
       "zit",
       "hangt"
     ],
-    "explanation": "De vaas staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "explanation": "De krant is plat / horizontaal — dus gebruik je liggen.",
     "tags": [
       "basic-rule",
-      "staan",
+      "liggen",
       "template"
     ],
-    "source": "template:T2-upright-on-surface",
+    "source": "template:T1-flat-on-surface",
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2s-003",
+    "id": "lsz-tpl-T1p-028",
     "type": "cloze",
-    "sentence": "De vaas ___ op de ladekast.",
-    "answer": "staat",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "De vaas staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "template"
-    ],
-    "source": "template:T2-upright-on-surface",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T2p-004",
-    "type": "cloze",
-    "sentence": "De tafellampen ___ op de vloer.",
-    "answer": "staan",
+    "sentence": "De ansichtkaarten ___ op de ladekast.",
+    "answer": "liggen",
     "choices": [
       "liggen",
       "staan",
       "zitten",
       "hangen"
     ],
-    "explanation": "De tafellampen staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "explanation": "De ansichtkaarten is plat / horizontaal — dus gebruik je liggen.",
     "tags": [
       "basic-rule",
-      "staan",
+      "liggen",
       "template"
     ],
-    "source": "template:T2-upright-on-surface",
+    "source": "template:T1-flat-on-surface",
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2s-005",
+    "id": "lsz-tpl-T1p-029",
+    "type": "cloze",
+    "sentence": "De brieven ___ op de plank.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "De brieven is plat / horizontaal — dus gebruik je liggen.",
+    "tags": [
+      "basic-rule",
+      "liggen",
+      "template"
+    ],
+    "source": "template:T1-flat-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T1s-030",
+    "type": "cloze",
+    "sentence": "Het briefje ___ op het aanrecht.",
+    "answer": "ligt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Het briefje is plat / horizontaal — dus gebruik je liggen.",
+    "tags": [
+      "basic-rule",
+      "liggen",
+      "template"
+    ],
+    "source": "template:T1-flat-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T2s-001",
     "type": "cloze",
     "sentence": "De vaas ___ op de vloer.",
     "answer": "staat",
@@ -2370,7 +2516,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-006",
+    "id": "lsz-tpl-T2p-002",
     "type": "cloze",
     "sentence": "De waterflessen ___ op het bureau.",
     "answer": "staan",
@@ -2390,7 +2536,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2s-007",
+    "id": "lsz-tpl-T2s-003",
     "type": "cloze",
     "sentence": "De kandelaar ___ op het dressoir.",
     "answer": "staat",
@@ -2410,7 +2556,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-008",
+    "id": "lsz-tpl-T2p-004",
     "type": "cloze",
     "sentence": "De glazen ___ op de plank.",
     "answer": "staan",
@@ -2430,17 +2576,17 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-009",
+    "id": "lsz-tpl-T2s-005",
     "type": "cloze",
-    "sentence": "De beeldjes ___ op het dressoir.",
-    "answer": "staan",
+    "sentence": "De vaas ___ op het dressoir.",
+    "answer": "staat",
     "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
     ],
-    "explanation": "De beeldjes staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "explanation": "De vaas staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
     "tags": [
       "basic-rule",
       "staan",
@@ -2450,7 +2596,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-010",
+    "id": "lsz-tpl-T2p-006",
     "type": "cloze",
     "sentence": "De kandelaars ___ op het dressoir.",
     "answer": "staan",
@@ -2470,7 +2616,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2s-011",
+    "id": "lsz-tpl-T2s-007",
     "type": "cloze",
     "sentence": "De tafellamp ___ op tafel.",
     "answer": "staat",
@@ -2490,7 +2636,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-012",
+    "id": "lsz-tpl-T2p-008",
     "type": "cloze",
     "sentence": "De kopjes ___ op tafel.",
     "answer": "staan",
@@ -2510,7 +2656,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-013",
+    "id": "lsz-tpl-T2p-009",
     "type": "cloze",
     "sentence": "De mokken ___ op de ladekast.",
     "answer": "staan",
@@ -2530,7 +2676,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-014",
+    "id": "lsz-tpl-T2p-010",
     "type": "cloze",
     "sentence": "De tafellampen ___ op het aanrecht.",
     "answer": "staan",
@@ -2550,7 +2696,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2s-015",
+    "id": "lsz-tpl-T2s-011",
     "type": "cloze",
     "sentence": "De tafellamp ___ op de grond.",
     "answer": "staat",
@@ -2570,7 +2716,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-016",
+    "id": "lsz-tpl-T2p-012",
     "type": "cloze",
     "sentence": "De flessen wijn ___ op tafel.",
     "answer": "staan",
@@ -2590,27 +2736,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-017",
-    "type": "cloze",
-    "sentence": "De planten ___ op het bureau.",
-    "answer": "staan",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "De planten staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "template"
-    ],
-    "source": "template:T2-upright-on-surface",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T2p-018",
+    "id": "lsz-tpl-T2p-013",
     "type": "cloze",
     "sentence": "De planten ___ op het aanrecht.",
     "answer": "staan",
@@ -2630,7 +2756,27 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-019",
+    "id": "lsz-tpl-T2p-014",
+    "type": "cloze",
+    "sentence": "De beeldjes ___ op het bureau.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "De beeldjes staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "template"
+    ],
+    "source": "template:T2-upright-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T2p-015",
     "type": "cloze",
     "sentence": "De kopjes ___ op het aanrecht.",
     "answer": "staan",
@@ -2650,7 +2796,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2s-020",
+    "id": "lsz-tpl-T2s-016",
     "type": "cloze",
     "sentence": "Het beeldje ___ op de vloer.",
     "answer": "staat",
@@ -2670,17 +2816,17 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-021",
+    "id": "lsz-tpl-T2s-017",
     "type": "cloze",
-    "sentence": "De beeldjes ___ op de ladekast.",
-    "answer": "staan",
+    "sentence": "De vaas ___ op het aanrecht.",
+    "answer": "staat",
     "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
     ],
-    "explanation": "De beeldjes staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "explanation": "De vaas staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
     "tags": [
       "basic-rule",
       "staan",
@@ -2690,7 +2836,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2p-022",
+    "id": "lsz-tpl-T2p-018",
     "type": "cloze",
     "sentence": "De glazen ___ op de vloer.",
     "answer": "staan",
@@ -2710,7 +2856,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2s-023",
+    "id": "lsz-tpl-T2s-019",
     "type": "cloze",
     "sentence": "Het glas ___ op het bureau.",
     "answer": "staat",
@@ -2730,7 +2876,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2s-024",
+    "id": "lsz-tpl-T2s-020",
     "type": "cloze",
     "sentence": "De mok ___ op het dressoir.",
     "answer": "staat",
@@ -2750,7 +2896,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T2s-025",
+    "id": "lsz-tpl-T2s-021",
     "type": "cloze",
     "sentence": "Het beeldje ___ op de grond.",
     "answer": "staat",
@@ -2770,15 +2916,195 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T3s-001",
+    "id": "lsz-tpl-T2s-022",
     "type": "cloze",
-    "sentence": "De bus ___ op de parkeerplaats.",
+    "sentence": "Het glas ___ op de ladekast.",
     "answer": "staat",
     "choices": [
       "ligt",
       "staat",
       "zit",
       "hangt"
+    ],
+    "explanation": "Het glas staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "template"
+    ],
+    "source": "template:T2-upright-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T2p-023",
+    "type": "cloze",
+    "sentence": "De vazen ___ op het aanrecht.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "De vazen staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "template"
+    ],
+    "source": "template:T2-upright-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T2p-024",
+    "type": "cloze",
+    "sentence": "De kandelaars ___ op tafel.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "De kandelaars staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "template"
+    ],
+    "source": "template:T2-upright-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T2p-025",
+    "type": "cloze",
+    "sentence": "De beeldjes ___ op de plank.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "De beeldjes staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "template"
+    ],
+    "source": "template:T2-upright-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T2p-026",
+    "type": "cloze",
+    "sentence": "De kandelaars ___ op het bureau.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "De kandelaars staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "template"
+    ],
+    "source": "template:T2-upright-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T2s-027",
+    "type": "cloze",
+    "sentence": "De kandelaar ___ op tafel.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "De kandelaar staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "template"
+    ],
+    "source": "template:T2-upright-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T2s-028",
+    "type": "cloze",
+    "sentence": "Het beeldje ___ op het aanrecht.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Het beeldje staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "template"
+    ],
+    "source": "template:T2-upright-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T2s-029",
+    "type": "cloze",
+    "sentence": "Het beeldje ___ op tafel.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Het beeldje staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "template"
+    ],
+    "source": "template:T2-upright-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T2p-030",
+    "type": "cloze",
+    "sentence": "De mokken ___ op het dressoir.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "De mokken staat rechtop met een duidelijke onderkant — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "template"
+    ],
+    "source": "template:T2-upright-on-surface",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-001",
+    "type": "cloze",
+    "sentence": "De bestelwagens ___ op straat.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
     ],
     "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
     "tags": [
@@ -2792,90 +3118,6 @@
   },
   {
     "id": "lsz-tpl-T3p-002",
-    "type": "cloze",
-    "sentence": "De motoren ___ naast de deur.",
-    "answer": "staan",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3s-003",
-    "type": "cloze",
-    "sentence": "De brommer ___ op de oprit.",
-    "answer": "staat",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3p-004",
-    "type": "cloze",
-    "sentence": "De motoren ___ op de parkeerplaats.",
-    "answer": "staan",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3p-005",
-    "type": "cloze",
-    "sentence": "De motoren ___ op de oprit.",
-    "answer": "staan",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3p-006",
     "type": "cloze",
     "sentence": "De fietsen ___ op de parkeerplaats.",
     "answer": "staan",
@@ -2896,196 +3138,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T3s-007",
-    "type": "cloze",
-    "sentence": "De bestelwagen ___ achter het huis.",
-    "answer": "staat",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3p-008",
-    "type": "cloze",
-    "sentence": "De bestelwagens ___ op de oprit.",
-    "answer": "staan",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3p-009",
-    "type": "cloze",
-    "sentence": "De scooters ___ op de parkeerplaats.",
-    "answer": "staan",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3s-010",
-    "type": "cloze",
-    "sentence": "De vrachtwagen ___ op straat.",
-    "answer": "staat",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3s-011",
-    "type": "cloze",
-    "sentence": "De motor ___ op straat.",
-    "answer": "staat",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3s-012",
-    "type": "cloze",
-    "sentence": "De motor ___ op de parkeerplaats.",
-    "answer": "staat",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3p-013",
-    "type": "cloze",
-    "sentence": "De bussen ___ achter het huis.",
-    "answer": "staan",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3p-014",
-    "type": "cloze",
-    "sentence": "De fietsen ___ op de oprit.",
-    "answer": "staan",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3p-015",
-    "type": "cloze",
-    "sentence": "De brommers ___ achter het huis.",
-    "answer": "staan",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3s-016",
+    "id": "lsz-tpl-T3s-003",
     "type": "cloze",
     "sentence": "De bestelwagen ___ op de parkeerplaats.",
     "answer": "staat",
@@ -3106,9 +3159,9 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T3p-017",
+    "id": "lsz-tpl-T3p-004",
     "type": "cloze",
-    "sentence": "De brommers ___ op de oprit.",
+    "sentence": "De bussen ___ achter het huis.",
     "answer": "staan",
     "choices": [
       "liggen",
@@ -3127,7 +3180,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T3s-018",
+    "id": "lsz-tpl-T3s-005",
     "type": "cloze",
     "sentence": "De auto ___ naast de deur.",
     "answer": "staat",
@@ -3148,7 +3201,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T3p-019",
+    "id": "lsz-tpl-T3p-006",
     "type": "cloze",
     "sentence": "De auto's ___ achter het huis.",
     "answer": "staan",
@@ -3169,7 +3222,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T3s-020",
+    "id": "lsz-tpl-T3s-007",
     "type": "cloze",
     "sentence": "De scooter ___ op straat.",
     "answer": "staat",
@@ -3190,15 +3243,15 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T3s-021",
+    "id": "lsz-tpl-T3p-008",
     "type": "cloze",
-    "sentence": "De bestelwagen ___ voor het huis.",
-    "answer": "staat",
+    "sentence": "De motoren ___ naast de deur.",
+    "answer": "staan",
     "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
     ],
     "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
     "tags": [
@@ -3211,28 +3264,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T3s-022",
-    "type": "cloze",
-    "sentence": "De bestelwagen ___ naast de deur.",
-    "answer": "staat",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
-    "tags": [
-      "basic-rule",
-      "staan",
-      "voertuig",
-      "template"
-    ],
-    "source": "template:T3-vehicle-in-place",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T3p-023",
+    "id": "lsz-tpl-T3p-009",
     "type": "cloze",
     "sentence": "De brommers ___ naast de deur.",
     "answer": "staan",
@@ -3253,7 +3285,70 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T3s-024",
+    "id": "lsz-tpl-T3s-010",
+    "type": "cloze",
+    "sentence": "De bestelwagen ___ voor het huis.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3s-011",
+    "type": "cloze",
+    "sentence": "De bestelwagen ___ naast de deur.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-012",
+    "type": "cloze",
+    "sentence": "De scooters ___ op de parkeerplaats.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3s-013",
     "type": "cloze",
     "sentence": "De vrachtwagen ___ op de parkeerplaats.",
     "answer": "staat",
@@ -3274,7 +3369,7 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T3s-025",
+    "id": "lsz-tpl-T3s-014",
     "type": "cloze",
     "sentence": "De brommer ___ naast de deur.",
     "answer": "staat",
@@ -3295,307 +3390,343 @@
     "confidence": "template"
   },
   {
+    "id": "lsz-tpl-T3p-015",
+    "type": "cloze",
+    "sentence": "De bussen ___ op de oprit.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-016",
+    "type": "cloze",
+    "sentence": "De scooters ___ achter het huis.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-017",
+    "type": "cloze",
+    "sentence": "De scooters ___ voor het huis.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3s-018",
+    "type": "cloze",
+    "sentence": "De brommer ___ achter het huis.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3s-019",
+    "type": "cloze",
+    "sentence": "De fiets ___ naast de deur.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-020",
+    "type": "cloze",
+    "sentence": "De auto's ___ op de oprit.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-021",
+    "type": "cloze",
+    "sentence": "De scooters ___ op de oprit.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-022",
+    "type": "cloze",
+    "sentence": "De fietsen ___ voor het huis.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3s-023",
+    "type": "cloze",
+    "sentence": "De bus ___ in de garage.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3s-024",
+    "type": "cloze",
+    "sentence": "De vrachtwagen ___ in de garage.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-025",
+    "type": "cloze",
+    "sentence": "De fietsen ___ op straat.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-026",
+    "type": "cloze",
+    "sentence": "De bestelwagens ___ achter het huis.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-027",
+    "type": "cloze",
+    "sentence": "De motoren ___ voor het huis.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-028",
+    "type": "cloze",
+    "sentence": "De fietsen ___ in de garage.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3s-029",
+    "type": "cloze",
+    "sentence": "De auto ___ op straat.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T3p-030",
+    "type": "cloze",
+    "sentence": "De auto's ___ naast de deur.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Een voertuig heeft wielen (een duidelijke onderkant) — dus gebruik je staan.",
+    "tags": [
+      "basic-rule",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T3-vehicle-in-place",
+    "confidence": "template"
+  },
+  {
     "id": "lsz-tpl-T4s-001",
-    "type": "cloze",
-    "sentence": "Het horloge ___ in de doos.",
-    "answer": "zit",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Iets is ergens IN (in de doos) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4s-002",
-    "type": "cloze",
-    "sentence": "Het snoep ___ in een zak.",
-    "answer": "zit",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Iets is ergens IN (in een zak) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4p-003",
-    "type": "cloze",
-    "sentence": "De boterhammen ___ in mijn broodtrommel.",
-    "answer": "zitten",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Iets is ergens IN (in mijn broodtrommel) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4s-004",
-    "type": "cloze",
-    "sentence": "De kauwgom ___ in zijn broekzak.",
-    "answer": "zit",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Iets is ergens IN (in zijn broekzak) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4s-005",
-    "type": "cloze",
-    "sentence": "De creditcard ___ in zijn portemonnee.",
-    "answer": "zit",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Iets is ergens IN (in zijn portemonnee) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4s-006",
-    "type": "cloze",
-    "sentence": "De sleutel ___ in mijn tas.",
-    "answer": "zit",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Iets is ergens IN (in mijn tas) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4p-007",
-    "type": "cloze",
-    "sentence": "De bonnetjes ___ in mijn jaszak.",
-    "answer": "zitten",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Iets is ergens IN (in mijn jaszak) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4p-008",
-    "type": "cloze",
-    "sentence": "De brillen ___ in een brillenkoker.",
-    "answer": "zitten",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Iets is ergens IN (in een brillenkoker) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4p-009",
-    "type": "cloze",
-    "sentence": "De sleutels ___ in mijn tas.",
-    "answer": "zitten",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Iets is ergens IN (in mijn tas) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4p-010",
-    "type": "cloze",
-    "sentence": "De portemonnees ___ in haar handtas.",
-    "answer": "zitten",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Iets is ergens IN (in haar handtas) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4s-011",
-    "type": "cloze",
-    "sentence": "De ring ___ in het sieradendoosje.",
-    "answer": "zit",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Iets is ergens IN (in het sieradendoosje) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4p-012",
-    "type": "cloze",
-    "sentence": "De creditcards ___ in zijn portemonnee.",
-    "answer": "zitten",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Iets is ergens IN (in zijn portemonnee) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4p-013",
-    "type": "cloze",
-    "sentence": "De cadeaus ___ in een doos.",
-    "answer": "zitten",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Iets is ergens IN (in een doos) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4s-014",
-    "type": "cloze",
-    "sentence": "Het paspoort ___ in een lade.",
-    "answer": "zit",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Iets is ergens IN (in een lade) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4s-015",
-    "type": "cloze",
-    "sentence": "Het cadeau ___ in een doos.",
-    "answer": "zit",
-    "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
-    ],
-    "explanation": "Iets is ergens IN (in een doos) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4s-016",
     "type": "cloze",
     "sentence": "De telefoon ___ in mijn broekzak.",
     "answer": "zit",
@@ -3615,17 +3746,17 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T4s-017",
+    "id": "lsz-tpl-T4p-002",
     "type": "cloze",
-    "sentence": "Het bonnetje ___ in mijn jaszak.",
-    "answer": "zit",
+    "sentence": "De telefoons ___ in mijn broekzak.",
+    "answer": "zitten",
     "choices": [
-      "ligt",
-      "staat",
-      "zit",
-      "hangt"
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
     ],
-    "explanation": "Iets is ergens IN (in mijn jaszak) — dus gebruik je zitten.",
+    "explanation": "Iets is ergens IN (in mijn broekzak) — dus gebruik je zitten.",
     "tags": [
       "basic-rule",
       "zitten",
@@ -3635,9 +3766,9 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T4s-018",
+    "id": "lsz-tpl-T4s-003",
     "type": "cloze",
-    "sentence": "De bril ___ in een brillenkoker.",
+    "sentence": "De sleutel ___ in mijn tas.",
     "answer": "zit",
     "choices": [
       "ligt",
@@ -3645,7 +3776,7 @@
       "zit",
       "hangt"
     ],
-    "explanation": "Iets is ergens IN (in een brillenkoker) — dus gebruik je zitten.",
+    "explanation": "Iets is ergens IN (in mijn tas) — dus gebruik je zitten.",
     "tags": [
       "basic-rule",
       "zitten",
@@ -3655,7 +3786,27 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T4s-019",
+    "id": "lsz-tpl-T4p-004",
+    "type": "cloze",
+    "sentence": "De sleutels ___ in mijn tas.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Iets is ergens IN (in mijn tas) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-005",
     "type": "cloze",
     "sentence": "De portemonnee ___ in haar handtas.",
     "answer": "zit",
@@ -3675,7 +3826,27 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T4s-020",
+    "id": "lsz-tpl-T4p-006",
+    "type": "cloze",
+    "sentence": "De portemonnees ___ in haar handtas.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Iets is ergens IN (in haar handtas) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-007",
     "type": "cloze",
     "sentence": "Het geld ___ in haar portemonnee.",
     "answer": "zit",
@@ -3686,6 +3857,266 @@
       "hangt"
     ],
     "explanation": "Iets is ergens IN (in haar portemonnee) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-008",
+    "type": "cloze",
+    "sentence": "Het paspoort ___ in een lade.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Iets is ergens IN (in een lade) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4p-009",
+    "type": "cloze",
+    "sentence": "De paspoorten ___ in een lade.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Iets is ergens IN (in een lade) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-010",
+    "type": "cloze",
+    "sentence": "De pen ___ in een etui.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Iets is ergens IN (in een etui) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4p-011",
+    "type": "cloze",
+    "sentence": "De pennen ___ in een etui.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Iets is ergens IN (in een etui) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-012",
+    "type": "cloze",
+    "sentence": "De creditcard ___ in zijn portemonnee.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Iets is ergens IN (in zijn portemonnee) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4p-013",
+    "type": "cloze",
+    "sentence": "De creditcards ___ in zijn portemonnee.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Iets is ergens IN (in zijn portemonnee) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-014",
+    "type": "cloze",
+    "sentence": "Het bonnetje ___ in mijn jaszak.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Iets is ergens IN (in mijn jaszak) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4p-015",
+    "type": "cloze",
+    "sentence": "De bonnetjes ___ in mijn jaszak.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Iets is ergens IN (in mijn jaszak) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-016",
+    "type": "cloze",
+    "sentence": "De bril ___ in een brillenkoker.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Iets is ergens IN (in een brillenkoker) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4p-017",
+    "type": "cloze",
+    "sentence": "De brillen ___ in een brillenkoker.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Iets is ergens IN (in een brillenkoker) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-018",
+    "type": "cloze",
+    "sentence": "Het horloge ___ in de doos.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Iets is ergens IN (in de doos) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4p-019",
+    "type": "cloze",
+    "sentence": "De horloges ___ in de doos.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Iets is ergens IN (in de doos) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-020",
+    "type": "cloze",
+    "sentence": "De ring ___ in het sieradendoosje.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Iets is ergens IN (in het sieradendoosje) — dus gebruik je zitten.",
     "tags": [
       "basic-rule",
       "zitten",
@@ -3715,69 +4146,9 @@
     "confidence": "template"
   },
   {
-    "id": "lsz-tpl-T4p-022",
+    "id": "lsz-tpl-T4s-022",
     "type": "cloze",
-    "sentence": "De telefoons ___ in mijn broekzak.",
-    "answer": "zitten",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Iets is ergens IN (in mijn broekzak) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4p-023",
-    "type": "cloze",
-    "sentence": "De pennen ___ in een etui.",
-    "answer": "zitten",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Iets is ergens IN (in een etui) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4p-024",
-    "type": "cloze",
-    "sentence": "De paspoorten ___ in een lade.",
-    "answer": "zitten",
-    "choices": [
-      "liggen",
-      "staan",
-      "zitten",
-      "hangen"
-    ],
-    "explanation": "Iets is ergens IN (in een lade) — dus gebruik je zitten.",
-    "tags": [
-      "basic-rule",
-      "zitten",
-      "template"
-    ],
-    "source": "template:T4-in-container",
-    "confidence": "template"
-  },
-  {
-    "id": "lsz-tpl-T4s-025",
-    "type": "cloze",
-    "sentence": "De pen ___ in een etui.",
+    "sentence": "De kauwgom ___ in zijn broekzak.",
     "answer": "zit",
     "choices": [
       "ligt",
@@ -3785,7 +4156,107 @@
       "zit",
       "hangt"
     ],
-    "explanation": "Iets is ergens IN (in een etui) — dus gebruik je zitten.",
+    "explanation": "Iets is ergens IN (in zijn broekzak) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-023",
+    "type": "cloze",
+    "sentence": "Het snoep ___ in een zak.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Iets is ergens IN (in een zak) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-024",
+    "type": "cloze",
+    "sentence": "De boterham ___ in mijn broodtrommel.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Iets is ergens IN (in mijn broodtrommel) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4p-025",
+    "type": "cloze",
+    "sentence": "De boterhammen ___ in mijn broodtrommel.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Iets is ergens IN (in mijn broodtrommel) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4s-026",
+    "type": "cloze",
+    "sentence": "Het cadeau ___ in een doos.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Iets is ergens IN (in een doos) — dus gebruik je zitten.",
+    "tags": [
+      "basic-rule",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T4-in-container",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T4p-027",
+    "type": "cloze",
+    "sentence": "De cadeaus ___ in een doos.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Iets is ergens IN (in een doos) — dus gebruik je zitten.",
     "tags": [
       "basic-rule",
       "zitten",
@@ -4577,7 +5048,7 @@
   {
     "id": "lsz-tpl-T7a-001",
     "type": "trans-intrans",
-    "sentence": "Anna ___ een plattegrond op tafel.",
+    "sentence": "Sanne ___ een ansichtkaart op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4595,7 +5066,7 @@
   {
     "id": "lsz-tpl-T7a-002",
     "type": "trans-intrans",
-    "sentence": "Jan ___ een servet op tafel.",
+    "sentence": "Mark ___ een bonnetje op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4613,7 +5084,7 @@
   {
     "id": "lsz-tpl-T7a-003",
     "type": "trans-intrans",
-    "sentence": "Jan ___ een plattegrond op tafel.",
+    "sentence": "De docent ___ een servet op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4631,7 +5102,7 @@
   {
     "id": "lsz-tpl-T7a-004",
     "type": "trans-intrans",
-    "sentence": "Lisa ___ een tijdschrift op tafel.",
+    "sentence": "De docent ___ een bonnetje op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4649,7 +5120,7 @@
   {
     "id": "lsz-tpl-T7a-005",
     "type": "trans-intrans",
-    "sentence": "Pieter ___ een servet op tafel.",
+    "sentence": "De docent ___ een tijdschrift op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4667,7 +5138,7 @@
   {
     "id": "lsz-tpl-T7a-006",
     "type": "trans-intrans",
-    "sentence": "Jan ___ een tijdschrift op tafel.",
+    "sentence": "Pieter ___ een ansichtkaart op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4685,7 +5156,7 @@
   {
     "id": "lsz-tpl-T7a-007",
     "type": "trans-intrans",
-    "sentence": "Mark ___ een briefje op tafel.",
+    "sentence": "De moeder ___ een brief op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4703,7 +5174,7 @@
   {
     "id": "lsz-tpl-T7a-008",
     "type": "trans-intrans",
-    "sentence": "De docent ___ een brief op tafel.",
+    "sentence": "Anna ___ een bonnetje op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4721,7 +5192,7 @@
   {
     "id": "lsz-tpl-T7a-009",
     "type": "trans-intrans",
-    "sentence": "Pieter ___ een krant op tafel.",
+    "sentence": "De moeder ___ een tijdschrift op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4739,7 +5210,7 @@
   {
     "id": "lsz-tpl-T7a-010",
     "type": "trans-intrans",
-    "sentence": "Marieke ___ een foto op tafel.",
+    "sentence": "Jan ___ een brief op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4757,7 +5228,7 @@
   {
     "id": "lsz-tpl-T7a-011",
     "type": "trans-intrans",
-    "sentence": "Lisa ___ een plattegrond op tafel.",
+    "sentence": "Lisa ___ een tijdschrift op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4775,7 +5246,7 @@
   {
     "id": "lsz-tpl-T7a-012",
     "type": "trans-intrans",
-    "sentence": "De moeder ___ een servet op tafel.",
+    "sentence": "Sanne ___ een brief op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4793,7 +5264,7 @@
   {
     "id": "lsz-tpl-T7a-013",
     "type": "trans-intrans",
-    "sentence": "De docent ___ een ansichtkaart op tafel.",
+    "sentence": "Anna ___ een plattegrond op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4811,7 +5282,7 @@
   {
     "id": "lsz-tpl-T7a-014",
     "type": "trans-intrans",
-    "sentence": "Sanne ___ een krant op tafel.",
+    "sentence": "Jan ___ een servet op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4829,7 +5300,7 @@
   {
     "id": "lsz-tpl-T7a-015",
     "type": "trans-intrans",
-    "sentence": "Pieter ___ een foto op tafel.",
+    "sentence": "Jan ___ een plattegrond op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4847,7 +5318,7 @@
   {
     "id": "lsz-tpl-T7a-016",
     "type": "trans-intrans",
-    "sentence": "De moeder ___ een bonnetje op tafel.",
+    "sentence": "De docent ___ een plattegrond op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4865,7 +5336,7 @@
   {
     "id": "lsz-tpl-T7a-017",
     "type": "trans-intrans",
-    "sentence": "Thomas ___ een plattegrond op tafel.",
+    "sentence": "Pieter ___ een servet op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4883,7 +5354,7 @@
   {
     "id": "lsz-tpl-T7a-018",
     "type": "trans-intrans",
-    "sentence": "Jan ___ een bonnetje op tafel.",
+    "sentence": "Jan ___ een tijdschrift op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4901,7 +5372,7 @@
   {
     "id": "lsz-tpl-T7a-019",
     "type": "trans-intrans",
-    "sentence": "Jan ___ een briefje op tafel.",
+    "sentence": "Mark ___ een briefje op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4919,7 +5390,7 @@
   {
     "id": "lsz-tpl-T7a-020",
     "type": "trans-intrans",
-    "sentence": "Anna ___ een briefje op tafel.",
+    "sentence": "Pieter ___ een krant op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4937,7 +5408,7 @@
   {
     "id": "lsz-tpl-T7a-021",
     "type": "trans-intrans",
-    "sentence": "Marieke ___ een krant op tafel.",
+    "sentence": "Marieke ___ een foto op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4955,7 +5426,7 @@
   {
     "id": "lsz-tpl-T7a-022",
     "type": "trans-intrans",
-    "sentence": "Sanne ___ een plattegrond op tafel.",
+    "sentence": "Lisa ___ een plattegrond op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4973,7 +5444,7 @@
   {
     "id": "lsz-tpl-T7a-023",
     "type": "trans-intrans",
-    "sentence": "Marieke ___ een plattegrond op tafel.",
+    "sentence": "Sanne ___ een krant op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -4991,7 +5462,7 @@
   {
     "id": "lsz-tpl-T7a-024",
     "type": "trans-intrans",
-    "sentence": "Pieter ___ een brief op tafel.",
+    "sentence": "Pieter ___ een foto op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -5009,7 +5480,97 @@
   {
     "id": "lsz-tpl-T7a-025",
     "type": "trans-intrans",
-    "sentence": "De moeder ___ een briefje op tafel.",
+    "sentence": "De docent ___ een krant op tafel.",
+    "answer": "legt",
+    "options": [
+      "legt",
+      "ligt"
+    ],
+    "explanation": "Iemand doet de actie (een plat voorwerp neerleggen) → leggen. 'Ligt' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "leggen-liggen",
+      "template"
+    ],
+    "source": "template:T7a-leggen-vs-liggen",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7a-026",
+    "type": "trans-intrans",
+    "sentence": "Thomas ___ een plattegrond op tafel.",
+    "answer": "legt",
+    "options": [
+      "legt",
+      "ligt"
+    ],
+    "explanation": "Iemand doet de actie (een plat voorwerp neerleggen) → leggen. 'Ligt' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "leggen-liggen",
+      "template"
+    ],
+    "source": "template:T7a-leggen-vs-liggen",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7a-027",
+    "type": "trans-intrans",
+    "sentence": "Anna ___ een briefje op tafel.",
+    "answer": "legt",
+    "options": [
+      "legt",
+      "ligt"
+    ],
+    "explanation": "Iemand doet de actie (een plat voorwerp neerleggen) → leggen. 'Ligt' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "leggen-liggen",
+      "template"
+    ],
+    "source": "template:T7a-leggen-vs-liggen",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7a-028",
+    "type": "trans-intrans",
+    "sentence": "Lisa ___ een krant op tafel.",
+    "answer": "legt",
+    "options": [
+      "legt",
+      "ligt"
+    ],
+    "explanation": "Iemand doet de actie (een plat voorwerp neerleggen) → leggen. 'Ligt' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "leggen-liggen",
+      "template"
+    ],
+    "source": "template:T7a-leggen-vs-liggen",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7a-029",
+    "type": "trans-intrans",
+    "sentence": "Marieke ___ een servet op tafel.",
+    "answer": "legt",
+    "options": [
+      "legt",
+      "ligt"
+    ],
+    "explanation": "Iemand doet de actie (een plat voorwerp neerleggen) → leggen. 'Ligt' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "leggen-liggen",
+      "template"
+    ],
+    "source": "template:T7a-leggen-vs-liggen",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7a-030",
+    "type": "trans-intrans",
+    "sentence": "Sanne ___ een bonnetje op tafel.",
     "answer": "legt",
     "options": [
       "legt",
@@ -5027,7 +5588,7 @@
   {
     "id": "lsz-tpl-T7b-001",
     "type": "trans-intrans",
-    "sentence": "Marieke ___ een kopje op tafel.",
+    "sentence": "Marieke ___ een fles wijn op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5045,7 +5606,7 @@
   {
     "id": "lsz-tpl-T7b-002",
     "type": "trans-intrans",
-    "sentence": "Pieter ___ een waterfles op tafel.",
+    "sentence": "Mark ___ een kandelaar op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5063,7 +5624,7 @@
   {
     "id": "lsz-tpl-T7b-003",
     "type": "trans-intrans",
-    "sentence": "Marieke ___ een waterfles op tafel.",
+    "sentence": "Jan ___ een waterfles op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5081,7 +5642,7 @@
   {
     "id": "lsz-tpl-T7b-004",
     "type": "trans-intrans",
-    "sentence": "Mark ___ een mok op tafel.",
+    "sentence": "Jan ___ een vaas op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5099,7 +5660,7 @@
   {
     "id": "lsz-tpl-T7b-005",
     "type": "trans-intrans",
-    "sentence": "Pieter ___ een glas op tafel.",
+    "sentence": "Anna ___ een mok op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5117,7 +5678,7 @@
   {
     "id": "lsz-tpl-T7b-006",
     "type": "trans-intrans",
-    "sentence": "Mark ___ een kopje op tafel.",
+    "sentence": "Marieke ___ een kopje op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5135,7 +5696,7 @@
   {
     "id": "lsz-tpl-T7b-007",
     "type": "trans-intrans",
-    "sentence": "Sanne ___ een vaas op tafel.",
+    "sentence": "Pieter ___ een waterfles op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5153,7 +5714,7 @@
   {
     "id": "lsz-tpl-T7b-008",
     "type": "trans-intrans",
-    "sentence": "Marieke ___ een plant op tafel.",
+    "sentence": "Marieke ___ een waterfles op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5171,7 +5732,7 @@
   {
     "id": "lsz-tpl-T7b-009",
     "type": "trans-intrans",
-    "sentence": "Marieke ___ een beeldje op tafel.",
+    "sentence": "Mark ___ een mok op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5189,7 +5750,7 @@
   {
     "id": "lsz-tpl-T7b-010",
     "type": "trans-intrans",
-    "sentence": "Jan ___ een beeldje op tafel.",
+    "sentence": "Pieter ___ een glas op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5207,7 +5768,7 @@
   {
     "id": "lsz-tpl-T7b-011",
     "type": "trans-intrans",
-    "sentence": "Jan ___ een plant op tafel.",
+    "sentence": "Mark ___ een kopje op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5225,7 +5786,7 @@
   {
     "id": "lsz-tpl-T7b-012",
     "type": "trans-intrans",
-    "sentence": "Mark ___ een waterfles op tafel.",
+    "sentence": "Sanne ___ een vaas op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5243,7 +5804,7 @@
   {
     "id": "lsz-tpl-T7b-013",
     "type": "trans-intrans",
-    "sentence": "Pieter ___ een plant op tafel.",
+    "sentence": "Marieke ___ een plant op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5261,7 +5822,7 @@
   {
     "id": "lsz-tpl-T7b-014",
     "type": "trans-intrans",
-    "sentence": "Jan ___ een kandelaar op tafel.",
+    "sentence": "Marieke ___ een beeldje op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5279,7 +5840,7 @@
   {
     "id": "lsz-tpl-T7b-015",
     "type": "trans-intrans",
-    "sentence": "Sanne ___ een glas op tafel.",
+    "sentence": "Jan ___ een beeldje op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5297,7 +5858,7 @@
   {
     "id": "lsz-tpl-T7b-016",
     "type": "trans-intrans",
-    "sentence": "Anna ___ een beeldje op tafel.",
+    "sentence": "Jan ___ een plant op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5315,7 +5876,7 @@
   {
     "id": "lsz-tpl-T7b-017",
     "type": "trans-intrans",
-    "sentence": "De docent ___ een fles wijn op tafel.",
+    "sentence": "Mark ___ een waterfles op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5333,7 +5894,7 @@
   {
     "id": "lsz-tpl-T7b-018",
     "type": "trans-intrans",
-    "sentence": "Anna ___ een waterfles op tafel.",
+    "sentence": "Pieter ___ een plant op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5351,7 +5912,7 @@
   {
     "id": "lsz-tpl-T7b-019",
     "type": "trans-intrans",
-    "sentence": "Jan ___ een vaas op tafel.",
+    "sentence": "Jan ___ een kandelaar op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5369,7 +5930,7 @@
   {
     "id": "lsz-tpl-T7b-020",
     "type": "trans-intrans",
-    "sentence": "Jan ___ een kopje op tafel.",
+    "sentence": "Sanne ___ een glas op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5387,7 +5948,7 @@
   {
     "id": "lsz-tpl-T7b-021",
     "type": "trans-intrans",
-    "sentence": "Anna ___ een glas op tafel.",
+    "sentence": "Anna ___ een beeldje op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5405,7 +5966,7 @@
   {
     "id": "lsz-tpl-T7b-022",
     "type": "trans-intrans",
-    "sentence": "Thomas ___ een fles wijn op tafel.",
+    "sentence": "Anna ___ een waterfles op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5423,7 +5984,7 @@
   {
     "id": "lsz-tpl-T7b-023",
     "type": "trans-intrans",
-    "sentence": "De docent ___ een glas op tafel.",
+    "sentence": "De moeder ___ een kandelaar op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5441,7 +6002,7 @@
   {
     "id": "lsz-tpl-T7b-024",
     "type": "trans-intrans",
-    "sentence": "Lisa ___ een waterfles op tafel.",
+    "sentence": "Jan ___ een kopje op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5459,7 +6020,97 @@
   {
     "id": "lsz-tpl-T7b-025",
     "type": "trans-intrans",
+    "sentence": "Anna ___ een glas op tafel.",
+    "answer": "zet",
+    "options": [
+      "zet",
+      "staat"
+    ],
+    "explanation": "Iemand doet de actie (een rechtop voorwerp plaatsen) → zetten. 'Staat' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "zetten-staan",
+      "template"
+    ],
+    "source": "template:T7b-zetten-vs-staan",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7b-026",
+    "type": "trans-intrans",
+    "sentence": "Thomas ___ een fles wijn op tafel.",
+    "answer": "zet",
+    "options": [
+      "zet",
+      "staat"
+    ],
+    "explanation": "Iemand doet de actie (een rechtop voorwerp plaatsen) → zetten. 'Staat' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "zetten-staan",
+      "template"
+    ],
+    "source": "template:T7b-zetten-vs-staan",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7b-027",
+    "type": "trans-intrans",
+    "sentence": "Jan ___ een tafellamp op tafel.",
+    "answer": "zet",
+    "options": [
+      "zet",
+      "staat"
+    ],
+    "explanation": "Iemand doet de actie (een rechtop voorwerp plaatsen) → zetten. 'Staat' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "zetten-staan",
+      "template"
+    ],
+    "source": "template:T7b-zetten-vs-staan",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7b-028",
+    "type": "trans-intrans",
+    "sentence": "Lisa ___ een waterfles op tafel.",
+    "answer": "zet",
+    "options": [
+      "zet",
+      "staat"
+    ],
+    "explanation": "Iemand doet de actie (een rechtop voorwerp plaatsen) → zetten. 'Staat' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "zetten-staan",
+      "template"
+    ],
+    "source": "template:T7b-zetten-vs-staan",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7b-029",
+    "type": "trans-intrans",
     "sentence": "Sanne ___ een kopje op tafel.",
+    "answer": "zet",
+    "options": [
+      "zet",
+      "staat"
+    ],
+    "explanation": "Iemand doet de actie (een rechtop voorwerp plaatsen) → zetten. 'Staat' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "zetten-staan",
+      "template"
+    ],
+    "source": "template:T7b-zetten-vs-staan",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7b-030",
+    "type": "trans-intrans",
+    "sentence": "Sanne ___ een beeldje op tafel.",
     "answer": "zet",
     "options": [
       "zet",
@@ -5477,7 +6128,7 @@
   {
     "id": "lsz-tpl-T7c-001",
     "type": "trans-intrans",
-    "sentence": "De docent ___ een cadeau in een doos.",
+    "sentence": "Sanne ___ een boterham in een broodtrommel.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5495,7 +6146,7 @@
   {
     "id": "lsz-tpl-T7c-002",
     "type": "trans-intrans",
-    "sentence": "Jan ___ een portemonnee in een handtas.",
+    "sentence": "De moeder ___ een paspoort in een lade.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5513,7 +6164,7 @@
   {
     "id": "lsz-tpl-T7c-003",
     "type": "trans-intrans",
-    "sentence": "Sanne ___ een ring in het sieradendoosje.",
+    "sentence": "Sanne ___ een portemonnee in een handtas.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5531,7 +6182,7 @@
   {
     "id": "lsz-tpl-T7c-004",
     "type": "trans-intrans",
-    "sentence": "Sanne ___ een boterham in een broodtrommel.",
+    "sentence": "Mark ___ een ring in het sieradendoosje.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5549,7 +6200,7 @@
   {
     "id": "lsz-tpl-T7c-005",
     "type": "trans-intrans",
-    "sentence": "De moeder ___ een paspoort in een lade.",
+    "sentence": "Sanne ___ een sleutel in een tas.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5567,7 +6218,7 @@
   {
     "id": "lsz-tpl-T7c-006",
     "type": "trans-intrans",
-    "sentence": "Sanne ___ een portemonnee in een handtas.",
+    "sentence": "De docent ___ een telefoon in een broekzak.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5585,7 +6236,7 @@
   {
     "id": "lsz-tpl-T7c-007",
     "type": "trans-intrans",
-    "sentence": "Mark ___ een ring in het sieradendoosje.",
+    "sentence": "De moeder ___ een bonnetje in een jaszak.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5603,7 +6254,7 @@
   {
     "id": "lsz-tpl-T7c-008",
     "type": "trans-intrans",
-    "sentence": "Sanne ___ een sleutel in een tas.",
+    "sentence": "Anna ___ een cadeau in een doos.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5621,7 +6272,7 @@
   {
     "id": "lsz-tpl-T7c-009",
     "type": "trans-intrans",
-    "sentence": "De docent ___ een telefoon in een broekzak.",
+    "sentence": "Anna ___ een bril in een brillenkoker.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5639,7 +6290,7 @@
   {
     "id": "lsz-tpl-T7c-010",
     "type": "trans-intrans",
-    "sentence": "De moeder ___ een bril in een brillenkoker.",
+    "sentence": "Anna ___ een boterham in een broodtrommel.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5657,7 +6308,7 @@
   {
     "id": "lsz-tpl-T7c-011",
     "type": "trans-intrans",
-    "sentence": "Anna ___ een cadeau in een doos.",
+    "sentence": "Thomas ___ een portemonnee in een handtas.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5675,7 +6326,7 @@
   {
     "id": "lsz-tpl-T7c-012",
     "type": "trans-intrans",
-    "sentence": "Anna ___ een bril in een brillenkoker.",
+    "sentence": "De docent ___ een bonnetje in een jaszak.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5693,7 +6344,7 @@
   {
     "id": "lsz-tpl-T7c-013",
     "type": "trans-intrans",
-    "sentence": "Anna ___ een boterham in een broodtrommel.",
+    "sentence": "Marieke ___ een bril in een brillenkoker.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5711,7 +6362,7 @@
   {
     "id": "lsz-tpl-T7c-014",
     "type": "trans-intrans",
-    "sentence": "Thomas ___ een portemonnee in een handtas.",
+    "sentence": "Thomas ___ een cadeau in een doos.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5729,7 +6380,7 @@
   {
     "id": "lsz-tpl-T7c-015",
     "type": "trans-intrans",
-    "sentence": "De docent ___ een bonnetje in een jaszak.",
+    "sentence": "Lisa ___ een horloge in de doos.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5747,7 +6398,7 @@
   {
     "id": "lsz-tpl-T7c-016",
     "type": "trans-intrans",
-    "sentence": "Marieke ___ een bril in een brillenkoker.",
+    "sentence": "Lisa ___ een sleutel in een tas.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5765,7 +6416,7 @@
   {
     "id": "lsz-tpl-T7c-017",
     "type": "trans-intrans",
-    "sentence": "Thomas ___ een cadeau in een doos.",
+    "sentence": "Sanne ___ een horloge in de doos.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5783,7 +6434,7 @@
   {
     "id": "lsz-tpl-T7c-018",
     "type": "trans-intrans",
-    "sentence": "Lisa ___ een horloge in de doos.",
+    "sentence": "Thomas ___ een ring in het sieradendoosje.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5801,7 +6452,7 @@
   {
     "id": "lsz-tpl-T7c-019",
     "type": "trans-intrans",
-    "sentence": "Lisa ___ een sleutel in een tas.",
+    "sentence": "Thomas ___ een horloge in de doos.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5819,7 +6470,7 @@
   {
     "id": "lsz-tpl-T7c-020",
     "type": "trans-intrans",
-    "sentence": "Sanne ___ een horloge in de doos.",
+    "sentence": "Anna ___ een horloge in de doos.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5837,7 +6488,7 @@
   {
     "id": "lsz-tpl-T7c-021",
     "type": "trans-intrans",
-    "sentence": "Thomas ___ een ring in het sieradendoosje.",
+    "sentence": "Pieter ___ een bril in een brillenkoker.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5855,7 +6506,7 @@
   {
     "id": "lsz-tpl-T7c-022",
     "type": "trans-intrans",
-    "sentence": "Thomas ___ een horloge in de doos.",
+    "sentence": "De moeder ___ een telefoon in een broekzak.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5873,7 +6524,7 @@
   {
     "id": "lsz-tpl-T7c-023",
     "type": "trans-intrans",
-    "sentence": "Anna ___ een horloge in de doos.",
+    "sentence": "Jan ___ een telefoon in een broekzak.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5891,7 +6542,7 @@
   {
     "id": "lsz-tpl-T7c-024",
     "type": "trans-intrans",
-    "sentence": "Pieter ___ een bril in een brillenkoker.",
+    "sentence": "De moeder ___ een portemonnee in een handtas.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5909,7 +6560,7 @@
   {
     "id": "lsz-tpl-T7c-025",
     "type": "trans-intrans",
-    "sentence": "De docent ___ een paspoort in een lade.",
+    "sentence": "Marieke ___ een boterham in een broodtrommel.",
     "answer": "stopt",
     "options": [
       "stopt",
@@ -5922,6 +6573,1329 @@
       "template"
     ],
     "source": "template:T7c-stoppen-vs-zitten",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7c-026",
+    "type": "trans-intrans",
+    "sentence": "Jan ___ een bril in een brillenkoker.",
+    "answer": "stopt",
+    "options": [
+      "stopt",
+      "zit"
+    ],
+    "explanation": "Iemand doet de actie (iets ergens in plaatsen) → stoppen. 'Zit' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "stoppen-zitten",
+      "template"
+    ],
+    "source": "template:T7c-stoppen-vs-zitten",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7c-027",
+    "type": "trans-intrans",
+    "sentence": "De docent ___ een horloge in de doos.",
+    "answer": "stopt",
+    "options": [
+      "stopt",
+      "zit"
+    ],
+    "explanation": "Iemand doet de actie (iets ergens in plaatsen) → stoppen. 'Zit' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "stoppen-zitten",
+      "template"
+    ],
+    "source": "template:T7c-stoppen-vs-zitten",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7c-028",
+    "type": "trans-intrans",
+    "sentence": "Mark ___ een boterham in een broodtrommel.",
+    "answer": "stopt",
+    "options": [
+      "stopt",
+      "zit"
+    ],
+    "explanation": "Iemand doet de actie (iets ergens in plaatsen) → stoppen. 'Zit' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "stoppen-zitten",
+      "template"
+    ],
+    "source": "template:T7c-stoppen-vs-zitten",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7c-029",
+    "type": "trans-intrans",
+    "sentence": "Jan ___ een creditcard in een portemonnee.",
+    "answer": "stopt",
+    "options": [
+      "stopt",
+      "zit"
+    ],
+    "explanation": "Iemand doet de actie (iets ergens in plaatsen) → stoppen. 'Zit' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "stoppen-zitten",
+      "template"
+    ],
+    "source": "template:T7c-stoppen-vs-zitten",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T7c-030",
+    "type": "trans-intrans",
+    "sentence": "Lisa ___ een creditcard in een portemonnee.",
+    "answer": "stopt",
+    "options": [
+      "stopt",
+      "zit"
+    ],
+    "explanation": "Iemand doet de actie (iets ergens in plaatsen) → stoppen. 'Zit' is voor waar het object daarna IS.",
+    "tags": [
+      "trans-intrans",
+      "stoppen-zitten",
+      "template"
+    ],
+    "source": "template:T7c-stoppen-vs-zitten",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-001",
+    "type": "cloze",
+    "sentence": "Zij ___ te mopperen door het huis.",
+    "answer": "loopt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'lopen' bij 'te mopperen door het huis'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-002",
+    "type": "cloze",
+    "sentence": "Het kind ___ te zoeken naar de sleutels.",
+    "answer": "loopt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'lopen' bij 'te zoeken naar de sleutels'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-003",
+    "type": "cloze",
+    "sentence": "Zij ___ te zonnebaden in de tuin.",
+    "answer": "ligt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'liggen' bij 'te zonnebaden in de tuin'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-004",
+    "type": "cloze",
+    "sentence": "Mijn ouders ___ te slapen.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'liggen' (meervoud) bij 'te slapen'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-005",
+    "type": "cloze",
+    "sentence": "Het kind ___ te wachten op de bus.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'staan' bij 'te wachten op de bus'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-006",
+    "type": "cloze",
+    "sentence": "Hij ___ te kletsen voor de deur.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'staan' bij 'te kletsen voor de deur'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-007",
+    "type": "cloze",
+    "sentence": "Mijn opa ___ te wachten in de rij.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'staan' bij 'te wachten in de rij'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-008",
+    "type": "cloze",
+    "sentence": "Het kind ___ te praten met de buren.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'staan' bij 'te praten met de buren'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-009",
+    "type": "cloze",
+    "sentence": "Mijn ouders ___ te werken achter het bureau.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'zitten' (meervoud) bij 'te werken achter het bureau'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-010",
+    "type": "cloze",
+    "sentence": "Mijn opa ___ te kijken naar de tv.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'zitten' bij 'te kijken naar de tv'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-011",
+    "type": "cloze",
+    "sentence": "Mijn ouders ___ te lezen op de bank.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'liggen' (meervoud) bij 'te lezen op de bank'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-012",
+    "type": "cloze",
+    "sentence": "Zij ___ te kijken naar de tv.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'zitten' bij 'te kijken naar de tv'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-013",
+    "type": "cloze",
+    "sentence": "Wij ___ te studeren in de bibliotheek.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'zitten' (meervoud) bij 'te studeren in de bibliotheek'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-014",
+    "type": "cloze",
+    "sentence": "Wij ___ te zoeken naar de sleutels.",
+    "answer": "lopen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'lopen' (meervoud) bij 'te zoeken naar de sleutels'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-015",
+    "type": "cloze",
+    "sentence": "Hij ___ te wachten op de bus.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'staan' bij 'te wachten op de bus'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-016",
+    "type": "cloze",
+    "sentence": "Mijn ouders ___ te studeren in de bibliotheek.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'zitten' (meervoud) bij 'te studeren in de bibliotheek'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-017",
+    "type": "cloze",
+    "sentence": "Mijn ouders ___ te kletsen voor de deur.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'staan' (meervoud) bij 'te kletsen voor de deur'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-018",
+    "type": "cloze",
+    "sentence": "Het kind ___ te slapen.",
+    "answer": "ligt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'liggen' bij 'te slapen'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-019",
+    "type": "cloze",
+    "sentence": "Hij ___ te zonnebaden in de tuin.",
+    "answer": "ligt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'liggen' bij 'te zonnebaden in de tuin'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-020",
+    "type": "cloze",
+    "sentence": "Mijn opa ___ te zoeken naar de sleutels.",
+    "answer": "loopt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'lopen' bij 'te zoeken naar de sleutels'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-021",
+    "type": "cloze",
+    "sentence": "Zij ___ te studeren in de bibliotheek.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'zitten' bij 'te studeren in de bibliotheek'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-022",
+    "type": "cloze",
+    "sentence": "Wij ___ te dromen in bed.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'liggen' (meervoud) bij 'te dromen in bed'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-023",
+    "type": "cloze",
+    "sentence": "Wij ___ te slapen.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'liggen' (meervoud) bij 'te slapen'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-024",
+    "type": "cloze",
+    "sentence": "Zij ___ te koken in de keuken.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'staan' bij 'te koken in de keuken'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-025",
+    "type": "cloze",
+    "sentence": "Mijn ouders ___ te dromen in bed.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'liggen' (meervoud) bij 'te dromen in bed'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-026",
+    "type": "cloze",
+    "sentence": "Zij ___ te bellen met een vriend.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'zitten' bij 'te bellen met een vriend'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-027",
+    "type": "cloze",
+    "sentence": "Mijn ouders ___ te wachten in de rij.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'staan' (meervoud) bij 'te wachten in de rij'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-028",
+    "type": "cloze",
+    "sentence": "Het kind ___ te mopperen door het huis.",
+    "answer": "loopt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'lopen' bij 'te mopperen door het huis'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8s-029",
+    "type": "cloze",
+    "sentence": "Het kind ___ te wachten in de rij.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'staan' bij 'te wachten in de rij'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8p-030",
+    "type": "cloze",
+    "sentence": "De kinderen ___ te studeren in de bibliotheek.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'zitten' (meervoud) bij 'te studeren in de bibliotheek'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "template"
+    ],
+    "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9e-001",
+    "type": "cloze",
+    "sentence": "Er ___ schoolborden aan de muur.",
+    "answer": "hangen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is los van de grond, vastgemaakt aan iets → hangen.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "hangen",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9b-002",
+    "type": "cloze",
+    "sentence": "Er ___ mokken op het dressoir.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin met 'er'. Voorwerpen met duidelijke onderkant (meervoud) → staan.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "staan",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9e-003",
+    "type": "cloze",
+    "sentence": "Er ___ ventilatoren aan het plafond.",
+    "answer": "hangen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is los van de grond, vastgemaakt aan iets → hangen.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "hangen",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9d-004",
+    "type": "cloze",
+    "sentence": "Er ___ cadeaus in een doos.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is ergens IN → zitten.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9e-005",
+    "type": "cloze",
+    "sentence": "Er ___ kalenders aan de muur.",
+    "answer": "hangen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is los van de grond, vastgemaakt aan iets → hangen.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "hangen",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9a-006",
+    "type": "cloze",
+    "sentence": "Er ___ een brief op tafel.",
+    "answer": "ligt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Existentiële zin met 'er' (enkelvoud). Plat voorwerp → liggen.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "liggen",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9d-007",
+    "type": "cloze",
+    "sentence": "Er ___ pennen in een etui.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is ergens IN → zitten.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9c-008",
+    "type": "cloze",
+    "sentence": "Er ___ motoren op de parkeerplaats.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Voertuigen (wielen, duidelijke onderkant) → staan.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9b-009",
+    "type": "cloze",
+    "sentence": "Er ___ beeldjes op het dressoir.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin met 'er'. Voorwerpen met duidelijke onderkant (meervoud) → staan.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "staan",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9d-010",
+    "type": "cloze",
+    "sentence": "Er ___ creditcards in zijn portemonnee.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is ergens IN → zitten.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9b-011",
+    "type": "cloze",
+    "sentence": "Er ___ flessen wijn op het dressoir.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin met 'er'. Voorwerpen met duidelijke onderkant (meervoud) → staan.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "staan",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9c-012",
+    "type": "cloze",
+    "sentence": "Er ___ scooters op de parkeerplaats.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Voertuigen (wielen, duidelijke onderkant) → staan.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9c-013",
+    "type": "cloze",
+    "sentence": "Er ___ bussen op de parkeerplaats.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Voertuigen (wielen, duidelijke onderkant) → staan.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "staan",
+      "voertuig",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9b-014",
+    "type": "cloze",
+    "sentence": "Er ___ een kopje op het dressoir.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Existentiële zin met 'er' (enkelvoud). Voorwerp met duidelijke onderkant → staan.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "staan",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9e-015",
+    "type": "cloze",
+    "sentence": "Er ___ handdoeken aan het handdoekhaakje.",
+    "answer": "hangen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is los van de grond, vastgemaakt aan iets → hangen.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "hangen",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9d-016",
+    "type": "cloze",
+    "sentence": "Er ___ sleutels in mijn tas.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is ergens IN → zitten.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9b-017",
+    "type": "cloze",
+    "sentence": "Er ___ een vaas op het dressoir.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Existentiële zin met 'er' (enkelvoud). Voorwerp met duidelijke onderkant → staan.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "staan",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9a-018",
+    "type": "cloze",
+    "sentence": "Er ___ foto's op tafel.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin met 'er': de positie-werkwoord past nog steeds bij het object. Platte voorwerpen (meervoud) → liggen.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "liggen",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9a-019",
+    "type": "cloze",
+    "sentence": "Er ___ een servet op tafel.",
+    "answer": "ligt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "hangt"
+    ],
+    "explanation": "Existentiële zin met 'er' (enkelvoud). Plat voorwerp → liggen.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "liggen",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9d-020",
+    "type": "cloze",
+    "sentence": "Er ___ ringen in het sieradendoosje.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is ergens IN → zitten.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9d-021",
+    "type": "cloze",
+    "sentence": "Er ___ brillen in een brillenkoker.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is ergens IN → zitten.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9a-022",
+    "type": "cloze",
+    "sentence": "Er ___ tijdschriften op tafel.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin met 'er': de positie-werkwoord past nog steeds bij het object. Platte voorwerpen (meervoud) → liggen.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "liggen",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9d-023",
+    "type": "cloze",
+    "sentence": "Er ___ portemonnees in haar handtas.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is ergens IN → zitten.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9d-024",
+    "type": "cloze",
+    "sentence": "Er ___ paspoorten in een lade.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is ergens IN → zitten.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9d-025",
+    "type": "cloze",
+    "sentence": "Er ___ telefoons in mijn broekzak.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is ergens IN → zitten.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9a-026",
+    "type": "cloze",
+    "sentence": "Er ___ ansichtkaarten op tafel.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin met 'er': de positie-werkwoord past nog steeds bij het object. Platte voorwerpen (meervoud) → liggen.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "liggen",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9b-027",
+    "type": "cloze",
+    "sentence": "Er ___ kopjes op het dressoir.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin met 'er'. Voorwerpen met duidelijke onderkant (meervoud) → staan.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "staan",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9e-028",
+    "type": "cloze",
+    "sentence": "Er ___ spiegels aan de muur.",
+    "answer": "hangen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is los van de grond, vastgemaakt aan iets → hangen.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "hangen",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9a-029",
+    "type": "cloze",
+    "sentence": "Er ___ briefjes op tafel.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin met 'er': de positie-werkwoord past nog steeds bij het object. Platte voorwerpen (meervoud) → liggen.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "liggen",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T9d-030",
+    "type": "cloze",
+    "sentence": "Er ___ bonnetjes in mijn jaszak.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "hangen"
+    ],
+    "explanation": "Existentiële zin. Iets is ergens IN → zitten.",
+    "tags": [
+      "construction",
+      "er-existentieel",
+      "zitten",
+      "template"
+    ],
+    "source": "template:T9-er-existential",
     "confidence": "template"
   }
 ]

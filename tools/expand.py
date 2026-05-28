@@ -209,6 +209,147 @@ def expand_liggen_staan_zitten(W: dict) -> list[dict]:
             "confidence": "template",
         })
 
+    # T8 — position verb + te + infinitief (Tweede ronde §21).
+    # Note: 'lopen' replaces 'hangen' in the choice set because the construction needs an
+    # ongoing-action verb; 'hangen + te + inf' doesn't form this pattern.
+    te_inflect = {
+        "liggen": {"sg": "ligt",  "pl": "liggen"},
+        "staan":  {"sg": "staat", "pl": "staan"},
+        "zitten": {"sg": "zit",   "pl": "zitten"},
+        "lopen":  {"sg": "loopt", "pl": "lopen"},
+    }
+    te_choices_sg = ["ligt", "staat", "zit", "loopt"]
+    te_choices_pl = ["liggen", "staan", "zitten", "lopen"]
+    for pair in W.get("position_te_pairs", []):
+        lemma = pair["lemma"]
+        te_inf = pair["te_inf"]
+        for subj in W.get("_te_subjects_3sg", []):
+            items.append({
+                "id": mid("T8s", len(items) + 1),
+                "type": "cloze",
+                "sentence": f"{subj} ___ {te_inf}.",
+                "answer": te_inflect[lemma]["sg"],
+                "choices": te_choices_sg,
+                "explanation": f"Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past '{lemma}' bij '{te_inf}'.",
+                "tags": ["construction", "te-infinitief", "template"],
+                "source": "template:T8-position-te-inf",
+                "confidence": "template",
+            })
+        for subj in W.get("_te_subjects_3pl", []):
+            items.append({
+                "id": mid("T8p", len(items) + 1),
+                "type": "cloze",
+                "sentence": f"{subj} ___ {te_inf}.",
+                "answer": te_inflect[lemma]["pl"],
+                "choices": te_choices_pl,
+                "explanation": f"Meervoud + 'te' + infinitief. Hier past '{lemma}' (meervoud) bij '{te_inf}'.",
+                "tags": ["construction", "te-infinitief", "template"],
+                "source": "template:T8-position-te-inf",
+                "confidence": "template",
+            })
+
+    # T9 — existential 'er + position verb + onbepaald' (Tweede ronde §27).
+    # Reuses the existing wordlists but reshapes them into the existential frame.
+    def bare_pl(de_pl: str) -> str:
+        return de_pl[3:] if de_pl.startswith("De ") else de_pl  # 'De kranten' → 'kranten'
+
+    def indef_sg(form: str) -> str:
+        return form.replace("De ", "een ").replace("Het ", "een ")
+
+    # T9a — flat horizontal (liggen)
+    for obj in W["flat_horizontal"]:
+        items.append({
+            "id": mid("T9a", len(items) + 1),
+            "type": "cloze",
+            "sentence": f"Er ___ {bare_pl(obj['pl'])} op tafel.",
+            "answer": "liggen",
+            "choices": CHOICES["pl"],
+            "explanation": "Existentiële zin met 'er': de positie-werkwoord past nog steeds bij het object. Platte voorwerpen (meervoud) → liggen.",
+            "tags": ["construction", "er-existentieel", "liggen", "template"],
+            "source": "template:T9-er-existential",
+            "confidence": "template",
+        })
+        items.append({
+            "id": mid("T9a", len(items) + 1),
+            "type": "cloze",
+            "sentence": f"Er ___ {indef_sg(obj['sg'])} op tafel.",
+            "answer": "ligt",
+            "choices": CHOICES["sg"],
+            "explanation": "Existentiële zin met 'er' (enkelvoud). Plat voorwerp → liggen.",
+            "tags": ["construction", "er-existentieel", "liggen", "template"],
+            "source": "template:T9-er-existential",
+            "confidence": "template",
+        })
+
+    # T9b — upright objects (staan)
+    for obj in W["upright_object"]:
+        items.append({
+            "id": mid("T9b", len(items) + 1),
+            "type": "cloze",
+            "sentence": f"Er ___ {bare_pl(obj['pl'])} op het dressoir.",
+            "answer": "staan",
+            "choices": CHOICES["pl"],
+            "explanation": "Existentiële zin met 'er'. Voorwerpen met duidelijke onderkant (meervoud) → staan.",
+            "tags": ["construction", "er-existentieel", "staan", "template"],
+            "source": "template:T9-er-existential",
+            "confidence": "template",
+        })
+        items.append({
+            "id": mid("T9b", len(items) + 1),
+            "type": "cloze",
+            "sentence": f"Er ___ {indef_sg(obj['sg'])} op het dressoir.",
+            "answer": "staat",
+            "choices": CHOICES["sg"],
+            "explanation": "Existentiële zin met 'er' (enkelvoud). Voorwerp met duidelijke onderkant → staan.",
+            "tags": ["construction", "er-existentieel", "staan", "template"],
+            "source": "template:T9-er-existential",
+            "confidence": "template",
+        })
+
+    # T9c — vehicles (staan)
+    for veh in W["vehicle"]:
+        items.append({
+            "id": mid("T9c", len(items) + 1),
+            "type": "cloze",
+            "sentence": f"Er ___ {bare_pl(veh['pl'])} op de parkeerplaats.",
+            "answer": "staan",
+            "choices": CHOICES["pl"],
+            "explanation": "Existentiële zin. Voertuigen (wielen, duidelijke onderkant) → staan.",
+            "tags": ["construction", "er-existentieel", "staan", "voertuig", "template"],
+            "source": "template:T9-er-existential",
+            "confidence": "template",
+        })
+
+    # T9d — items in containers (zitten)
+    for pair in W["container_pairs"]:
+        if pair.get("item_pl"):
+            items.append({
+                "id": mid("T9d", len(items) + 1),
+                "type": "cloze",
+                "sentence": f"Er ___ {bare_pl(pair['item_pl'])} {pair['place']}.",
+                "answer": "zitten",
+                "choices": CHOICES["pl"],
+                "explanation": "Existentiële zin. Iets is ergens IN → zitten.",
+                "tags": ["construction", "er-existentieel", "zitten", "template"],
+                "source": "template:T9-er-existential",
+                "confidence": "template",
+            })
+
+    # T9e — hangables (hangen)
+    for pair in W["hangable_pairs"]:
+        if pair.get("obj_pl"):
+            items.append({
+                "id": mid("T9e", len(items) + 1),
+                "type": "cloze",
+                "sentence": f"Er ___ {bare_pl(pair['obj_pl'])} {pair['place']}.",
+                "answer": "hangen",
+                "choices": CHOICES["pl"],
+                "explanation": "Existentiële zin. Iets is los van de grond, vastgemaakt aan iets → hangen.",
+                "tags": ["construction", "er-existentieel", "hangen", "template"],
+                "source": "template:T9-er-existential",
+                "confidence": "template",
+            })
+
     return items
 
 

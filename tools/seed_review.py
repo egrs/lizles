@@ -84,8 +84,7 @@ def seed_liggen_staan_zitten() -> list[dict]:
     A = items.append
 
     # liggen idioms / extensions
-    A(_cloze("Het ___ voor de hand dat we morgen vroeg moeten beginnen.", "ligt", LSZ_SG_3,
-             "'Voor de hand liggen' = 'duidelijk / vanzelfsprekend zijn'.", "idiom-liggen", "freeform:voor-de-hand-liggen"))
+    # (Voor de hand liggen — promoted to verified after Tweede ronde lesson 21 attestation; no longer here.)
     A(_cloze("Aan mij ___ het niet, hoor.", "ligt", LSZ_SG_3,
              "'Aan iemand liggen' = 'iemands schuld zijn'. Hier: 'Het is mijn schuld niet.'", "idiom-liggen", "freeform:aan-iemand-liggen"))
     A(_cloze("Mijn opa ___ al twee weken in het ziekenhuis.", "ligt", LSZ_SG_3,

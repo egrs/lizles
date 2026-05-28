@@ -110,5 +110,34 @@
     { "place": "België",         "loc": "ten zuiden van Nederland" }
   ],
 
-  "_trans_intrans_people": ["Sanne", "Thomas", "Anna", "Lisa", "Mark", "Pieter", "Marieke", "Jan", "De docent", "De moeder"]
+  "_trans_intrans_people": ["Sanne", "Thomas", "Anna", "Lisa", "Mark", "Pieter", "Marieke", "Jan", "De docent", "De moeder"],
+
+  "_te_construction_comment": "Position verb + te + infinitief (Tweede ronde §21). Each activity is paired with the position verb that semantically fits — when context-dependent, the activity phrase includes the disambiguating context (bv. 'te lezen op de bank' vs. 'te lezen aan zijn bureau').",
+  "position_te_pairs": [
+    { "te_inf": "te slapen",                        "lemma": "liggen" },
+    { "te_inf": "te rusten",                        "lemma": "liggen" },
+    { "te_inf": "te dromen in bed",                 "lemma": "liggen" },
+    { "te_inf": "te lezen op de bank",              "lemma": "liggen" },
+    { "te_inf": "te zonnebaden in de tuin",         "lemma": "liggen" },
+
+    { "te_inf": "te eten aan tafel",                "lemma": "zitten" },
+    { "te_inf": "te werken achter het bureau",      "lemma": "zitten" },
+    { "te_inf": "te studeren in de bibliotheek",    "lemma": "zitten" },
+    { "te_inf": "te bellen met een vriend",         "lemma": "zitten" },
+    { "te_inf": "te kijken naar de tv",             "lemma": "zitten" },
+    { "te_inf": "te denken in een stoel",           "lemma": "zitten" },
+
+    { "te_inf": "te wachten op de bus",             "lemma": "staan" },
+    { "te_inf": "te wachten in de rij",             "lemma": "staan" },
+    { "te_inf": "te koken in de keuken",            "lemma": "staan" },
+    { "te_inf": "te kletsen voor de deur",          "lemma": "staan" },
+    { "te_inf": "te praten met de buren",           "lemma": "staan" },
+    { "te_inf": "te roken voor het kantoor",        "lemma": "staan" },
+
+    { "te_inf": "te zoeken naar de sleutels",       "lemma": "lopen" },
+    { "te_inf": "te mopperen door het huis",        "lemma": "lopen" },
+    { "te_inf": "te ijsberen door de kamer",        "lemma": "lopen" }
+  ],
+  "_te_subjects_3sg": ["Hij", "Zij", "Het kind", "Mijn opa"],
+  "_te_subjects_3pl": ["Wij", "De kinderen", "Mijn ouders"]
 }
