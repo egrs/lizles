@@ -51,46 +51,28 @@
     "sympathisch"
   ],
 
+  "_frames_note": "Each frame has an 'add_s' flag. True (default) → context triggers the -s rule (iets/wat/niets/weinig/veel + adj). False → predicate or other context where the adjective stays bare. Mixing both kinds in the deck forces students to actually look at the construction, not just default to +s.",
+
   "frames": [
-    {
-      "pattern": "Ik heb iets {adj} gekocht.",
-      "tag": "iets"
-    },
-    {
-      "pattern": "Heb je wat {adj} gedaan dit weekend?",
-      "tag": "wat"
-    },
-    {
-      "pattern": "Hij heeft niets {adj} verteld.",
-      "tag": "niets"
-    },
-    {
-      "pattern": "Ze heeft mij iets {adj} gegeven.",
-      "tag": "iets"
-    },
-    {
-      "pattern": "We zoeken iets {adj} voor zaterdagavond.",
-      "tag": "iets"
-    },
-    {
-      "pattern": "Heb je iets {adj} gezien?",
-      "tag": "iets"
-    },
-    {
-      "pattern": "Vandaag heb ik weinig {adj} gedaan.",
-      "tag": "weinig"
-    },
-    {
-      "pattern": "Op het festival was veel {adj} te zien.",
-      "tag": "veel"
-    },
-    {
-      "pattern": "Er is hier helemaal niets {adj}.",
-      "tag": "niets"
-    },
-    {
-      "pattern": "Ze willen iets {adj} bouwen.",
-      "tag": "iets"
-    }
+    { "pattern": "Ik heb iets {adj} gekocht.",                 "tag": "iets",   "add_s": true },
+    { "pattern": "Heb je wat {adj} gedaan dit weekend?",       "tag": "wat",    "add_s": true },
+    { "pattern": "Hij heeft niets {adj} verteld.",             "tag": "niets",  "add_s": true },
+    { "pattern": "Ze heeft mij iets {adj} gegeven.",           "tag": "iets",   "add_s": true },
+    { "pattern": "We zoeken iets {adj} voor zaterdagavond.",   "tag": "iets",   "add_s": true },
+    { "pattern": "Heb je iets {adj} gezien?",                  "tag": "iets",   "add_s": true },
+    { "pattern": "Vandaag heb ik weinig {adj} gedaan.",        "tag": "weinig", "add_s": true },
+    { "pattern": "Op het festival was veel {adj} te zien.",    "tag": "veel",   "add_s": true },
+    { "pattern": "Er is hier helemaal niets {adj}.",           "tag": "niets",  "add_s": true },
+    { "pattern": "Ze willen iets {adj} bouwen.",               "tag": "iets",   "add_s": true },
+
+    { "pattern": "Ik vind dit gerecht heel {adj}.",            "tag": "predicate", "add_s": false },
+    { "pattern": "Het is gewoon {adj}.",                       "tag": "predicate", "add_s": false },
+    { "pattern": "Mijn vriendin is altijd erg {adj}.",         "tag": "predicate", "add_s": false },
+    { "pattern": "De film was best {adj}.",                    "tag": "predicate", "add_s": false },
+    { "pattern": "Dit boek is heel {adj}.",                    "tag": "predicate", "add_s": false },
+    { "pattern": "Dat klinkt {adj}.",                          "tag": "predicate", "add_s": false },
+    { "pattern": "Hij is altijd zo {adj}.",                    "tag": "predicate", "add_s": false },
+    { "pattern": "Het concert was echt {adj}.",                "tag": "predicate", "add_s": false },
+    { "pattern": "Ik vond het feestje wel {adj}.",             "tag": "predicate", "add_s": false }
   ]
 }

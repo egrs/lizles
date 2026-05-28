@@ -228,36 +228,51 @@ def expand_iets_leuks(W: dict) -> list[dict]:
         pattern = frame["pattern"]                # uses {adj} placeholder
         kinds = frame.get("allowed_kinds", ["regular", "s_ending"])
         tag = frame.get("tag", "iets-s")
+        add_s = frame.get("add_s", True)          # default: rule-triggering frame
 
         if "regular" in kinds:
             for adj in regular_adj:
-                correct = adj + "s"
-                distractor = adj  # the missing-s mistake
+                if add_s:
+                    correct, distractor = adj + "s", adj
+                    explanation = f"Na 'iets/wat/niets/weinig/veel' krijgt het bijvoeglijk naamwoord een -s: '{correct}'."
+                    source = "template:iel-regular-adj-plus-s"
+                else:
+                    correct, distractor = adj, adj + "s"
+                    explanation = (f"In een predicaatzin (na 'is', 'vind ik', 'klinkt', ...) blijft het bijvoeglijk "
+                                   f"naamwoord in de basisvorm: '{correct}'. Geen -s, want er staat geen iets/wat/niets voor.")
+                    source = "template:iel-regular-adj-predicate"
                 items.append({
                     "id": mid("R", len(items) + 1),
                     "type": "cloze",
                     "sentence": pattern.replace("{adj}", "___"),
                     "answer": correct,
                     "choices": [correct, distractor],
-                    "explanation": f"Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: '{correct}'.",
+                    "explanation": explanation,
                     "tags": [tag, "regular-adj", "template"],
-                    "source": "template:iel-regular-adj-plus-s",
+                    "source": source,
                     "confidence": "template",
                 })
 
         if "s_ending" in kinds:
             for adj in s_ending_adj:
-                correct = adj  # no extra -s
-                distractor = adj + "s"  # the over-correction mistake
+                # s-ending adj: bare form in both contexts. Distractor is the over-correction (+s).
+                correct, distractor = adj, adj + "s"
+                if add_s:
+                    explanation = f"Uitzondering: '{adj}' eindigt al op een /s/-klank — geen extra -s."
+                    source = "template:iel-s-ending-no-extra-s"
+                else:
+                    explanation = (f"In een predicaatzin blijft het bijvoeglijk naamwoord in de basisvorm: '{adj}'. "
+                                   f"En geen extra -s, want '{adj}' eindigt al op een /s/-klank.")
+                    source = "template:iel-s-ending-predicate"
                 items.append({
                     "id": mid("S", len(items) + 1),
                     "type": "cloze",
                     "sentence": pattern.replace("{adj}", "___"),
                     "answer": correct,
                     "choices": [correct, distractor],
-                    "explanation": f"Het bijvoeglijk naamwoord '{adj}' eindigt al op een /s/-klank — geen extra -s.",
+                    "explanation": explanation,
                     "tags": [tag, "s-ending-adj", "template"],
-                    "source": "template:iel-s-ending-no-extra-s",
+                    "source": source,
                     "confidence": "template",
                 })
 
