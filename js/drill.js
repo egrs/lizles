@@ -2,7 +2,7 @@
 (async function () {
   const params = new URLSearchParams(location.search);
   const slug = params.get('topic');
-  if (!slug) { location.href = 'index.html'; return; }
+  if (!slug) { location.href = './'; return; }
 
   const root = document.getElementById('drill');
   const titleEl = document.getElementById('topic-title');
