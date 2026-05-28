@@ -1,0 +1,114 @@
+{
+  "_comment": "Curated Dutch word lists. Every item here is hand-vetted. Each template in tools/expand.py pairs a category with a place so the answer is mechanically determined by the rule, not by free generation. Edit this file and re-run tools/expand.py to regenerate template items.",
+
+  "flat_horizontal": [
+    { "sg": "De krant",         "pl": "De kranten" },
+    { "sg": "De brief",         "pl": "De brieven" },
+    { "sg": "Het tijdschrift",  "pl": "De tijdschriften" },
+    { "sg": "Het bonnetje",     "pl": "De bonnetjes" },
+    { "sg": "De foto",          "pl": "De foto's" },
+    { "sg": "De ansichtkaart",  "pl": "De ansichtkaarten" },
+    { "sg": "Het servet",       "pl": "De servetten" },
+    { "sg": "De plattegrond",   "pl": "De plattegronden" },
+    { "sg": "Het briefje",      "pl": "De briefjes" }
+  ],
+
+  "upright_object": [
+    { "sg": "De vaas",          "pl": "De vazen" },
+    { "sg": "De fles wijn",     "pl": "De flessen wijn" },
+    { "sg": "De waterfles",     "pl": "De waterflessen" },
+    { "sg": "Het glas",         "pl": "De glazen" },
+    { "sg": "Het kopje",        "pl": "De kopjes" },
+    { "sg": "De mok",           "pl": "De mokken" },
+    { "sg": "De kandelaar",     "pl": "De kandelaars" },
+    { "sg": "De tafellamp",     "pl": "De tafellampen" },
+    { "sg": "De plant",         "pl": "De planten" },
+    { "sg": "Het beeldje",      "pl": "De beeldjes" }
+  ],
+
+  "vehicle": [
+    { "sg": "De auto",          "pl": "De auto's" },
+    { "sg": "De fiets",         "pl": "De fietsen" },
+    { "sg": "De bus",           "pl": "De bussen" },
+    { "sg": "De vrachtwagen",   "pl": "De vrachtwagens" },
+    { "sg": "De scooter",       "pl": "De scooters" },
+    { "sg": "De motor",         "pl": "De motoren" },
+    { "sg": "De brommer",       "pl": "De brommers" },
+    { "sg": "De bestelwagen",   "pl": "De bestelwagens" }
+  ],
+
+  "flat_surface_pp": [
+    "op tafel",
+    "op het bureau",
+    "op de vloer",
+    "op de grond",
+    "op de plank",
+    "op het aanrecht",
+    "op de ladekast",
+    "op het dressoir"
+  ],
+
+  "vehicle_place_pp": [
+    "in de garage",
+    "op de oprit",
+    "op de parkeerplaats",
+    "voor het huis",
+    "op straat",
+    "naast de deur",
+    "achter het huis"
+  ],
+
+  "container_pairs": [
+    { "item_sg": "De telefoon",      "item_pl": "De telefoons",       "place": "in mijn broekzak" },
+    { "item_sg": "De sleutel",       "item_pl": "De sleutels",        "place": "in mijn tas" },
+    { "item_sg": "De portemonnee",   "item_pl": "De portemonnees",    "place": "in haar handtas" },
+    { "item_sg": "Het geld",         "item_pl": null,                 "place": "in haar portemonnee" },
+    { "item_sg": "Het paspoort",     "item_pl": "De paspoorten",      "place": "in een lade" },
+    { "item_sg": "De pen",           "item_pl": "De pennen",          "place": "in een etui" },
+    { "item_sg": "De creditcard",    "item_pl": "De creditcards",     "place": "in zijn portemonnee" },
+    { "item_sg": "Het bonnetje",     "item_pl": "De bonnetjes",       "place": "in mijn jaszak" },
+    { "item_sg": "De bril",          "item_pl": "De brillen",         "place": "in een brillenkoker" },
+    { "item_sg": "Het horloge",      "item_pl": "De horloges",        "place": "in de doos" },
+    { "item_sg": "De ring",          "item_pl": "De ringen",          "place": "in het sieradendoosje" },
+    { "item_sg": "De kauwgom",       "item_pl": null,                 "place": "in zijn broekzak" },
+    { "item_sg": "Het snoep",        "item_pl": null,                 "place": "in een zak" },
+    { "item_sg": "De boterham",      "item_pl": "De boterhammen",     "place": "in mijn broodtrommel" },
+    { "item_sg": "Het cadeau",       "item_pl": "De cadeaus",         "place": "in een doos" }
+  ],
+
+  "hangable_pairs": [
+    { "obj_sg": "Het schilderij",     "obj_pl": "De schilderijen",     "place": "aan de muur" },
+    { "obj_sg": "De klok",            "obj_pl": "De klokken",          "place": "aan de muur" },
+    { "obj_sg": "De ingelijste foto", "obj_pl": "De ingelijste foto's","place": "aan de muur" },
+    { "obj_sg": "De spiegel",         "obj_pl": "De spiegels",         "place": "aan de muur" },
+    { "obj_sg": "De poster",          "obj_pl": "De posters",          "place": "aan de muur" },
+    { "obj_sg": "De jas",             "obj_pl": "De jassen",           "place": "aan de kapstok" },
+    { "obj_sg": "De handdoek",        "obj_pl": "De handdoeken",       "place": "aan het handdoekhaakje" },
+    { "obj_sg": "De plafondlamp",     "obj_pl": "De plafondlampen",    "place": "aan het plafond" },
+    { "obj_sg": "De ventilator",      "obj_pl": "De ventilatoren",     "place": "aan het plafond" },
+    { "obj_sg": "Het gordijn",        "obj_pl": "De gordijnen",        "place": "voor het raam" },
+    { "obj_sg": "De kalender",        "obj_pl": "De kalenders",        "place": "aan de muur" },
+    { "obj_sg": "Het schoolbord",     "obj_pl": "De schoolborden",     "place": "aan de muur" }
+  ],
+
+  "geography_pairs": [
+    { "place": "Maastricht",     "loc": "in het zuiden van Nederland" },
+    { "place": "Groningen",      "loc": "in het noorden van Nederland" },
+    { "place": "Utrecht",        "loc": "in het midden van Nederland" },
+    { "place": "Den Haag",       "loc": "aan de Noordzee" },
+    { "place": "Amsterdam",      "loc": "aan het IJ" },
+    { "place": "Rotterdam",      "loc": "aan de Nieuwe Maas" },
+    { "place": "Tilburg",        "loc": "in Noord-Brabant" },
+    { "place": "Eindhoven",      "loc": "in Noord-Brabant" },
+    { "place": "Nijmegen",       "loc": "in Gelderland" },
+    { "place": "Antwerpen",      "loc": "in België" },
+    { "place": "Brussel",        "loc": "in België" },
+    { "place": "Gent",           "loc": "in België" },
+    { "place": "Berlijn",        "loc": "in Duitsland" },
+    { "place": "Parijs",         "loc": "in Frankrijk" },
+    { "place": "Nederland",      "loc": "ten noorden van België" },
+    { "place": "België",         "loc": "ten zuiden van Nederland" }
+  ],
+
+  "_trans_intrans_people": ["Sanne", "Thomas", "Anna", "Lisa", "Mark", "Pieter", "Marieke", "Jan", "De docent", "De moeder"]
+}

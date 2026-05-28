@@ -1,0 +1,96 @@
+{
+  "_comment": "Curated Dutch adjectives that naturally follow 'iets / wat / niets / weinig / veel'. Two lists: regular adjectives (where you add -s) and adjectives that already end in an /s/-klank (where you do NOT add an -s).",
+
+  "regular_adjectives": [
+    "leuk",
+    "mooi",
+    "lekker",
+    "lief",
+    "nieuw",
+    "oud",
+    "spannend",
+    "gezond",
+    "duur",
+    "goedkoop",
+    "bijzonder",
+    "interessant",
+    "vreemd",
+    "raar",
+    "gek",
+    "snel",
+    "warm",
+    "koud",
+    "hard",
+    "zacht",
+    "makkelijk",
+    "moeilijk",
+    "belangrijk",
+    "simpel",
+    "sterk",
+    "eng",
+    "prachtig",
+    "schattig",
+    "klein",
+    "groot",
+    "klassiek"
+  ],
+
+  "s_ending_adjectives": [
+    "fris",
+    "vies",
+    "dwaas",
+    "anders",
+    "los",
+    "vals",
+    "typisch",
+    "praktisch",
+    "romantisch",
+    "fantastisch",
+    "exotisch",
+    "automatisch",
+    "sympathisch"
+  ],
+
+  "frames": [
+    {
+      "pattern": "Ik heb iets {adj} gekocht.",
+      "tag": "iets"
+    },
+    {
+      "pattern": "Heb je wat {adj} gedaan dit weekend?",
+      "tag": "wat"
+    },
+    {
+      "pattern": "Hij heeft niets {adj} verteld.",
+      "tag": "niets"
+    },
+    {
+      "pattern": "Ze heeft mij iets {adj} gegeven.",
+      "tag": "iets"
+    },
+    {
+      "pattern": "We zoeken iets {adj} voor zaterdagavond.",
+      "tag": "iets"
+    },
+    {
+      "pattern": "Heb je iets {adj} gezien?",
+      "tag": "iets"
+    },
+    {
+      "pattern": "Vandaag heb ik weinig {adj} gedaan.",
+      "tag": "weinig"
+    },
+    {
+      "pattern": "Op het festival was veel {adj} te zien.",
+      "tag": "veel"
+    },
+    {
+      "pattern": "Er is hier helemaal niets {adj}.",
+      "tag": "niets"
+    },
+    {
+      "pattern": "Ze willen iets {adj} bouwen.",
+      "tag": "iets"
+    }
+  ]
+}

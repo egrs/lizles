@@ -1,0 +1,19 @@
+{
+  "slug": "liggen-staan-zitten",
+  "title": "Liggen, staan, zitten (en hangen)",
+  "description": "Positieverbs en vaste uitdrukkingen: waar iets is + idiomatische combinaties.",
+  "rules": [
+    "liggen — iets is plat / horizontaal. Voorbeeld: De kranten liggen op de grond.",
+    "staan — iets is rechtop, of heeft een duidelijke onderkant (wielen, voeten, poten). Voorbeeld: De boeken staan in de kast. Het bord staat op tafel. De auto staat in de garage.",
+    "zitten — iets is ergens in (een container). Voorbeeld: De telefoon zit in haar broekzak.",
+    "hangen — iets is los van de grond. Voorbeeld: De foto's hangen aan de muur.",
+    "Wat doet iemand vs. waar iets is: leggen/zetten/hangen/doen-stoppen drukken een actie uit; liggen/staan/hangen/zitten drukken een toestand of plaats uit. Voorbeeld: Sanne zet het flesje op tafel → het flesje staat op tafel."
+  ],
+  "sources": [
+    "examples/liggen-staan-zitten/img1.jpeg",
+    "examples/liggen-staan-zitten/img2.jpeg",
+    "examples/liggen-staan-zitten/img3.jpeg",
+    "examples/liggen-staan-zitten/img4.jpeg",
+    "examples/liggen-staan-zitten/img5.jpeg"
+  ]
+}

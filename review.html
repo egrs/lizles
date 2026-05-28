@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>lizles — review</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="review-body">
+  <header class="topbar">
+    <a class="back" href="index.html">‹ Terug</a>
+    <h1>Review</h1>
+  </header>
+
+  <main class="container">
+    <p class="muted">Lokale reviewer — bekijk en keur items met label <code>review</code> goed (of bewerk / verwijder ze).</p>
+
+    <div class="review-controls">
+      <label>Onderwerp:
+        <select id="topic-select"></select>
+      </label>
+      <button id="download" class="btn">Download bijgewerkte exercises.json</button>
+    </div>
+
+    <ol id="review-list" class="review-list"></ol>
+  </main>
+
+  <script src="js/review.js"></script>
+</body>
+</html>

@@ -1,0 +1,1316 @@
+[
+  {
+    "id": "lk-c-001",
+    "type": "cloze",
+    "sentence": "Daar heb ik een leuke jongen ___.",
+    "answer": "ontmoet",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Voltooid deelwoord. Een eerste contact bij een gelegenheid (een feestje) → ontmoeten.",
+    "tags": [
+      "pp",
+      "ontmoeten"
+    ],
+    "source": "book:lk-img2-dialoog1",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-002",
+    "type": "cloze",
+    "sentence": "We ___ elkaar vanavond weer.",
+    "answer": "zien",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Tegenwoordige tijd (wij). Mensen die je al kent en weer ontmoet → zien.",
+    "tags": [
+      "present",
+      "zien"
+    ],
+    "source": "book:lk-img2-dialoog1",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-003",
+    "type": "cloze",
+    "sentence": "Waar hebben jullie ___?",
+    "answer": "afgesproken",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Voltooid deelwoord. Een plan maken om elkaar te zien → afspreken. Voltooid deelwoord: afgesproken (let op: scheidbaar werkwoord, 'ge' tussen 'af' en 'sproken').",
+    "tags": [
+      "pp",
+      "afspreken"
+    ],
+    "source": "book:lk-img2-dialoog1",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-004",
+    "type": "cloze",
+    "sentence": "Waar heb je je vrouw ___?",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Voltooid deelwoord. Iemand geleidelijk leren kennen → leren kennen. Speciale vorm in perfectum: 'leren kennen' (geen 'ge-' op kennen).",
+    "tags": [
+      "pp",
+      "leren-kennen"
+    ],
+    "source": "book:lk-img2-dialoog2",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-005",
+    "type": "cloze",
+    "sentence": "Daar hebben we elkaar ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Over tijd, op een cursus elkaar geleidelijk leren kennen → leren kennen (geen 'ge-' bij dit werkwoord in perfectum).",
+    "tags": [
+      "pp",
+      "leren-kennen"
+    ],
+    "source": "book:lk-img2-dialoog2",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-006",
+    "type": "cloze",
+    "sentence": "Ik kijk ernaar uit je vrouw te ___.",
+    "answer": "ontmoeten",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Infinitief na 'te'. Eerste keer iemand zien (bekend gemaakt worden) → ontmoeten.",
+    "tags": [
+      "infinitive",
+      "ontmoeten"
+    ],
+    "source": "book:lk-img2-dialoog2",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-007",
+    "type": "cloze",
+    "sentence": "Weet je wie ik ___ op het station?",
+    "answer": "tegenkwam",
+    "choices": [
+      "ontmoette",
+      "zag",
+      "tegenkwam",
+      "afsprak",
+      "leerde kennen"
+    ],
+    "explanation": "Verleden tijd in bijzin. Bij toeval iemand zien → tegenkomen. In bijzin gaat de prefix vooraan: 'tegenkwam'.",
+    "tags": [
+      "past",
+      "tegenkomen"
+    ],
+    "source": "book:lk-img2-dialoog3",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-008",
+    "type": "cloze",
+    "sentence": "We hebben ___ om binnenkort een keer samen koffie te drinken.",
+    "answer": "afgesproken",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Voltooid deelwoord. Een afspraak / plan maken → afspreken (pp: afgesproken).",
+    "tags": [
+      "pp",
+      "afspreken"
+    ],
+    "source": "book:lk-img2-dialoog3",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-009",
+    "type": "cloze",
+    "sentence": "Ja, gezellig. Waar zullen we ___?",
+    "answer": "afspreken",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Infinitief na modaal 'zullen'. Plan maken om elkaar te zien → afspreken.",
+    "tags": [
+      "infinitive",
+      "afspreken"
+    ],
+    "source": "book:lk-img1-reactie-a",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-010",
+    "type": "cloze",
+    "sentence": "Ja, maar ik moet ze nog wat beter ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Infinitief na modaal 'moeten'. Iemand geleidelijk beter leren kennen → leren kennen.",
+    "tags": [
+      "infinitive",
+      "leren-kennen"
+    ],
+    "source": "book:lk-img1-reactie-b",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-011",
+    "type": "cloze",
+    "sentence": "Dat vind ik ook. Ik kijk ernaar uit je weer te ___.",
+    "answer": "zien",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Infinitief na 'te'. Iemand die je al kent opnieuw zien → zien (let op het woord 'weer').",
+    "tags": [
+      "infinitive",
+      "zien"
+    ],
+    "source": "book:lk-img1-reactie-c",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-012",
+    "type": "cloze",
+    "sentence": "Ik heb haar vorig jaar op een netwerkborrel ___.",
+    "answer": "ontmoet",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Voltooid deelwoord. Eerste contact op een gelegenheid (netwerkborrel) → ontmoeten.",
+    "tags": [
+      "pp",
+      "ontmoeten"
+    ],
+    "source": "book:lk-img1-reactie-d",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-c-013",
+    "type": "cloze",
+    "sentence": "Ja, maar we komen elkaar vast nog weleens ergens ___!",
+    "answer": "tegen",
+    "choices": [
+      "aan",
+      "tegen",
+      "uit",
+      "over",
+      "weg"
+    ],
+    "explanation": "Scheidbaar werkwoord: 'tegenkomen'. In de tegenwoordige tijd in een hoofdzin gaat 'tegen' naar het einde van de zin.",
+    "tags": [
+      "separable",
+      "tegenkomen"
+    ],
+    "source": "book:lk-img1-reactie-e",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-x-001",
+    "type": "match",
+    "prompt": "Match de zin met de juiste reactie (uit de oefening van het boek).",
+    "pairs": [
+      {
+        "left": "Zijn je nieuwe collega's aardig?",
+        "right": "Ja, maar ik moet ze nog wat beter leren kennen."
+      },
+      {
+        "left": "Waar ken je Karin van?",
+        "right": "Ik heb haar vorig jaar op een netwerkborrel ontmoet."
+      },
+      {
+        "left": "Zullen we vanavond ergens in de stad eten?",
+        "right": "Ja, gezellig. Waar zullen we afspreken?"
+      },
+      {
+        "left": "Jammer dat je gaat verhuizen.",
+        "right": "Ja, maar we komen elkaar vast nog weleens ergens tegen!"
+      },
+      {
+        "left": "Wat leuk dat we eindelijk weer een afspraak hebben!",
+        "right": "Dat vind ik ook. Ik kijk ernaar uit je weer te zien."
+      }
+    ],
+    "explanation": "Elke reactie kiest het werkwoord dat het beste past bij het type ontmoeting: ontmoeten (eerste keer), zien (al kennen), tegenkomen (toevallig), afspreken (gepland), leren kennen (proces).",
+    "tags": [
+      "distinction"
+    ],
+    "source": "book:lk-img1-opdracht",
+    "confidence": "verified"
+  },
+  {
+    "id": "lk-tpl-Spp-001",
+    "type": "cloze",
+    "sentence": "Op een congres in Berlijn heb ik veel Duitse collega's ___.",
+    "answer": "ontmoet",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Eerste contact bij een gelegenheid (congres) → ontmoeten (perfectum: ontmoet).",
+    "tags": [
+      "semantic",
+      "ontmoeten",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-002",
+    "type": "cloze",
+    "sentence": "Op mijn eerste werkdag heb ik mijn nieuwe team ___.",
+    "answer": "ontmoet",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Eerste introductie bij een gelegenheid → ontmoeten.",
+    "tags": [
+      "semantic",
+      "ontmoeten",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-003",
+    "type": "cloze",
+    "sentence": "Ik heb hem voor het eerst tijdens een feestje van Sara ___.",
+    "answer": "ontmoet",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Eerste contact bij een specifieke gelegenheid → ontmoeten.",
+    "tags": [
+      "semantic",
+      "ontmoeten",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-004",
+    "type": "cloze",
+    "sentence": "Op die zomercursus hebben we onze beste vrienden ___.",
+    "answer": "ontmoet",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Eerste contact bij een evenement → ontmoeten.",
+    "tags": [
+      "semantic",
+      "ontmoeten",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-005",
+    "type": "cloze",
+    "sentence": "Ik heb mijn moeder afgelopen zondag nog ___.",
+    "answer": "gezien",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Iemand die je al kent (je moeder) opnieuw zien → zien (pp: gezien).",
+    "tags": [
+      "semantic",
+      "zien",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-006",
+    "type": "cloze",
+    "sentence": "Heb je Jasper de laatste tijd nog ___?",
+    "answer": "gezien",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Iemand die je al kent recent gezien hebben → zien.",
+    "tags": [
+      "semantic",
+      "zien",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-007",
+    "type": "cloze",
+    "sentence": "We hebben elkaar al weken niet meer ___.",
+    "answer": "gezien",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Mensen die elkaar al kennen, maar al een tijd niet meer in contact → zien.",
+    "tags": [
+      "semantic",
+      "zien",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-008",
+    "type": "cloze",
+    "sentence": "Mijn studievrienden heb ik sinds de pandemie niet meer ___.",
+    "answer": "gezien",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Mensen die je al kent, niet meer ontmoet hebben → zien.",
+    "tags": [
+      "semantic",
+      "zien",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-009",
+    "type": "cloze",
+    "sentence": "We hebben ___ om vrijdagavond naar de bioscoop te gaan.",
+    "answer": "afgesproken",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Een plan maken → afspreken (pp: afgesproken).",
+    "tags": [
+      "semantic",
+      "afspreken",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-010",
+    "type": "cloze",
+    "sentence": "Wat hebben jullie voor het weekend ___?",
+    "answer": "afgesproken",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Plan / afspraak gemaakt → afspreken (pp: afgesproken).",
+    "tags": [
+      "semantic",
+      "afspreken",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-011",
+    "type": "cloze",
+    "sentence": "Mijn ouders en ik hebben ___ om elkaar elke maand te bezoeken.",
+    "answer": "afgesproken",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Een afspraak maken voor regelmatig contact → afspreken.",
+    "tags": [
+      "semantic",
+      "afspreken",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-012",
+    "type": "cloze",
+    "sentence": "Tijdens onze studie hebben we elkaar pas echt ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Geleidelijk over tijd iemand beter leren kennen → leren kennen. Speciale vorm: 'leren kennen' (geen 'ge-').",
+    "tags": [
+      "semantic",
+      "leren-kennen",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-013",
+    "type": "cloze",
+    "sentence": "Op de cursus heb ik mijn collega's pas echt ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Het proces van iemand beter leren kennen → leren kennen.",
+    "tags": [
+      "semantic",
+      "leren-kennen",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Spp-014",
+    "type": "cloze",
+    "sentence": "Ik heb mijn vrouw op een dansavond ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "'Op een dansavond' impliceert een langer proces (niet alleen één moment) → leren kennen. (Met 'ontmoet' zou de nadruk meer op die ene avond liggen.)",
+    "tags": [
+      "semantic",
+      "leren-kennen",
+      "template"
+    ],
+    "source": "template:lk-scenarios-pp",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-001",
+    "type": "cloze",
+    "sentence": "Het is een eer u te ___.",
+    "answer": "ontmoeten",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Formele eerste kennismaking → ontmoeten (infinitief na 'te').",
+    "tags": [
+      "semantic",
+      "ontmoeten",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-002",
+    "type": "cloze",
+    "sentence": "Mijn vriend wil graag mijn moeder ___.",
+    "answer": "ontmoeten",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Eerste introductie aan iemand → ontmoeten (infinitief na modaal 'willen').",
+    "tags": [
+      "semantic",
+      "ontmoeten",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-003",
+    "type": "cloze",
+    "sentence": "Ik kijk ernaar uit om hen volgende week te ___.",
+    "answer": "ontmoeten",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Eerste contact verwachten → ontmoeten (infinitief na 'om … te').",
+    "tags": [
+      "semantic",
+      "ontmoeten",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-004",
+    "type": "cloze",
+    "sentence": "We willen elkaar volgende week weer ___.",
+    "answer": "zien",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "'Weer' wijst op een herhaling — mensen die je al kent → zien.",
+    "tags": [
+      "semantic",
+      "zien",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-005",
+    "type": "cloze",
+    "sentence": "Wanneer kunnen we elkaar weer ___?",
+    "answer": "zien",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "'Weer' = herhaling. Mensen die je al kent → zien.",
+    "tags": [
+      "semantic",
+      "zien",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-006",
+    "type": "cloze",
+    "sentence": "Ik hoop hem snel weer te ___.",
+    "answer": "zien",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "'Weer' = herhaling, mensen die je al kent → zien.",
+    "tags": [
+      "semantic",
+      "zien",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-007",
+    "type": "cloze",
+    "sentence": "Op zo'n klein eiland kun je iedereen overal ___.",
+    "answer": "tegenkomen",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Bij toeval ergens iemand zien → tegenkomen (infinitief).",
+    "tags": [
+      "semantic",
+      "tegenkomen",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-008",
+    "type": "cloze",
+    "sentence": "Het is vreemd om hem hier te ___.",
+    "answer": "tegenkomen",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Onverwacht iemand zien op een onverwachte plek → tegenkomen.",
+    "tags": [
+      "semantic",
+      "tegenkomen",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-009",
+    "type": "cloze",
+    "sentence": "Hoe vaak kun je iemand zomaar in de stad ___?",
+    "answer": "tegenkomen",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Toevallig iemand zien → tegenkomen.",
+    "tags": [
+      "semantic",
+      "tegenkomen",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-010",
+    "type": "cloze",
+    "sentence": "Zullen we voor volgende week iets ___?",
+    "answer": "afspreken",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Plan maken om elkaar te zien → afspreken.",
+    "tags": [
+      "semantic",
+      "afspreken",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-011",
+    "type": "cloze",
+    "sentence": "Het is moeilijk om met hem iets te ___.",
+    "answer": "afspreken",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Een afspraak maken → afspreken.",
+    "tags": [
+      "semantic",
+      "afspreken",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-012",
+    "type": "cloze",
+    "sentence": "Ze moeten nog een nieuwe datum ___.",
+    "answer": "afspreken",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Plan / datum vastleggen → afspreken.",
+    "tags": [
+      "semantic",
+      "afspreken",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-013",
+    "type": "cloze",
+    "sentence": "Het kost tijd om mensen echt te ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Geleidelijk over tijd → leren kennen.",
+    "tags": [
+      "semantic",
+      "leren-kennen",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-014",
+    "type": "cloze",
+    "sentence": "Wij willen onze nieuwe buren beter ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "'Beter' wijst op een proces — niet alleen één keer zien → leren kennen.",
+    "tags": [
+      "semantic",
+      "leren-kennen",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-tpl-Sinf-015",
+    "type": "cloze",
+    "sentence": "Het is leuk om nieuwe collega's te ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Met collega's: het gaat om het proces van langer samenwerken → leren kennen. (Bij een eenmalige introductie zou je 'ontmoeten' kiezen.)",
+    "tags": [
+      "semantic",
+      "leren-kennen",
+      "template"
+    ],
+    "source": "template:lk-scenarios-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lk-rev-001",
+    "type": "cloze",
+    "sentence": "— Heb je Lisa al ___? — Ja, op het feestje van Anna.",
+    "answer": "ontmoet",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "'Ontmoeten' = iemand voor het eerst leren kennen (vaak gepland of bij een gelegenheid).",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:lisa-ontmoet",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-002",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik mijn oude collega in de supermarkt ___.",
+    "answer": "tegengekomen",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "'Tegenkomen' = iemand bij toeval tegenkomen (niet gepland).",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:tegengekomen-supermarkt",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-003",
+    "type": "cloze",
+    "sentence": "Zullen we volgende week iets ___ om te gaan eten?",
+    "answer": "afspreken",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "'Afspreken' = een afspraak / plan maken om elkaar te zien.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:afspreken-eten",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-004",
+    "type": "cloze",
+    "sentence": "We hebben elkaar nu drie maanden, maar ik moet hem nog beter ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "'Leren kennen' = iemand geleidelijk (beter) leren kennen, over tijd.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:beter-leren-kennen",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-005",
+    "type": "cloze",
+    "sentence": "Ik kijk ernaar uit om je morgen weer te ___.",
+    "answer": "zien",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "'Zien' = iemand opnieuw zien (mensen die je al kent).",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:weer-zien",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-006",
+    "type": "cloze",
+    "sentence": "Op de cursus Nederlands heb ik veel nieuwe mensen ___.",
+    "answer": "ontmoet",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Bij een georganiseerde gelegenheid → ontmoeten.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:cursus-ontmoet",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-007",
+    "type": "cloze",
+    "sentence": "Gisteren kwam ik bij toeval een oude vriend ___ in de tram.",
+    "answer": "tegen",
+    "choices": [
+      "aan",
+      "uit",
+      "tegen",
+      "over",
+      "weg"
+    ],
+    "explanation": "Let op: 'tegenkomen' is een scheidbaar werkwoord. De prefix 'tegen' staat hier achteraan.",
+    "tags": [
+      "separable-verb",
+      "review"
+    ],
+    "source": "freeform:tegenkomen-separable",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-008",
+    "type": "cloze",
+    "sentence": "We hebben ___ om vanavond samen naar de bioscoop te gaan.",
+    "answer": "afgesproken",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "'Afspreken' (in perfectum: hebben + afgesproken).",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:bioscoop-afgesproken",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-009",
+    "type": "cloze",
+    "sentence": "Mijn man en ik hebben elkaar op een cursus Nederlands ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "'Leren kennen' in perfectum: 'hebben + leren kennen' (geen 'ge-' op kennen).",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:cursus-leren-kennen",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-010",
+    "type": "cloze",
+    "sentence": "Ik heb haar al een tijdje niet meer ___.",
+    "answer": "gezien",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "'Zien' in perfectum: 'hebben + gezien'. (Geen contact in langere tijd.)",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:niet-meer-gezien",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-011",
+    "type": "cloze",
+    "sentence": "Mijn baas ___ me elke ochtend bij de koffieautomaat.",
+    "answer": "ontmoet",
+    "choices": [
+      "ontmoet",
+      "ziet",
+      "komt tegen",
+      "spreekt af",
+      "leert kennen"
+    ],
+    "explanation": "Hier 'ontmoeten' in een routinematige context — 3e persoon enkelvoud.",
+    "tags": [
+      "present-tense",
+      "review"
+    ],
+    "source": "freeform:baas-ontmoet",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-012",
+    "type": "cloze",
+    "sentence": "Mijn moeder ___ haar oude buurvrouw bijna elke week toevallig in de winkel.",
+    "answer": "komt tegen",
+    "choices": [
+      "ontmoet",
+      "ziet",
+      "komt tegen",
+      "spreekt af",
+      "leert kennen"
+    ],
+    "explanation": "'Tegenkomen' = bij toeval ergens tegen iemand aanlopen.",
+    "tags": [
+      "present-tense",
+      "review"
+    ],
+    "source": "freeform:moeder-komt-tegen",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-013",
+    "type": "cloze",
+    "sentence": "Ik kende hem al van vroeger, maar ik wilde hem beter ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "'Iemand al kennen' vs. 'iemand (beter) leren kennen' = het proces van iemand (meer) leren kennen.",
+    "tags": [
+      "distinction",
+      "review"
+    ],
+    "source": "freeform:al-kennen-beter-leren-kennen",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-014",
+    "type": "cloze",
+    "sentence": "We ___ elkaar al jaren niet gezien. Wat een verrassing om jou hier te zien!",
+    "answer": "hebben",
+    "choices": [
+      "hebben",
+      "zijn",
+      "kunnen",
+      "moeten"
+    ],
+    "explanation": "Perfectum met 'zien' gebruikt 'hebben' als hulpwerkwoord. (Sommige bewegingswerkwoorden gebruiken 'zijn'.)",
+    "tags": [
+      "auxiliary",
+      "review"
+    ],
+    "source": "freeform:zien-hebben-auxiliary",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-015",
+    "type": "match",
+    "prompt": "Match de zin met de reactie waarin een passend werkwoord wordt gebruikt.",
+    "pairs": [
+      {
+        "left": "Heb je collega's al goed leren kennen?",
+        "right": "Een beetje, maar ik werk hier nog maar twee weken."
+      },
+      {
+        "left": "Waar hebben jullie elkaar ontmoet?",
+        "right": "Op een muziekfestival in 2018."
+      },
+      {
+        "left": "Zullen we morgen afspreken?",
+        "right": "Goed idee, hoe laat schikt het jou?"
+      },
+      {
+        "left": "Kom je hem vaak tegen?",
+        "right": "Ja, hij woont in mijn straat."
+      },
+      {
+        "left": "Wanneer zie je je zus weer?",
+        "right": "Volgend weekend, ze komt naar Amsterdam."
+      }
+    ],
+    "explanation": "Elk werkwoord past bij een specifiek soort ontmoeting: ontmoeten (vaak eerste keer), zien (vervolgmoment), tegenkomen (toevallig), afspreken (plannen), leren kennen (geleidelijk).",
+    "tags": [
+      "distinction",
+      "review"
+    ],
+    "source": "freeform:match-distinction",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-016",
+    "type": "cloze",
+    "sentence": "Hij wilde haar bij een lunch ___.",
+    "answer": "ontmoeten",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Gepland eerste contact → ontmoeten.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:lunch-ontmoeten",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-017",
+    "type": "cloze",
+    "sentence": "Het kostte tijd voor ze haar collega's echt konden ___.",
+    "answer": "leren kennen",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Proces van iemand beter leren kennen → leren kennen.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:collegas-leren-kennen",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-018",
+    "type": "cloze",
+    "sentence": "Het is een kleine stad, dus je kunt hem zomaar ___.",
+    "answer": "tegenkomen",
+    "choices": [
+      "ontmoeten",
+      "zien",
+      "tegenkomen",
+      "afspreken",
+      "leren kennen"
+    ],
+    "explanation": "Mogelijkheid op toevallig zien → tegenkomen.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:kleine-stad-tegenkomen",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-019",
+    "type": "cloze",
+    "sentence": "Ik wil je graag mijn ouders ___. Kom jij volgende week eten?",
+    "answer": "voorstellen aan",
+    "choices": [
+      "voorstellen aan",
+      "leren kennen",
+      "ontmoeten met",
+      "tegenkomen aan"
+    ],
+    "explanation": "Let op: 'jou voorstellen aan' is hier de natuurlijke uitdrukking. 'Leren kennen' kan ook maar minder vloeiend; 'ontmoeten met' bestaat niet in deze betekenis.",
+    "tags": [
+      "pitfall",
+      "review"
+    ],
+    "source": "freeform:voorstellen-aan-pitfall",
+    "confidence": "review"
+  },
+  {
+    "id": "lk-rev-020",
+    "type": "cloze",
+    "sentence": "Heb je in Amsterdam veel oude bekenden ___?",
+    "answer": "ontmoet",
+    "choices": [
+      "ontmoet",
+      "gezien",
+      "tegengekomen",
+      "afgesproken",
+      "leren kennen"
+    ],
+    "explanation": "Bij 'oude bekenden' is 'ontmoet' het normale werkwoord, ook al ken je ze al — het gaat om de gelegenheid.",
+    "tags": [
+      "subtle",
+      "review"
+    ],
+    "source": "freeform:oude-bekenden-ontmoet",
+    "confidence": "review"
+  }
+]

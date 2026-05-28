@@ -1,0 +1,4061 @@
+[
+  {
+    "id": "iel-c-001",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ meegenomen.",
+    "answer": "lekkers",
+    "choices": [
+      "lekker",
+      "lekkers"
+    ],
+    "explanation": "Na 'iets' krijgt het bijvoeglijk naamwoord een -s: 'lekkers'.",
+    "tags": [
+      "iets",
+      "regular-adj"
+    ],
+    "source": "book:iets-leuks-img1",
+    "confidence": "verified"
+  },
+  {
+    "id": "iel-c-002",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "leuks",
+    "choices": [
+      "leuk",
+      "leuks"
+    ],
+    "explanation": "Na 'wat' (in de betekenis 'iets') krijgt het bijvoeglijk naamwoord een -s: 'leuks'.",
+    "tags": [
+      "wat",
+      "regular-adj"
+    ],
+    "source": "book:iets-leuks-img1",
+    "confidence": "verified"
+  },
+  {
+    "id": "iel-c-003",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "nieuws",
+    "choices": [
+      "nieuw",
+      "nieuws"
+    ],
+    "explanation": "Na 'niets' krijgt het bijvoeglijk naamwoord een -s: 'nieuws'.",
+    "tags": [
+      "niets",
+      "regular-adj"
+    ],
+    "source": "book:iets-leuks-img1",
+    "confidence": "verified"
+  },
+  {
+    "id": "iel-c-004",
+    "type": "cloze",
+    "sentence": "Ik wil graag iets ___ drinken.",
+    "answer": "fris",
+    "choices": [
+      "fris",
+      "friss"
+    ],
+    "explanation": "Uitzondering: 'fris' eindigt al op een /s/-klank, dus geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj"
+    ],
+    "source": "book:iets-leuks-img1",
+    "confidence": "verified"
+  },
+  {
+    "id": "iel-c-005",
+    "type": "cloze",
+    "sentence": "Het was niets ___.",
+    "answer": "romantisch",
+    "choices": [
+      "romantisch",
+      "romantischs"
+    ],
+    "explanation": "Uitzondering: 'romantisch' eindigt op /isch/ → /s/-klank, dus geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj"
+    ],
+    "source": "book:iets-leuks-img1",
+    "confidence": "verified"
+  },
+  {
+    "id": "iel-rev-001",
+    "type": "cloze",
+    "sentence": "— Wat heb je gegeten? — Iets ___, een Italiaans gerecht.",
+    "answer": "lekkers",
+    "choices": [
+      "lekker",
+      "lekkers"
+    ],
+    "explanation": "Na 'iets' krijgt het bijvoeglijk naamwoord een -s.",
+    "tags": [
+      "dialogue",
+      "review"
+    ],
+    "source": "freeform:iets-lekkers-dialoog",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-002",
+    "type": "cloze",
+    "sentence": "— Heb je nieuws? — Nee, niets ___.",
+    "answer": "nieuws",
+    "choices": [
+      "nieuw",
+      "nieuws"
+    ],
+    "explanation": "Na 'niets' krijgt het bijvoeglijk naamwoord een -s.",
+    "tags": [
+      "dialogue",
+      "review"
+    ],
+    "source": "freeform:niets-nieuws",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-003",
+    "type": "cloze",
+    "sentence": "— Heb je een leuke film gezien? — Ja, iets ___ over de natuur.",
+    "answer": "moois",
+    "choices": [
+      "mooi",
+      "moois"
+    ],
+    "explanation": "Na 'iets' + bijvoeglijk naamwoord → -s.",
+    "tags": [
+      "dialogue",
+      "review"
+    ],
+    "source": "freeform:iets-moois-film",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-004",
+    "type": "cloze",
+    "sentence": "— Vond je het romantisch? — Nee, niets ___.",
+    "answer": "romantisch",
+    "choices": [
+      "romantisch",
+      "romantischs"
+    ],
+    "explanation": "'Romantisch' eindigt al op /s/-klank — geen extra -s.",
+    "tags": [
+      "s-ending",
+      "review"
+    ],
+    "source": "freeform:niets-romantisch",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-005",
+    "type": "cloze",
+    "sentence": "Ik heb zin in iets ___.",
+    "answer": "lekkers",
+    "choices": [
+      "lekker",
+      "lekkers"
+    ],
+    "explanation": "'Zin in iets lekkers' = vaste combinatie. -s na 'iets'.",
+    "tags": [
+      "idiom",
+      "review"
+    ],
+    "source": "freeform:zin-in-iets-lekkers",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-006",
+    "type": "cloze",
+    "sentence": "Op vakantie wil je toch iets ___ doen?",
+    "answer": "leuks",
+    "choices": [
+      "leuk",
+      "leuks"
+    ],
+    "explanation": "Na 'iets' + bijvoeglijk naamwoord → -s.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:vakantie-iets-leuks",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-007",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ verteld dat ik nog niet wist.",
+    "answer": "interessants",
+    "choices": [
+      "interessant",
+      "interessants"
+    ],
+    "explanation": "Na 'iets' + bijvoeglijk naamwoord → -s.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:iets-interessants-verteld",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-008",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ tegen kou? Ik vroor toen ik in Amsterdam was.",
+    "answer": "warms",
+    "choices": [
+      "warm",
+      "warms"
+    ],
+    "explanation": "'iets warms' = 'something warm' (bv. kleding). -s na 'iets'.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:iets-warms",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-009",
+    "type": "cloze",
+    "sentence": "Hij heeft me weinig ___ verteld over zijn reis.",
+    "answer": "spannends",
+    "choices": [
+      "spannend",
+      "spannends"
+    ],
+    "explanation": "Ook na 'weinig' krijgt het bijvoeglijk naamwoord een -s.",
+    "tags": [
+      "extension",
+      "review"
+    ],
+    "source": "freeform:weinig-spannends",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-010",
+    "type": "cloze",
+    "sentence": "Op zijn verjaardag was er veel ___ te eten.",
+    "answer": "lekkers",
+    "choices": [
+      "lekker",
+      "lekkers"
+    ],
+    "explanation": "Ook na 'veel' krijgt het bijvoeglijk naamwoord een -s.",
+    "tags": [
+      "extension",
+      "review"
+    ],
+    "source": "freeform:veel-lekkers",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-011",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ tegen hoofdpijn?",
+    "answer": "goeds",
+    "choices": [
+      "goed",
+      "goeds"
+    ],
+    "explanation": "Na 'iets' + bijvoeglijk naamwoord → -s. 'goed' → 'goeds'.",
+    "tags": [
+      "idiom",
+      "review"
+    ],
+    "source": "freeform:iets-goeds",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-012",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ uit te leggen.",
+    "answer": "vies",
+    "choices": [
+      "vies",
+      "viess"
+    ],
+    "explanation": "'Vies' eindigt al op /s/-klank — geen extra -s.",
+    "tags": [
+      "s-ending",
+      "review"
+    ],
+    "source": "freeform:iets-vies",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-013",
+    "type": "cloze",
+    "sentence": "Wat hij zegt, is niets ___ dan een grap.",
+    "answer": "anders",
+    "choices": [
+      "anders",
+      "anderss"
+    ],
+    "explanation": "'Anders' eindigt al op -s; geen extra -s nodig.",
+    "tags": [
+      "s-ending",
+      "review"
+    ],
+    "source": "freeform:niets-anders",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-014",
+    "type": "cloze",
+    "sentence": "Er is iets ___ aan zijn gedrag.",
+    "answer": "vreemds",
+    "choices": [
+      "vreemd",
+      "vreemds"
+    ],
+    "explanation": "Na 'iets' + bijvoeglijk naamwoord → -s. 'vreemd' → 'vreemds'.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:iets-vreemds",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-015",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gepland voor het weekend?",
+    "answer": "leuks",
+    "choices": [
+      "leuk",
+      "leuks"
+    ],
+    "explanation": "Na 'iets' + bijvoeglijk naamwoord → -s.",
+    "tags": [
+      "question",
+      "review"
+    ],
+    "source": "freeform:vraag-iets-leuks",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-016",
+    "type": "cloze",
+    "sentence": "Wil je nog iets ___ drinken?",
+    "answer": "fris",
+    "choices": [
+      "fris",
+      "friss"
+    ],
+    "explanation": "'Fris' eindigt al op /s/-klank — geen extra -s.",
+    "tags": [
+      "s-ending",
+      "review"
+    ],
+    "source": "freeform:iets-fris-drinken",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-017",
+    "type": "cloze",
+    "sentence": "Heb je niets ___ tegen de hitte?",
+    "answer": "koeler",
+    "choices": [
+      "koeler",
+      "koelers"
+    ],
+    "explanation": "Let op: comparatief 'koeler' krijgt geen -s. Het is een regelmatige uitzondering.",
+    "tags": [
+      "comparative",
+      "review"
+    ],
+    "source": "freeform:comparatief-geen-s",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-018",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ te lezen?",
+    "answer": "kleins",
+    "choices": [
+      "klein",
+      "kleins"
+    ],
+    "explanation": "Na 'iets' + bijvoeglijk naamwoord → -s. 'klein' → 'kleins'.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:iets-kleins-lezen",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-019",
+    "type": "cloze",
+    "sentence": "Hij wil niets ___ aan zijn computer veranderen.",
+    "answer": "groots",
+    "choices": [
+      "groot",
+      "groots"
+    ],
+    "explanation": "Na 'niets' + bijvoeglijk naamwoord → -s. 'groot' → 'groots'.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:niets-groots",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-020",
+    "type": "cloze",
+    "sentence": "Er is helemaal niets ___ aan deze kamer.",
+    "answer": "bijzonders",
+    "choices": [
+      "bijzonder",
+      "bijzonders"
+    ],
+    "explanation": "Na 'niets' + bijvoeglijk naamwoord → -s. 'bijzonder' → 'bijzonders'.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:niets-bijzonders",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-021",
+    "type": "cloze",
+    "sentence": "Mijn moeder maakt altijd iets ___ klaar als ik op bezoek kom.",
+    "answer": "lekkers",
+    "choices": [
+      "lekker",
+      "lekkers"
+    ],
+    "explanation": "Na 'iets' + bijvoeglijk naamwoord → -s.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:iets-lekkers-moeder",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-rev-022",
+    "type": "cloze",
+    "sentence": "Vind je het feest leuk? — Ja, er is iets ___ over.",
+    "answer": "speciaals",
+    "choices": [
+      "speciaal",
+      "speciaals"
+    ],
+    "explanation": "Na 'iets' + bijvoeglijk naamwoord → -s. 'speciaal' → 'speciaals'.",
+    "tags": [
+      "context",
+      "review"
+    ],
+    "source": "freeform:iets-speciaals",
+    "confidence": "review"
+  },
+  {
+    "id": "iel-tpl-R-001",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "duurs",
+    "choices": [
+      "duurs",
+      "duur"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'duurs'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-002",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "geks",
+    "choices": [
+      "geks",
+      "gek"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'geks'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-003",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "lekkers",
+    "choices": [
+      "lekkers",
+      "lekker"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'lekkers'.",
+    "tags": [
+      "wat",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-004",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "duurs",
+    "choices": [
+      "duurs",
+      "duur"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'duurs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-005",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "klassieks",
+    "choices": [
+      "klassieks",
+      "klassiek"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'klassieks'.",
+    "tags": [
+      "wat",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-006",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "gezonds",
+    "choices": [
+      "gezonds",
+      "gezond"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'gezonds'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-007",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "snels",
+    "choices": [
+      "snels",
+      "snel"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'snels'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-008",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "prachtigs",
+    "choices": [
+      "prachtigs",
+      "prachtig"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'prachtigs'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-009",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "bijzonders",
+    "choices": [
+      "bijzonders",
+      "bijzonder"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'bijzonders'.",
+    "tags": [
+      "weinig",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-010",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "warms",
+    "choices": [
+      "warms",
+      "warm"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'warms'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-011",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "hards",
+    "choices": [
+      "hards",
+      "hard"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'hards'.",
+    "tags": [
+      "wat",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-012",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "liefs",
+    "choices": [
+      "liefs",
+      "lief"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'liefs'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-013",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "geks",
+    "choices": [
+      "geks",
+      "gek"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'geks'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-014",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "snels",
+    "choices": [
+      "snels",
+      "snel"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'snels'.",
+    "tags": [
+      "weinig",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-015",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "spannends",
+    "choices": [
+      "spannends",
+      "spannend"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'spannends'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-016",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "moois",
+    "choices": [
+      "moois",
+      "mooi"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'moois'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-017",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "raars",
+    "choices": [
+      "raars",
+      "raar"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'raars'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-018",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "geks",
+    "choices": [
+      "geks",
+      "gek"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'geks'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-019",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "prachtigs",
+    "choices": [
+      "prachtigs",
+      "prachtig"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'prachtigs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-020",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "belangrijks",
+    "choices": [
+      "belangrijks",
+      "belangrijk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'belangrijks'.",
+    "tags": [
+      "wat",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-021",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "goedkoops",
+    "choices": [
+      "goedkoops",
+      "goedkoop"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'goedkoops'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-022",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "snels",
+    "choices": [
+      "snels",
+      "snel"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'snels'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-023",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "interessants",
+    "choices": [
+      "interessants",
+      "interessant"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'interessants'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-024",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "raars",
+    "choices": [
+      "raars",
+      "raar"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'raars'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-025",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "leuks",
+    "choices": [
+      "leuks",
+      "leuk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'leuks'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-026",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "nieuws",
+    "choices": [
+      "nieuws",
+      "nieuw"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'nieuws'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-027",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "interessants",
+    "choices": [
+      "interessants",
+      "interessant"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'interessants'.",
+    "tags": [
+      "weinig",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-028",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "zachts",
+    "choices": [
+      "zachts",
+      "zacht"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'zachts'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-029",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "moois",
+    "choices": [
+      "moois",
+      "mooi"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'moois'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-030",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "hards",
+    "choices": [
+      "hards",
+      "hard"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'hards'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-031",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "sterks",
+    "choices": [
+      "sterks",
+      "sterk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'sterks'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-032",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "belangrijks",
+    "choices": [
+      "belangrijks",
+      "belangrijk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'belangrijks'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-033",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "goedkoops",
+    "choices": [
+      "goedkoops",
+      "goedkoop"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'goedkoops'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-034",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "engs",
+    "choices": [
+      "engs",
+      "eng"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'engs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-035",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "kleins",
+    "choices": [
+      "kleins",
+      "klein"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'kleins'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-036",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "simpels",
+    "choices": [
+      "simpels",
+      "simpel"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'simpels'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-037",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "schattigs",
+    "choices": [
+      "schattigs",
+      "schattig"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'schattigs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-038",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "moeilijks",
+    "choices": [
+      "moeilijks",
+      "moeilijk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'moeilijks'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-039",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "makkelijks",
+    "choices": [
+      "makkelijks",
+      "makkelijk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'makkelijks'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-040",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "prachtigs",
+    "choices": [
+      "prachtigs",
+      "prachtig"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'prachtigs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-041",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "duurs",
+    "choices": [
+      "duurs",
+      "duur"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'duurs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-042",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "groots",
+    "choices": [
+      "groots",
+      "groot"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'groots'.",
+    "tags": [
+      "weinig",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-043",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "moeilijks",
+    "choices": [
+      "moeilijks",
+      "moeilijk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'moeilijks'.",
+    "tags": [
+      "wat",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-044",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "nieuws",
+    "choices": [
+      "nieuws",
+      "nieuw"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'nieuws'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-045",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "groots",
+    "choices": [
+      "groots",
+      "groot"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'groots'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-046",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "leuks",
+    "choices": [
+      "leuks",
+      "leuk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'leuks'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-047",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "kouds",
+    "choices": [
+      "kouds",
+      "koud"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'kouds'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-048",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "bijzonders",
+    "choices": [
+      "bijzonders",
+      "bijzonder"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'bijzonders'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-049",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "lekkers",
+    "choices": [
+      "lekkers",
+      "lekker"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'lekkers'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-050",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "spannends",
+    "choices": [
+      "spannends",
+      "spannend"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'spannends'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-051",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "lekkers",
+    "choices": [
+      "lekkers",
+      "lekker"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'lekkers'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-052",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "simpels",
+    "choices": [
+      "simpels",
+      "simpel"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'simpels'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-053",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "goedkoops",
+    "choices": [
+      "goedkoops",
+      "goedkoop"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'goedkoops'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-054",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "raars",
+    "choices": [
+      "raars",
+      "raar"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'raars'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-055",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "engs",
+    "choices": [
+      "engs",
+      "eng"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'engs'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-056",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "gezonds",
+    "choices": [
+      "gezonds",
+      "gezond"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'gezonds'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-057",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "goedkoops",
+    "choices": [
+      "goedkoops",
+      "goedkoop"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'goedkoops'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-058",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "kleins",
+    "choices": [
+      "kleins",
+      "klein"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'kleins'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-059",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "liefs",
+    "choices": [
+      "liefs",
+      "lief"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'liefs'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-060",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "duurs",
+    "choices": [
+      "duurs",
+      "duur"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'duurs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-061",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "leuks",
+    "choices": [
+      "leuks",
+      "leuk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'leuks'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-062",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "moois",
+    "choices": [
+      "moois",
+      "mooi"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'moois'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-063",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "spannends",
+    "choices": [
+      "spannends",
+      "spannend"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'spannends'.",
+    "tags": [
+      "weinig",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-064",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "makkelijks",
+    "choices": [
+      "makkelijks",
+      "makkelijk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'makkelijks'.",
+    "tags": [
+      "weinig",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-065",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "vreemds",
+    "choices": [
+      "vreemds",
+      "vreemd"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'vreemds'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-066",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "snels",
+    "choices": [
+      "snels",
+      "snel"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'snels'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-067",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "snels",
+    "choices": [
+      "snels",
+      "snel"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'snels'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-068",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "geks",
+    "choices": [
+      "geks",
+      "gek"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'geks'.",
+    "tags": [
+      "wat",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-069",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "lekkers",
+    "choices": [
+      "lekkers",
+      "lekker"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'lekkers'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-070",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "hards",
+    "choices": [
+      "hards",
+      "hard"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'hards'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-071",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "bijzonders",
+    "choices": [
+      "bijzonders",
+      "bijzonder"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'bijzonders'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-072",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "prachtigs",
+    "choices": [
+      "prachtigs",
+      "prachtig"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'prachtigs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-073",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "geks",
+    "choices": [
+      "geks",
+      "gek"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'geks'.",
+    "tags": [
+      "weinig",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-074",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "zachts",
+    "choices": [
+      "zachts",
+      "zacht"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'zachts'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-075",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "nieuws",
+    "choices": [
+      "nieuws",
+      "nieuw"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'nieuws'.",
+    "tags": [
+      "weinig",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-076",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "hards",
+    "choices": [
+      "hards",
+      "hard"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'hards'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-077",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "belangrijks",
+    "choices": [
+      "belangrijks",
+      "belangrijk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'belangrijks'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-078",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "spannends",
+    "choices": [
+      "spannends",
+      "spannend"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'spannends'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-079",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "warms",
+    "choices": [
+      "warms",
+      "warm"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'warms'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-080",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "schattigs",
+    "choices": [
+      "schattigs",
+      "schattig"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'schattigs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-081",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "schattigs",
+    "choices": [
+      "schattigs",
+      "schattig"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'schattigs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-082",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "kouds",
+    "choices": [
+      "kouds",
+      "koud"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'kouds'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-083",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "interessants",
+    "choices": [
+      "interessants",
+      "interessant"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'interessants'.",
+    "tags": [
+      "wat",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-084",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "interessants",
+    "choices": [
+      "interessants",
+      "interessant"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'interessants'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-085",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "leuks",
+    "choices": [
+      "leuks",
+      "leuk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'leuks'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-086",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "ouds",
+    "choices": [
+      "ouds",
+      "oud"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'ouds'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-087",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "liefs",
+    "choices": [
+      "liefs",
+      "lief"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'liefs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-088",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "liefs",
+    "choices": [
+      "liefs",
+      "lief"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'liefs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-089",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "liefs",
+    "choices": [
+      "liefs",
+      "lief"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'liefs'.",
+    "tags": [
+      "weinig",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-090",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "gezonds",
+    "choices": [
+      "gezonds",
+      "gezond"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'gezonds'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-091",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "groots",
+    "choices": [
+      "groots",
+      "groot"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'groots'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-092",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "moeilijks",
+    "choices": [
+      "moeilijks",
+      "moeilijk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'moeilijks'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-093",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "hards",
+    "choices": [
+      "hards",
+      "hard"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'hards'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-094",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "schattigs",
+    "choices": [
+      "schattigs",
+      "schattig"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'schattigs'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-095",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "nieuws",
+    "choices": [
+      "nieuws",
+      "nieuw"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'nieuws'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-096",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "kouds",
+    "choices": [
+      "kouds",
+      "koud"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'kouds'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-097",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "belangrijks",
+    "choices": [
+      "belangrijks",
+      "belangrijk"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'belangrijks'.",
+    "tags": [
+      "niets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-098",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "gezonds",
+    "choices": [
+      "gezonds",
+      "gezond"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'gezonds'.",
+    "tags": [
+      "veel",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-099",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "vreemds",
+    "choices": [
+      "vreemds",
+      "vreemd"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'vreemds'.",
+    "tags": [
+      "iets",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-R-100",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "raars",
+    "choices": [
+      "raars",
+      "raar"
+    ],
+    "explanation": "Na 'iets/wat/niets/weinig' krijgt het bijvoeglijk naamwoord een -s: 'raars'.",
+    "tags": [
+      "wat",
+      "regular-adj",
+      "template"
+    ],
+    "source": "template:iel-regular-adj-plus-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-001",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "los",
+    "choices": [
+      "los",
+      "loss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'los' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-002",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "automatisch",
+    "choices": [
+      "automatisch",
+      "automatischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'automatisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-003",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "typisch",
+    "choices": [
+      "typisch",
+      "typischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'typisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-004",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "romantisch",
+    "choices": [
+      "romantisch",
+      "romantischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'romantisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-005",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "vies",
+    "choices": [
+      "vies",
+      "viess"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vies' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-006",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "praktisch",
+    "choices": [
+      "praktisch",
+      "praktischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'praktisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "veel",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-007",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "sympathisch",
+    "choices": [
+      "sympathisch",
+      "sympathischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'sympathisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "wat",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-008",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "los",
+    "choices": [
+      "los",
+      "loss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'los' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-009",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "fris",
+    "choices": [
+      "fris",
+      "friss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fris' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-010",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "typisch",
+    "choices": [
+      "typisch",
+      "typischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'typisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-011",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "vals",
+    "choices": [
+      "vals",
+      "valss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vals' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-012",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "anders",
+    "choices": [
+      "anders",
+      "anderss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'anders' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-013",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "sympathisch",
+    "choices": [
+      "sympathisch",
+      "sympathischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'sympathisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-014",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "fris",
+    "choices": [
+      "fris",
+      "friss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fris' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-015",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "vals",
+    "choices": [
+      "vals",
+      "valss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vals' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-016",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "los",
+    "choices": [
+      "los",
+      "loss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'los' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-017",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "romantisch",
+    "choices": [
+      "romantisch",
+      "romantischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'romantisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-018",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "typisch",
+    "choices": [
+      "typisch",
+      "typischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'typisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-019",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "exotisch",
+    "choices": [
+      "exotisch",
+      "exotischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'exotisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-020",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "romantisch",
+    "choices": [
+      "romantisch",
+      "romantischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'romantisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-021",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "typisch",
+    "choices": [
+      "typisch",
+      "typischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'typisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "weinig",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-022",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "dwaas",
+    "choices": [
+      "dwaas",
+      "dwaass"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'dwaas' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-023",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "sympathisch",
+    "choices": [
+      "sympathisch",
+      "sympathischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'sympathisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-024",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "dwaas",
+    "choices": [
+      "dwaas",
+      "dwaass"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'dwaas' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "veel",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-025",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "fris",
+    "choices": [
+      "fris",
+      "friss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fris' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-026",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "exotisch",
+    "choices": [
+      "exotisch",
+      "exotischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'exotisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-027",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "fantastisch",
+    "choices": [
+      "fantastisch",
+      "fantastischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fantastisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "veel",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-028",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "anders",
+    "choices": [
+      "anders",
+      "anderss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'anders' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "veel",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-029",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "sympathisch",
+    "choices": [
+      "sympathisch",
+      "sympathischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'sympathisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-030",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "anders",
+    "choices": [
+      "anders",
+      "anderss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'anders' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "wat",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-031",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "vies",
+    "choices": [
+      "vies",
+      "viess"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vies' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-032",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "typisch",
+    "choices": [
+      "typisch",
+      "typischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'typisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-033",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "fris",
+    "choices": [
+      "fris",
+      "friss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fris' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-034",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "dwaas",
+    "choices": [
+      "dwaas",
+      "dwaass"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'dwaas' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-035",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "praktisch",
+    "choices": [
+      "praktisch",
+      "praktischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'praktisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-036",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "fantastisch",
+    "choices": [
+      "fantastisch",
+      "fantastischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fantastisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-037",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "praktisch",
+    "choices": [
+      "praktisch",
+      "praktischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'praktisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-038",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "praktisch",
+    "choices": [
+      "praktisch",
+      "praktischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'praktisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-039",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "exotisch",
+    "choices": [
+      "exotisch",
+      "exotischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'exotisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-040",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "typisch",
+    "choices": [
+      "typisch",
+      "typischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'typisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-041",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "sympathisch",
+    "choices": [
+      "sympathisch",
+      "sympathischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'sympathisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-042",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "fris",
+    "choices": [
+      "fris",
+      "friss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fris' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-043",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "exotisch",
+    "choices": [
+      "exotisch",
+      "exotischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'exotisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-044",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "romantisch",
+    "choices": [
+      "romantisch",
+      "romantischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'romantisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-045",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "vies",
+    "choices": [
+      "vies",
+      "viess"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vies' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-046",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "automatisch",
+    "choices": [
+      "automatisch",
+      "automatischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'automatisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-047",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "vies",
+    "choices": [
+      "vies",
+      "viess"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vies' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-048",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "anders",
+    "choices": [
+      "anders",
+      "anderss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'anders' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-049",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "vals",
+    "choices": [
+      "vals",
+      "valss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vals' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-050",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "vies",
+    "choices": [
+      "vies",
+      "viess"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vies' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "weinig",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-051",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "fris",
+    "choices": [
+      "fris",
+      "friss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fris' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "weinig",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-052",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "anders",
+    "choices": [
+      "anders",
+      "anderss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'anders' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-053",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "praktisch",
+    "choices": [
+      "praktisch",
+      "praktischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'praktisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-054",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "automatisch",
+    "choices": [
+      "automatisch",
+      "automatischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'automatisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-055",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "anders",
+    "choices": [
+      "anders",
+      "anderss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'anders' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-056",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "vies",
+    "choices": [
+      "vies",
+      "viess"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vies' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-057",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "fantastisch",
+    "choices": [
+      "fantastisch",
+      "fantastischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fantastisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "wat",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-058",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "fris",
+    "choices": [
+      "fris",
+      "friss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fris' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "veel",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-059",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "exotisch",
+    "choices": [
+      "exotisch",
+      "exotischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'exotisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "wat",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-060",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "automatisch",
+    "choices": [
+      "automatisch",
+      "automatischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'automatisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-061",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "typisch",
+    "choices": [
+      "typisch",
+      "typischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'typisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-062",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "los",
+    "choices": [
+      "los",
+      "loss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'los' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-063",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "fantastisch",
+    "choices": [
+      "fantastisch",
+      "fantastischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fantastisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-064",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "exotisch",
+    "choices": [
+      "exotisch",
+      "exotischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'exotisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-065",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "dwaas",
+    "choices": [
+      "dwaas",
+      "dwaass"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'dwaas' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-066",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "vals",
+    "choices": [
+      "vals",
+      "valss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vals' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-067",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "fantastisch",
+    "choices": [
+      "fantastisch",
+      "fantastischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fantastisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-068",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "fantastisch",
+    "choices": [
+      "fantastisch",
+      "fantastischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fantastisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-069",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "fantastisch",
+    "choices": [
+      "fantastisch",
+      "fantastischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fantastisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "weinig",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-070",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "los",
+    "choices": [
+      "los",
+      "loss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'los' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "wat",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-071",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "dwaas",
+    "choices": [
+      "dwaas",
+      "dwaass"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'dwaas' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "wat",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-072",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "romantisch",
+    "choices": [
+      "romantisch",
+      "romantischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'romantisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-073",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "los",
+    "choices": [
+      "los",
+      "loss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'los' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "veel",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-074",
+    "type": "cloze",
+    "sentence": "Ze willen iets ___ bouwen.",
+    "answer": "los",
+    "choices": [
+      "los",
+      "loss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'los' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-075",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "fris",
+    "choices": [
+      "fris",
+      "friss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fris' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-076",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "vies",
+    "choices": [
+      "vies",
+      "viess"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vies' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "veel",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-077",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "fantastisch",
+    "choices": [
+      "fantastisch",
+      "fantastischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fantastisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-078",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "vals",
+    "choices": [
+      "vals",
+      "valss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vals' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "wat",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-079",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "los",
+    "choices": [
+      "los",
+      "loss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'los' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "weinig",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-080",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "romantisch",
+    "choices": [
+      "romantisch",
+      "romantischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'romantisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "veel",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-081",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "automatisch",
+    "choices": [
+      "automatisch",
+      "automatischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'automatisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-082",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "sympathisch",
+    "choices": [
+      "sympathisch",
+      "sympathischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'sympathisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "veel",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-083",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "praktisch",
+    "choices": [
+      "praktisch",
+      "praktischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'praktisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-084",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "fris",
+    "choices": [
+      "fris",
+      "friss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fris' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-085",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "dwaas",
+    "choices": [
+      "dwaas",
+      "dwaass"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'dwaas' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "weinig",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-086",
+    "type": "cloze",
+    "sentence": "Er is hier helemaal niets ___.",
+    "answer": "anders",
+    "choices": [
+      "anders",
+      "anderss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'anders' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-087",
+    "type": "cloze",
+    "sentence": "Ze heeft mij iets ___ gegeven.",
+    "answer": "dwaas",
+    "choices": [
+      "dwaas",
+      "dwaass"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'dwaas' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-088",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "exotisch",
+    "choices": [
+      "exotisch",
+      "exotischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'exotisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "weinig",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-089",
+    "type": "cloze",
+    "sentence": "Heb je iets ___ gezien?",
+    "answer": "fantastisch",
+    "choices": [
+      "fantastisch",
+      "fantastischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'fantastisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-090",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "praktisch",
+    "choices": [
+      "praktisch",
+      "praktischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'praktisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "wat",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-091",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "vals",
+    "choices": [
+      "vals",
+      "valss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'vals' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-092",
+    "type": "cloze",
+    "sentence": "Hij heeft niets ___ verteld.",
+    "answer": "los",
+    "choices": [
+      "los",
+      "loss"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'los' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "niets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-093",
+    "type": "cloze",
+    "sentence": "Vandaag heb ik weinig ___ gedaan.",
+    "answer": "automatisch",
+    "choices": [
+      "automatisch",
+      "automatischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'automatisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "weinig",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-094",
+    "type": "cloze",
+    "sentence": "We zoeken iets ___ voor zaterdagavond.",
+    "answer": "automatisch",
+    "choices": [
+      "automatisch",
+      "automatischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'automatisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-095",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "typisch",
+    "choices": [
+      "typisch",
+      "typischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'typisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "wat",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-096",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "automatisch",
+    "choices": [
+      "automatisch",
+      "automatischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'automatisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "wat",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-097",
+    "type": "cloze",
+    "sentence": "Heb je wat ___ gedaan dit weekend?",
+    "answer": "romantisch",
+    "choices": [
+      "romantisch",
+      "romantischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'romantisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "wat",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-098",
+    "type": "cloze",
+    "sentence": "Op het festival was veel ___ te zien.",
+    "answer": "typisch",
+    "choices": [
+      "typisch",
+      "typischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'typisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "veel",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-099",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "sympathisch",
+    "choices": [
+      "sympathisch",
+      "sympathischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'sympathisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  },
+  {
+    "id": "iel-tpl-S-100",
+    "type": "cloze",
+    "sentence": "Ik heb iets ___ gekocht.",
+    "answer": "romantisch",
+    "choices": [
+      "romantisch",
+      "romantischs"
+    ],
+    "explanation": "Het bijvoeglijk naamwoord 'romantisch' eindigt al op een /s/-klank — geen extra -s.",
+    "tags": [
+      "iets",
+      "s-ending-adj",
+      "template"
+    ],
+    "source": "template:iel-s-ending-no-extra-s",
+    "confidence": "template"
+  }
+]

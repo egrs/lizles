@@ -1,0 +1,183 @@
+{
+  "_comment": "Hand-crafted scenarios. Each one fixes one answer based on context: the *kind* of meeting determines which verb fits. Lower volume than slot-grammar topics — quality over quantity.",
+
+  "scenarios_pp": [
+    {
+      "sentence": "Op een congres in Berlijn heb ik veel Duitse collega's ___.",
+      "answer": "ontmoet",
+      "explanation": "Eerste contact bij een gelegenheid (congres) → ontmoeten (perfectum: ontmoet).",
+      "tag": "ontmoeten"
+    },
+    {
+      "sentence": "Op mijn eerste werkdag heb ik mijn nieuwe team ___.",
+      "answer": "ontmoet",
+      "explanation": "Eerste introductie bij een gelegenheid → ontmoeten.",
+      "tag": "ontmoeten"
+    },
+    {
+      "sentence": "Ik heb hem voor het eerst tijdens een feestje van Sara ___.",
+      "answer": "ontmoet",
+      "explanation": "Eerste contact bij een specifieke gelegenheid → ontmoeten.",
+      "tag": "ontmoeten"
+    },
+    {
+      "sentence": "Op die zomercursus hebben we onze beste vrienden ___.",
+      "answer": "ontmoet",
+      "explanation": "Eerste contact bij een evenement → ontmoeten.",
+      "tag": "ontmoeten"
+    },
+    {
+      "sentence": "Ik heb mijn moeder afgelopen zondag nog ___.",
+      "answer": "gezien",
+      "explanation": "Iemand die je al kent (je moeder) opnieuw zien → zien (pp: gezien).",
+      "tag": "zien"
+    },
+    {
+      "sentence": "Heb je Jasper de laatste tijd nog ___?",
+      "answer": "gezien",
+      "explanation": "Iemand die je al kent recent gezien hebben → zien.",
+      "tag": "zien"
+    },
+    {
+      "sentence": "We hebben elkaar al weken niet meer ___.",
+      "answer": "gezien",
+      "explanation": "Mensen die elkaar al kennen, maar al een tijd niet meer in contact → zien.",
+      "tag": "zien"
+    },
+    {
+      "sentence": "Mijn studievrienden heb ik sinds de pandemie niet meer ___.",
+      "answer": "gezien",
+      "explanation": "Mensen die je al kent, niet meer ontmoet hebben → zien.",
+      "tag": "zien"
+    },
+    {
+      "sentence": "We hebben ___ om vrijdagavond naar de bioscoop te gaan.",
+      "answer": "afgesproken",
+      "explanation": "Een plan maken → afspreken (pp: afgesproken).",
+      "tag": "afspreken"
+    },
+    {
+      "sentence": "Wat hebben jullie voor het weekend ___?",
+      "answer": "afgesproken",
+      "explanation": "Plan / afspraak gemaakt → afspreken (pp: afgesproken).",
+      "tag": "afspreken"
+    },
+    {
+      "sentence": "Mijn ouders en ik hebben ___ om elkaar elke maand te bezoeken.",
+      "answer": "afgesproken",
+      "explanation": "Een afspraak maken voor regelmatig contact → afspreken.",
+      "tag": "afspreken"
+    },
+    {
+      "sentence": "Tijdens onze studie hebben we elkaar pas echt ___.",
+      "answer": "leren kennen",
+      "explanation": "Geleidelijk over tijd iemand beter leren kennen → leren kennen. Speciale vorm: 'leren kennen' (geen 'ge-').",
+      "tag": "leren-kennen"
+    },
+    {
+      "sentence": "Op de cursus heb ik mijn collega's pas echt ___.",
+      "answer": "leren kennen",
+      "explanation": "Het proces van iemand beter leren kennen → leren kennen.",
+      "tag": "leren-kennen"
+    },
+    {
+      "sentence": "Ik heb mijn vrouw op een dansavond ___.",
+      "answer": "leren kennen",
+      "explanation": "'Op een dansavond' impliceert een langer proces (niet alleen één moment) → leren kennen. (Met 'ontmoet' zou de nadruk meer op die ene avond liggen.)",
+      "tag": "leren-kennen"
+    }
+  ],
+
+  "scenarios_inf": [
+    {
+      "sentence": "Het is een eer u te ___.",
+      "answer": "ontmoeten",
+      "explanation": "Formele eerste kennismaking → ontmoeten (infinitief na 'te').",
+      "tag": "ontmoeten"
+    },
+    {
+      "sentence": "Mijn vriend wil graag mijn moeder ___.",
+      "answer": "ontmoeten",
+      "explanation": "Eerste introductie aan iemand → ontmoeten (infinitief na modaal 'willen').",
+      "tag": "ontmoeten"
+    },
+    {
+      "sentence": "Ik kijk ernaar uit om hen volgende week te ___.",
+      "answer": "ontmoeten",
+      "explanation": "Eerste contact verwachten → ontmoeten (infinitief na 'om … te').",
+      "tag": "ontmoeten"
+    },
+    {
+      "sentence": "We willen elkaar volgende week weer ___.",
+      "answer": "zien",
+      "explanation": "'Weer' wijst op een herhaling — mensen die je al kent → zien.",
+      "tag": "zien"
+    },
+    {
+      "sentence": "Wanneer kunnen we elkaar weer ___?",
+      "answer": "zien",
+      "explanation": "'Weer' = herhaling. Mensen die je al kent → zien.",
+      "tag": "zien"
+    },
+    {
+      "sentence": "Ik hoop hem snel weer te ___.",
+      "answer": "zien",
+      "explanation": "'Weer' = herhaling, mensen die je al kent → zien.",
+      "tag": "zien"
+    },
+    {
+      "sentence": "Op zo'n klein eiland kun je iedereen overal ___.",
+      "answer": "tegenkomen",
+      "explanation": "Bij toeval ergens iemand zien → tegenkomen (infinitief).",
+      "tag": "tegenkomen"
+    },
+    {
+      "sentence": "Het is vreemd om hem hier te ___.",
+      "answer": "tegenkomen",
+      "explanation": "Onverwacht iemand zien op een onverwachte plek → tegenkomen.",
+      "tag": "tegenkomen"
+    },
+    {
+      "sentence": "Hoe vaak kun je iemand zomaar in de stad ___?",
+      "answer": "tegenkomen",
+      "explanation": "Toevallig iemand zien → tegenkomen.",
+      "tag": "tegenkomen"
+    },
+    {
+      "sentence": "Zullen we voor volgende week iets ___?",
+      "answer": "afspreken",
+      "explanation": "Plan maken om elkaar te zien → afspreken.",
+      "tag": "afspreken"
+    },
+    {
+      "sentence": "Het is moeilijk om met hem iets te ___.",
+      "answer": "afspreken",
+      "explanation": "Een afspraak maken → afspreken.",
+      "tag": "afspreken"
+    },
+    {
+      "sentence": "Ze moeten nog een nieuwe datum ___.",
+      "answer": "afspreken",
+      "explanation": "Plan / datum vastleggen → afspreken.",
+      "tag": "afspreken"
+    },
+    {
+      "sentence": "Het kost tijd om mensen echt te ___.",
+      "answer": "leren kennen",
+      "explanation": "Geleidelijk over tijd → leren kennen.",
+      "tag": "leren-kennen"
+    },
+    {
+      "sentence": "Wij willen onze nieuwe buren beter ___.",
+      "answer": "leren kennen",
+      "explanation": "'Beter' wijst op een proces — niet alleen één keer zien → leren kennen.",
+      "tag": "leren-kennen"
+    },
+    {
+      "sentence": "Het is leuk om nieuwe collega's te ___.",
+      "answer": "leren kennen",
+      "explanation": "Met collega's: het gaat om het proces van langer samenwerken → leren kennen. (Bij een eenmalige introductie zou je 'ontmoeten' kiezen.)",
+      "tag": "leren-kennen"
+    }
+  ]
+}

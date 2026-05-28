@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "liggen-staan-zitten",
+    "title": "Liggen, staan, zitten (en hangen)",
+    "description": "Positieverbs en vaste uitdrukkingen: waar iets is + idiomatische combinaties.",
+    "counts": {
+      "verified": 45,
+      "template": 214,
+      "review": 48
+    }
+  },
+  {
+    "slug": "iets-leuks",
+    "title": "Iets leuks — bijv. nw. + s",
+    "description": "Na iets / wat / niets / weinig / veel krijgt het bijvoeglijk naamwoord een -s, behalve bij -klanken op het eind.",
+    "counts": {
+      "verified": 5,
+      "template": 200,
+      "review": 22
+    }
+  },
+  {
+    "slug": "leren-kennen",
+    "title": "Leren kennen — ontmoeten / zien / tegenkomen / afspreken",
+    "description": "Vijf werkwoorden voor 'mensen ontmoeten' — wanneer gebruik je welke?",
+    "counts": {
+      "verified": 14,
+      "template": 29,
+      "review": 20
+    }
+  }
+]
