@@ -82,11 +82,16 @@ html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg);
 .btn[disabled] { opacity: .5; cursor: default; }
 
 /* Match exercise */
+.match-hint { color: var(--muted); font-size: .82rem; margin: 0 0 12px; }
 .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.match-cell { background: #fff; border: 1.5px solid var(--border); border-radius: 10px;
+.match-badge { display: none; flex: 0 0 auto; min-width: 20px; height: 20px; padding: 0 4px;
+  border-radius: 999px; color: #fff; font-size: .72rem; font-weight: 700;
+  align-items: center; justify-content: center; }
+.match-cell.paired .match-badge { display: inline-flex; }
+.match-cell { display: flex; align-items: center; gap: 8px; background: #fff; border: 1.5px solid var(--border); border-radius: 10px;
   padding: 12px 14px; min-height: var(--tap); cursor: pointer; font-size: .98rem; }
 .match-cell.selected { border-color: var(--accent); background: var(--accent-soft); }
-.match-cell.paired   { opacity: .55; cursor: default; }
+.match-cell.paired   { cursor: pointer; }
 .match-cell.correct  { border-color: var(--correct); background: #e1f2e2; }
 .match-cell.wrong    { border-color: var(--wrong);   background: #fbe5e1; }
 

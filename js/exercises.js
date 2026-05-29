@@ -96,6 +96,11 @@ const Exercises = (() => {
   };
 
   // ----- MATCH: pair left items with right items by tapping one of each. -----
+  // Each completed pair gets a shared colour + number badge so the association is
+  // visible. Tap a paired cell to un-pair it; tap a selected-but-unpaired cell to
+  // deselect. Auto-submits once the final pair completes the grid.
+  const MATCH_PALETTE = ['#2f7d3a', '#234a63', '#7a4f00', '#7d2f6a', '#2f6f7d', '#a3471f', '#4a5d23', '#5a2f7d'];
+
   const match = {
     mount(container, item, onSubmit) {
       container.innerHTML = '';
@@ -103,6 +108,11 @@ const Exercises = (() => {
       prompt.className = 'prompt';
       prompt.textContent = item.prompt || 'Match de uitdrukking met de juiste betekenis';
       container.appendChild(prompt);
+
+      const hint = document.createElement('p');
+      hint.className = 'match-hint';
+      hint.textContent = 'Tik links en rechts om te koppelen. Tik op een gekoppeld vakje om het weer los te maken.';
+      container.appendChild(hint);
 
       const shuffle = arr => arr.map(v => [Math.random(), v]).sort((a, b) => a[0] - b[0]).map(([, v]) => v);
       const leftItems  = shuffle(item.pairs.map((p, i) => ({ idx: i, text: p.left })));
@@ -118,16 +128,60 @@ const Exercises = (() => {
       rightCol.style.display = 'flex'; rightCol.style.flexDirection = 'column'; rightCol.style.gap = '10px';
 
       let selectedLeft = null, selectedRight = null;
-      const pairs = {}; // leftIdx -> rightIdx
+      const pairs = {};                 // leftIdx -> rightIdx
+      const colorByLeft = {};           // leftIdx -> palette index
+      const usedColors = new Set();
+      const cellMap = { L: {}, R: {} }; // side -> idx -> cell
       this._pairs = pairs;
       this._locked = false;
 
+      const takeColor = () => {
+        for (let i = 0; i < MATCH_PALETTE.length; i++) {
+          if (!usedColors.has(i)) { usedColors.add(i); return i; }
+        }
+        return 0;
+      };
+
+      const applyPairStyle = (cell, ci) => {
+        const color = MATCH_PALETTE[ci];
+        cell.style.borderColor = color;
+        cell.style.background = color + '20'; // soft tint (hex alpha)
+        const badge = cell.querySelector('.match-badge');
+        badge.textContent = String(ci + 1);
+        badge.style.background = color;
+      };
+
+      const clearPairStyle = (cell) => {
+        cell.classList.remove('paired');
+        delete cell.dataset.paired;
+        cell.style.borderColor = '';
+        cell.style.background = '';
+        const badge = cell.querySelector('.match-badge');
+        badge.textContent = '';
+        badge.style.background = '';
+      };
+
+      const unpair = (li) => {
+        const ri = pairs[li];
+        delete pairs[li];
+        const ci = colorByLeft[li];
+        if (ci != null) { usedColors.delete(ci); delete colorByLeft[li]; }
+        clearPairStyle(cellMap.L[li]);
+        if (cellMap.R[ri]) clearPairStyle(cellMap.R[ri]);
+      };
+
       const tryPair = () => {
         if (selectedLeft == null || selectedRight == null) return;
-        pairs[selectedLeft.dataset.idx] = selectedRight.dataset.idx;
-        selectedLeft.classList.remove('selected'); selectedLeft.classList.add('paired');
-        selectedRight.classList.remove('selected'); selectedRight.classList.add('paired');
-        selectedLeft.dataset.paired = '1'; selectedRight.dataset.paired = '1';
+        const li = selectedLeft.dataset.idx, ri = selectedRight.dataset.idx;
+        const ci = takeColor();
+        pairs[li] = ri;
+        colorByLeft[li] = ci;
+        [selectedLeft, selectedRight].forEach(c => {
+          c.classList.remove('selected');
+          c.classList.add('paired');
+          c.dataset.paired = '1';
+          applyPairStyle(c, ci);
+        });
         selectedLeft = null; selectedRight = null;
         if (Object.keys(pairs).length >= totalPairs) {
           this._locked = true;
@@ -140,13 +194,30 @@ const Exercises = (() => {
         c.className = 'match-cell';
         c.dataset.idx = idx;
         c.dataset.side = side;
-        c.textContent = text;
+        const badge = document.createElement('span');
+        badge.className = 'match-badge';
+        const label = document.createElement('span');
+        label.className = 'match-text';
+        label.textContent = text;
+        c.appendChild(badge);
+        c.appendChild(label);
+        cellMap[side][idx] = c;
         c.addEventListener('click', () => {
-          if (this._locked || c.dataset.paired) return;
+          if (this._locked) return;
+          // Tap a paired cell → un-pair it (find the left index of this pair).
+          if (c.dataset.paired) {
+            const li = side === 'L'
+              ? idx
+              : Object.keys(pairs).find(k => String(pairs[k]) === String(idx));
+            if (li != null) unpair(li);
+            return;
+          }
           if (side === 'L') {
+            if (selectedLeft === c) { c.classList.remove('selected'); selectedLeft = null; return; }
             if (selectedLeft) selectedLeft.classList.remove('selected');
             selectedLeft = c;
           } else {
+            if (selectedRight === c) { c.classList.remove('selected'); selectedRight = null; return; }
             if (selectedRight) selectedRight.classList.remove('selected');
             selectedRight = c;
           }
@@ -175,6 +246,9 @@ const Exercises = (() => {
         const ri = chosen[li];
         const ok = String(li) === String(ri);
         const rightCell = Array.from(cells).find(x => x.dataset.side === 'R' && x.dataset.idx === ri);
+        // Clear the pairing tint so the correct/wrong styling shows; keep the badge
+        // so the user still sees which items they grouped together.
+        [c, rightCell].forEach(x => { if (x) { x.style.borderColor = ''; x.style.background = ''; } });
         c.classList.add(ok ? 'correct' : 'wrong');
         if (rightCell) rightCell.classList.add(ok ? 'correct' : 'wrong');
       });
