@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "kok-tpl-M-ingredienten-001",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "de ui",
+        "right": "the onion"
+      },
+      {
+        "left": "de knoflook",
+        "right": "the garlic"
+      },
+      {
+        "left": "de aardappel",
+        "right": "the potato"
+      },
+      {
+        "left": "de wortel",
+        "right": "the carrot"
+      },
+      {
+        "left": "de tomaat",
+        "right": "the tomato"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-ingredienten-002",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "de paprika",
+        "right": "the bell pepper"
+      },
+      {
+        "left": "het ei",
+        "right": "the egg"
+      },
+      {
+        "left": "de bloem",
+        "right": "the flour"
+      },
+      {
+        "left": "de suiker",
+        "right": "the sugar"
+      },
+      {
+        "left": "het zout",
+        "right": "the salt"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-ingredienten-003",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "de peper",
+        "right": "the pepper"
+      },
+      {
+        "left": "de boter",
+        "right": "the butter"
+      },
+      {
+        "left": "de melk",
+        "right": "the milk"
+      },
+      {
+        "left": "de kaas",
+        "right": "the cheese"
+      },
+      {
+        "left": "de olie",
+        "right": "the oil"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-ingredienten-004",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "de rijst",
+        "right": "the rice"
+      },
+      {
+        "left": "het vlees",
+        "right": "the meat"
+      },
+      {
+        "left": "de vis",
+        "right": "the fish"
+      },
+      {
+        "left": "de kip",
+        "right": "the chicken"
+      },
+      {
+        "left": "het brood",
+        "right": "the bread"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-ingredienten-005",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "de room",
+        "right": "the cream"
+      },
+      {
+        "left": "de azijn",
+        "right": "the vinegar"
+      },
+      {
+        "left": "de kruiden",
+        "right": "the herbs / spices"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-ingredienten-001",
+    "type": "cloze",
+    "sentence": "Snijd de ___ in kleine stukjes.",
+    "answer": "ui",
+    "choices": [
+      "kaas",
+      "zout",
+      "ei",
+      "ui"
+    ],
+    "explanation": "'de ui' — the onion.",
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-ingredienten-002",
+    "type": "cloze",
+    "sentence": "Schil eerst de ___.",
+    "answer": "aardappel",
+    "choices": [
+      "melk",
+      "bloem",
+      "ei",
+      "aardappel"
+    ],
+    "explanation": "'de aardappel' — the potato.",
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-ingredienten-003",
+    "type": "cloze",
+    "sentence": "Klop het ___ los in een kom.",
+    "answer": "ei",
+    "choices": [
+      "melk",
+      "ei",
+      "boter",
+      "kaas"
+    ],
+    "explanation": "'het ei' — the egg.",
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-ingredienten-004",
+    "type": "cloze",
+    "sentence": "Voeg langzaam de ___ toe aan het beslag.",
+    "answer": "bloem",
+    "choices": [
+      "boter",
+      "melk",
+      "ui",
+      "bloem"
+    ],
+    "explanation": "'de bloem' — the flour.",
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-ingredienten-005",
+    "type": "cloze",
+    "sentence": "Breng het gerecht op smaak met ___ en peper.",
+    "answer": "zout",
+    "choices": [
+      "ui",
+      "kaas",
+      "aardappel",
+      "zout"
+    ],
+    "explanation": "'het zout' — the salt.",
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-ingredienten-006",
+    "type": "cloze",
+    "sentence": "Doe een klontje ___ in de pan.",
+    "answer": "boter",
+    "choices": [
+      "boter",
+      "melk",
+      "ei",
+      "aardappel"
+    ],
+    "explanation": "'de boter' — the butter.",
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-ingredienten-007",
+    "type": "cloze",
+    "sentence": "Verwarm de ___ in een steelpan.",
+    "answer": "melk",
+    "choices": [
+      "melk",
+      "ei",
+      "ui",
+      "aardappel"
+    ],
+    "explanation": "'de melk' — the milk.",
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-ingredienten-008",
+    "type": "cloze",
+    "sentence": "Rasp de ___ over de pasta.",
+    "answer": "kaas",
+    "choices": [
+      "ui",
+      "aardappel",
+      "melk",
+      "kaas"
+    ],
+    "explanation": "'de kaas' — the cheese.",
+    "tags": [
+      "vocab",
+      "ingredienten",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-ingredienten",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-keukengerei-001",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "de pan",
+        "right": "the pan / pot"
+      },
+      {
+        "left": "de koekenpan",
+        "right": "the frying pan"
+      },
+      {
+        "left": "de pot",
+        "right": "the pot"
+      },
+      {
+        "left": "het mes",
+        "right": "the knife"
+      },
+      {
+        "left": "de lepel",
+        "right": "the spoon"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "keukengerei",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-keukengerei",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-keukengerei-002",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "de vork",
+        "right": "the fork"
+      },
+      {
+        "left": "de oven",
+        "right": "the oven"
+      },
+      {
+        "left": "het fornuis",
+        "right": "the stove / cooker"
+      },
+      {
+        "left": "de magnetron",
+        "right": "the microwave"
+      },
+      {
+        "left": "de koelkast",
+        "right": "the fridge"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "keukengerei",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-keukengerei",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-keukengerei-003",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "de garde",
+        "right": "the whisk"
+      },
+      {
+        "left": "de spatel",
+        "right": "the spatula"
+      },
+      {
+        "left": "de snijplank",
+        "right": "the cutting board"
+      },
+      {
+        "left": "de weegschaal",
+        "right": "the scale"
+      },
+      {
+        "left": "de schaal",
+        "right": "the dish / bowl"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "keukengerei",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-keukengerei",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-keukengerei-004",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "de kom",
+        "right": "the bowl"
+      },
+      {
+        "left": "het bord",
+        "right": "the plate"
+      },
+      {
+        "left": "de pollepel",
+        "right": "the ladle / wooden spoon"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "keukengerei",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-keukengerei",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-keukengerei-001",
+    "type": "cloze",
+    "sentence": "Zet de ___ op het vuur.",
+    "answer": "pan",
+    "choices": [
+      "oven",
+      "mes",
+      "pan",
+      "koelkast"
+    ],
+    "explanation": "'de pan' — the pan / pot.",
+    "tags": [
+      "vocab",
+      "keukengerei",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-keukengerei",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-keukengerei-002",
+    "type": "cloze",
+    "sentence": "Snijd het brood met een scherp ___.",
+    "answer": "mes",
+    "choices": [
+      "garde",
+      "koelkast",
+      "mes",
+      "snijplank"
+    ],
+    "explanation": "'het mes' — the knife.",
+    "tags": [
+      "vocab",
+      "keukengerei",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-keukengerei",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-keukengerei-003",
+    "type": "cloze",
+    "sentence": "Verwarm de ___ voor op 180 graden.",
+    "answer": "oven",
+    "choices": [
+      "oven",
+      "garde",
+      "mes",
+      "koelkast"
+    ],
+    "explanation": "'de oven' — the oven.",
+    "tags": [
+      "vocab",
+      "keukengerei",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-keukengerei",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-keukengerei-004",
+    "type": "cloze",
+    "sentence": "Bewaar de melk in de ___.",
+    "answer": "koelkast",
+    "choices": [
+      "snijplank",
+      "koelkast",
+      "garde",
+      "pan"
+    ],
+    "explanation": "'de koelkast' — the fridge.",
+    "tags": [
+      "vocab",
+      "keukengerei",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-keukengerei",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-keukengerei-005",
+    "type": "cloze",
+    "sentence": "Klop de eieren met een ___.",
+    "answer": "garde",
+    "choices": [
+      "oven",
+      "garde",
+      "pan",
+      "snijplank"
+    ],
+    "explanation": "'de garde' — the whisk.",
+    "tags": [
+      "vocab",
+      "keukengerei",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-keukengerei",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-keukengerei-006",
+    "type": "cloze",
+    "sentence": "Snijd de groente op de ___.",
+    "answer": "snijplank",
+    "choices": [
+      "pan",
+      "snijplank",
+      "koelkast",
+      "oven"
+    ],
+    "explanation": "'de snijplank' — the cutting board.",
+    "tags": [
+      "vocab",
+      "keukengerei",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-keukengerei",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-bereidingswijzen-001",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "koken",
+        "right": "to boil / cook"
+      },
+      {
+        "left": "bakken",
+        "right": "to fry / bake"
+      },
+      {
+        "left": "braden",
+        "right": "to roast"
+      },
+      {
+        "left": "grillen",
+        "right": "to grill"
+      },
+      {
+        "left": "stoven",
+        "right": "to stew / braise"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "bereidingswijzen",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-bereidingswijzen",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-bereidingswijzen-002",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "roerbakken",
+        "right": "to stir-fry"
+      },
+      {
+        "left": "frituren",
+        "right": "to deep-fry"
+      },
+      {
+        "left": "stomen",
+        "right": "to steam"
+      },
+      {
+        "left": "pocheren",
+        "right": "to poach"
+      },
+      {
+        "left": "roosteren",
+        "right": "to toast / roast"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "bereidingswijzen",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-bereidingswijzen",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-bereidingswijzen-001",
+    "type": "cloze",
+    "sentence": "Je moet de aardappels in water ___.",
+    "answer": "koken",
+    "choices": [
+      "braden",
+      "grillen",
+      "koken",
+      "stomen"
+    ],
+    "explanation": "'koken' — to boil / cook.",
+    "tags": [
+      "vocab",
+      "bereidingswijzen",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-bereidingswijzen",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-bereidingswijzen-002",
+    "type": "cloze",
+    "sentence": "Ik ga een ei ___ in de pan.",
+    "answer": "bakken",
+    "choices": [
+      "koken",
+      "bakken",
+      "frituren",
+      "grillen"
+    ],
+    "explanation": "'bakken' — to fry / bake.",
+    "tags": [
+      "vocab",
+      "bereidingswijzen",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-bereidingswijzen",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-bereidingswijzen-003",
+    "type": "cloze",
+    "sentence": "We gaan het vlees in de oven ___.",
+    "answer": "braden",
+    "choices": [
+      "koken",
+      "stomen",
+      "bakken",
+      "braden"
+    ],
+    "explanation": "'braden' — to roast.",
+    "tags": [
+      "vocab",
+      "bereidingswijzen",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-bereidingswijzen",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-bereidingswijzen-004",
+    "type": "cloze",
+    "sentence": "Je kunt de paprika ook ___.",
+    "answer": "grillen",
+    "choices": [
+      "stomen",
+      "braden",
+      "grillen",
+      "frituren"
+    ],
+    "explanation": "'grillen' — to grill.",
+    "tags": [
+      "vocab",
+      "bereidingswijzen",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-bereidingswijzen",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-bereidingswijzen-005",
+    "type": "cloze",
+    "sentence": "Friet moet je in hete olie ___.",
+    "answer": "frituren",
+    "choices": [
+      "bakken",
+      "grillen",
+      "braden",
+      "frituren"
+    ],
+    "explanation": "'frituren' — to deep-fry.",
+    "tags": [
+      "vocab",
+      "bereidingswijzen",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-bereidingswijzen",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-bereidingswijzen-006",
+    "type": "cloze",
+    "sentence": "Broccoli kun je het beste ___.",
+    "answer": "stomen",
+    "choices": [
+      "koken",
+      "stomen",
+      "grillen",
+      "bakken"
+    ],
+    "explanation": "'stomen' — to steam.",
+    "tags": [
+      "vocab",
+      "bereidingswijzen",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-bereidingswijzen",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-instructies-001",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "snijden",
+        "right": "to cut"
+      },
+      {
+        "left": "roeren",
+        "right": "to stir"
+      },
+      {
+        "left": "mengen",
+        "right": "to mix"
+      },
+      {
+        "left": "kloppen",
+        "right": "to beat / whisk"
+      },
+      {
+        "left": "schillen",
+        "right": "to peel"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "instructies",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-instructies",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-instructies-002",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "raspen",
+        "right": "to grate"
+      },
+      {
+        "left": "gieten",
+        "right": "to pour"
+      },
+      {
+        "left": "proeven",
+        "right": "to taste"
+      },
+      {
+        "left": "toevoegen",
+        "right": "to add"
+      },
+      {
+        "left": "opwarmen",
+        "right": "to heat up"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "instructies",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-instructies",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-M-instructies-003",
+    "type": "match",
+    "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+    "pairs": [
+      {
+        "left": "afkoelen",
+        "right": "to cool down"
+      },
+      {
+        "left": "sudderen",
+        "right": "to simmer"
+      }
+    ],
+    "tags": [
+      "vocab",
+      "instructies",
+      "match",
+      "template"
+    ],
+    "source": "template:koken-match-instructies",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-instructies-001",
+    "type": "cloze",
+    "sentence": "Je moet de ui eerst fijn ___.",
+    "answer": "snijden",
+    "choices": [
+      "proeven",
+      "snijden",
+      "mengen",
+      "schillen"
+    ],
+    "explanation": "'snijden' — to cut.",
+    "tags": [
+      "vocab",
+      "instructies",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-instructies",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-instructies-002",
+    "type": "cloze",
+    "sentence": "Blijf goed ___ zodat het niet aanbrandt.",
+    "answer": "roeren",
+    "choices": [
+      "toevoegen",
+      "roeren",
+      "schillen",
+      "snijden"
+    ],
+    "explanation": "'roeren' — to stir.",
+    "tags": [
+      "vocab",
+      "instructies",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-instructies",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-instructies-003",
+    "type": "cloze",
+    "sentence": "Je moet alle ingrediënten goed ___.",
+    "answer": "mengen",
+    "choices": [
+      "schillen",
+      "raspen",
+      "mengen",
+      "roeren"
+    ],
+    "explanation": "'mengen' — to mix.",
+    "tags": [
+      "vocab",
+      "instructies",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-instructies",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-instructies-004",
+    "type": "cloze",
+    "sentence": "Je moet de room stijf ___.",
+    "answer": "kloppen",
+    "choices": [
+      "schillen",
+      "kloppen",
+      "roeren",
+      "mengen"
+    ],
+    "explanation": "'kloppen' — to beat / whisk.",
+    "tags": [
+      "vocab",
+      "instructies",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-instructies",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-instructies-005",
+    "type": "cloze",
+    "sentence": "Voordat je kookt, moet je de aardappels ___.",
+    "answer": "schillen",
+    "choices": [
+      "roeren",
+      "schillen",
+      "mengen",
+      "raspen"
+    ],
+    "explanation": "'schillen' — to peel.",
+    "tags": [
+      "vocab",
+      "instructies",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-instructies",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-instructies-006",
+    "type": "cloze",
+    "sentence": "Je kunt de kaas fijn ___.",
+    "answer": "raspen",
+    "choices": [
+      "toevoegen",
+      "raspen",
+      "proeven",
+      "schillen"
+    ],
+    "explanation": "'raspen' — to grate.",
+    "tags": [
+      "vocab",
+      "instructies",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-instructies",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-instructies-007",
+    "type": "cloze",
+    "sentence": "Je moet het gerecht altijd even ___.",
+    "answer": "proeven",
+    "choices": [
+      "roeren",
+      "toevoegen",
+      "proeven",
+      "mengen"
+    ],
+    "explanation": "'proeven' — to taste.",
+    "tags": [
+      "vocab",
+      "instructies",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-instructies",
+    "confidence": "template"
+  },
+  {
+    "id": "kok-tpl-C-instructies-008",
+    "type": "cloze",
+    "sentence": "Daarna kun je de kruiden ___.",
+    "answer": "toevoegen",
+    "choices": [
+      "proeven",
+      "toevoegen",
+      "snijden",
+      "raspen"
+    ],
+    "explanation": "'toevoegen' — to add.",
+    "tags": [
+      "vocab",
+      "instructies",
+      "cloze",
+      "template"
+    ],
+    "source": "template:koken-cloze-instructies",
+    "confidence": "template"
+  }
+]

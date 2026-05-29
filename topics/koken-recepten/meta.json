@@ -1,0 +1,14 @@
+{
+  "slug": "koken-recepten",
+  "title": "Koken & recepten — woordenschat",
+  "description": "Thematische woordenschat: ingrediënten, keukengerei, bereidingswijzen en recept-instructies.",
+  "rules": [
+    "Ingrediënten en keukengerei: let op het lidwoord (de/het). De meeste zijn de-woorden; let op de het-woorden zoals 'het ei', 'het zout', 'het vlees', 'het brood', 'het mes', 'het bord' en 'het fornuis'.",
+    "Bereidingswijzen zijn werkwoorden met een eigen betekenis: koken (in water, ~100°C), bakken (in de pan met vet), braden (vlees, oven/pan), stoven/sudderen (langzaam in vocht), grillen, frituren (in hete olie), stomen.",
+    "Veel instructie-werkwoorden zijn scheidbaar: iets toevoegen → 'voeg ... toe', opwarmen → 'warm ... op', afkoelen → 'koelt af'."
+  ],
+  "sources": [
+    "woordenlijst.org (Groene Boekje) — spelling + genus (de/het)",
+    "Van Dale online — betekenis"
+  ]
+}

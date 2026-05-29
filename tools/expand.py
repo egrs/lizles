@@ -477,13 +477,82 @@ def expand_leren_kennen(W: dict) -> list[dict]:
     return items
 
 
+# ---- Topic: koken-recepten -------------------------------------------------
+
+def expand_koken_recepten(W: dict) -> list[dict]:
+    """Thematic vocabulary topic — no grammar rule. The vetted wordlist IS the
+    content. Each category produces:
+      * match items: NL word ↔ English gloss, in chunks of MATCH_CHUNK.
+      * cloze items: for entries that carry a `cloze` field, the answer is blanked
+        and distractors are drawn from the SAME category (near-miss counter-examples
+        so the item discriminates)."""
+    items: list[dict] = []
+    mid = make_id_factory("kok-tpl")
+    MATCH_CHUNK = 5
+    MAX_DISTRACTORS = 3
+
+    # Categories are every list-valued key (skip the leading "_comment").
+    categories = [(k, v) for k, v in W.items() if isinstance(v, list)]
+
+    for cat, entries in categories:
+        # --- match: chunk the category into small grids of NL ↔ EN pairs ---
+        for start in range(0, len(entries), MATCH_CHUNK):
+            chunk = entries[start:start + MATCH_CHUNK]
+            if len(chunk) < 2:
+                continue  # match needs >= 2 pairs to be valid
+            items.append({
+                "id": mid(f"M-{cat}", len(items) + 1),
+                "type": "match",
+                "prompt": "Match het Nederlandse woord met de Engelse vertaling.",
+                "pairs": [{"left": e["nl"], "right": e["en"]} for e in chunk],
+                "tags": ["vocab", cat, "match", "template"],
+                "source": f"template:koken-match-{cat}",
+                "confidence": "template",
+            })
+
+        # --- cloze: only for entries that supply a vetted sentence + answer ---
+        cloze_entries = [e for e in entries if e.get("cloze")]
+        answer_pool = [e["cloze"]["answer"] for e in cloze_entries]
+        for i, e in enumerate(cloze_entries):
+            c = e["cloze"]
+            answer = c["answer"]
+            distractors = [a for a in answer_pool if a != answer]
+            rng = random.Random(len(items))
+            rng.shuffle(distractors)
+            choices = [answer] + distractors[:MAX_DISTRACTORS]
+            rng.shuffle(choices)
+            items.append({
+                "id": mid(f"C-{cat}", len(items) + 1),
+                "type": "cloze",
+                "sentence": c["sentence"],
+                "answer": answer,
+                "choices": choices,
+                "explanation": f"'{e['nl']}' — {e['en']}.",
+                "tags": ["vocab", cat, "cloze", "template"],
+                "source": f"template:koken-cloze-{cat}",
+                "confidence": "template",
+            })
+
+    return items
+
+
 # ---- Dispatch --------------------------------------------------------------
 
 EXPANDERS = {
     "liggen-staan-zitten": expand_liggen_staan_zitten,
     "iets-leuks":          expand_iets_leuks,
     "leren-kennen":        expand_leren_kennen,
+    "koken-recepten":      expand_koken_recepten,
 }
+
+
+def _dedup_key(it: dict):
+    """Type-aware identity for dedup. Sentence-based items key on (sentence, answer);
+    match items have neither, so key on the (left) words of their pairs instead —
+    otherwise every match item collapses to (None, None) and all but one are lost."""
+    if it.get("type") == "match":
+        return ("match", tuple(p["left"] for p in it.get("pairs", [])))
+    return (it.get("sentence"), it.get("answer"))
 
 
 def cap_per_template(items: list[dict], cap: int, seed: int = 1) -> list[dict]:
@@ -527,10 +596,10 @@ def main(argv: list[str]) -> int:
     # — for topics where the same sentence can have multiple correct answers depending
     # on the slot fill (e.g. 'Ik heb iets ___ gekocht.' → leuks / moois / lekkers …),
     # we want each (sentence, answer) pair to count as a distinct exercise.
-    seen = {(it.get("sentence"), it.get("answer")) for it in preserved}
+    seen = {_dedup_key(it) for it in preserved}
     unique = []
     for it in generated:
-        key = (it.get("sentence"), it.get("answer"))
+        key = _dedup_key(it)
         if key in seen:
             continue
         seen.add(key)

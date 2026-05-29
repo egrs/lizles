@@ -28,5 +28,15 @@
       "template": 29,
       "review": 20
     }
+  },
+  {
+    "slug": "koken-recepten",
+    "title": "Koken & recepten — woordenschat",
+    "description": "Thematische woordenschat: ingrediënten, keukengerei, bereidingswijzen en recept-instructies.",
+    "counts": {
+      "verified": 0,
+      "template": 42,
+      "review": 0
+    }
   }
 ]

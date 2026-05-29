@@ -1,0 +1,78 @@
+{
+  "_comment": "Vetted thematic vocabulary (cooking & recipes). Each entry: nl (with de/het for nouns), en (English gloss), optional cloze {sentence,answer}. tools/expand.py turns this into match items (all entries) + cloze items (entries with a cloze field). Spelling/genus checked against woordenlijst.org; meaning against Van Dale.",
+
+  "ingredienten": [
+    { "nl": "de ui", "en": "the onion", "cloze": { "sentence": "Snijd de ___ in kleine stukjes.", "answer": "ui" } },
+    { "nl": "de knoflook", "en": "the garlic" },
+    { "nl": "de aardappel", "en": "the potato", "cloze": { "sentence": "Schil eerst de ___.", "answer": "aardappel" } },
+    { "nl": "de wortel", "en": "the carrot" },
+    { "nl": "de tomaat", "en": "the tomato" },
+    { "nl": "de paprika", "en": "the bell pepper" },
+    { "nl": "het ei", "en": "the egg", "cloze": { "sentence": "Klop het ___ los in een kom.", "answer": "ei" } },
+    { "nl": "de bloem", "en": "the flour", "cloze": { "sentence": "Voeg langzaam de ___ toe aan het beslag.", "answer": "bloem" } },
+    { "nl": "de suiker", "en": "the sugar" },
+    { "nl": "het zout", "en": "the salt", "cloze": { "sentence": "Breng het gerecht op smaak met ___ en peper.", "answer": "zout" } },
+    { "nl": "de peper", "en": "the pepper" },
+    { "nl": "de boter", "en": "the butter", "cloze": { "sentence": "Doe een klontje ___ in de pan.", "answer": "boter" } },
+    { "nl": "de melk", "en": "the milk", "cloze": { "sentence": "Verwarm de ___ in een steelpan.", "answer": "melk" } },
+    { "nl": "de kaas", "en": "the cheese", "cloze": { "sentence": "Rasp de ___ over de pasta.", "answer": "kaas" } },
+    { "nl": "de olie", "en": "the oil" },
+    { "nl": "de rijst", "en": "the rice" },
+    { "nl": "het vlees", "en": "the meat" },
+    { "nl": "de vis", "en": "the fish" },
+    { "nl": "de kip", "en": "the chicken" },
+    { "nl": "het brood", "en": "the bread" },
+    { "nl": "de room", "en": "the cream" },
+    { "nl": "de azijn", "en": "the vinegar" },
+    { "nl": "de kruiden", "en": "the herbs / spices" }
+  ],
+
+  "keukengerei": [
+    { "nl": "de pan", "en": "the pan / pot", "cloze": { "sentence": "Zet de ___ op het vuur.", "answer": "pan" } },
+    { "nl": "de koekenpan", "en": "the frying pan" },
+    { "nl": "de pot", "en": "the pot" },
+    { "nl": "het mes", "en": "the knife", "cloze": { "sentence": "Snijd het brood met een scherp ___.", "answer": "mes" } },
+    { "nl": "de lepel", "en": "the spoon" },
+    { "nl": "de vork", "en": "the fork" },
+    { "nl": "de oven", "en": "the oven", "cloze": { "sentence": "Verwarm de ___ voor op 180 graden.", "answer": "oven" } },
+    { "nl": "het fornuis", "en": "the stove / cooker" },
+    { "nl": "de magnetron", "en": "the microwave" },
+    { "nl": "de koelkast", "en": "the fridge", "cloze": { "sentence": "Bewaar de melk in de ___.", "answer": "koelkast" } },
+    { "nl": "de garde", "en": "the whisk", "cloze": { "sentence": "Klop de eieren met een ___.", "answer": "garde" } },
+    { "nl": "de spatel", "en": "the spatula" },
+    { "nl": "de snijplank", "en": "the cutting board", "cloze": { "sentence": "Snijd de groente op de ___.", "answer": "snijplank" } },
+    { "nl": "de weegschaal", "en": "the scale" },
+    { "nl": "de schaal", "en": "the dish / bowl" },
+    { "nl": "de kom", "en": "the bowl" },
+    { "nl": "het bord", "en": "the plate" },
+    { "nl": "de pollepel", "en": "the ladle / wooden spoon" }
+  ],
+
+  "bereidingswijzen": [
+    { "nl": "koken", "en": "to boil / cook", "cloze": { "sentence": "Je moet de aardappels in water ___.", "answer": "koken" } },
+    { "nl": "bakken", "en": "to fry / bake", "cloze": { "sentence": "Ik ga een ei ___ in de pan.", "answer": "bakken" } },
+    { "nl": "braden", "en": "to roast", "cloze": { "sentence": "We gaan het vlees in de oven ___.", "answer": "braden" } },
+    { "nl": "grillen", "en": "to grill", "cloze": { "sentence": "Je kunt de paprika ook ___.", "answer": "grillen" } },
+    { "nl": "stoven", "en": "to stew / braise" },
+    { "nl": "roerbakken", "en": "to stir-fry" },
+    { "nl": "frituren", "en": "to deep-fry", "cloze": { "sentence": "Friet moet je in hete olie ___.", "answer": "frituren" } },
+    { "nl": "stomen", "en": "to steam", "cloze": { "sentence": "Broccoli kun je het beste ___.", "answer": "stomen" } },
+    { "nl": "pocheren", "en": "to poach" },
+    { "nl": "roosteren", "en": "to toast / roast" }
+  ],
+
+  "instructies": [
+    { "nl": "snijden", "en": "to cut", "cloze": { "sentence": "Je moet de ui eerst fijn ___.", "answer": "snijden" } },
+    { "nl": "roeren", "en": "to stir", "cloze": { "sentence": "Blijf goed ___ zodat het niet aanbrandt.", "answer": "roeren" } },
+    { "nl": "mengen", "en": "to mix", "cloze": { "sentence": "Je moet alle ingrediënten goed ___.", "answer": "mengen" } },
+    { "nl": "kloppen", "en": "to beat / whisk", "cloze": { "sentence": "Je moet de room stijf ___.", "answer": "kloppen" } },
+    { "nl": "schillen", "en": "to peel", "cloze": { "sentence": "Voordat je kookt, moet je de aardappels ___.", "answer": "schillen" } },
+    { "nl": "raspen", "en": "to grate", "cloze": { "sentence": "Je kunt de kaas fijn ___.", "answer": "raspen" } },
+    { "nl": "gieten", "en": "to pour" },
+    { "nl": "proeven", "en": "to taste", "cloze": { "sentence": "Je moet het gerecht altijd even ___.", "answer": "proeven" } },
+    { "nl": "toevoegen", "en": "to add", "cloze": { "sentence": "Daarna kun je de kruiden ___.", "answer": "toevoegen" } },
+    { "nl": "opwarmen", "en": "to heat up" },
+    { "nl": "afkoelen", "en": "to cool down" },
+    { "nl": "sudderen", "en": "to simmer" }
+  ]
+}
