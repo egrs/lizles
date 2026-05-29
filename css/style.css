@@ -94,6 +94,12 @@ html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg);
 .match-cell.paired   { cursor: pointer; }
 .match-cell.correct  { border-color: var(--correct); background: #e1f2e2; }
 .match-cell.wrong    { border-color: var(--wrong);   background: #fbe5e1; }
+/* On reveal: keep the pair tint, ring + ✓/✗ show correctness without hiding the grouping. */
+.match-cell.match-correct { box-shadow: inset 0 0 0 2px var(--correct); }
+.match-cell.match-wrong   { box-shadow: inset 0 0 0 2px var(--wrong); }
+.match-status { margin-left: auto; font-weight: 700; font-size: 1.05rem; }
+.match-status.ok  { color: var(--correct); }
+.match-status.bad { color: var(--wrong); }
 
 /* Summary card */
 .summary { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; text-align: center; }

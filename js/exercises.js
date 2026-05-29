@@ -239,18 +239,22 @@ const Exercises = (() => {
     reveal(chosen, isCorrect, item) {
       this._locked = true;
       const cells = this._cells;
-      // Build a map of correct rightIdx for each leftIdx (identity, since pairs are stored as { left, right }).
+      // Keep each pair's colour tint + badge so the grouping stays visible; show
+      // correctness with a ✓/✗ marker and a coloured ring on top of the tint.
       cells.forEach(c => {
         if (c.dataset.side !== 'L') return;
         const li = c.dataset.idx;
         const ri = chosen[li];
         const ok = String(li) === String(ri);
         const rightCell = Array.from(cells).find(x => x.dataset.side === 'R' && x.dataset.idx === ri);
-        // Clear the pairing tint so the correct/wrong styling shows; keep the badge
-        // so the user still sees which items they grouped together.
-        [c, rightCell].forEach(x => { if (x) { x.style.borderColor = ''; x.style.background = ''; } });
-        c.classList.add(ok ? 'correct' : 'wrong');
-        if (rightCell) rightCell.classList.add(ok ? 'correct' : 'wrong');
+        [c, rightCell].forEach(x => {
+          if (!x) return;
+          x.classList.add(ok ? 'match-correct' : 'match-wrong');
+          const status = document.createElement('span');
+          status.className = 'match-status ' + (ok ? 'ok' : 'bad');
+          status.textContent = ok ? '✓' : '✗';
+          x.appendChild(status);
+        });
       });
     },
     // Match scores correct only if every pair is right.
