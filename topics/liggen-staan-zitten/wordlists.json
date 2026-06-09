@@ -112,18 +112,18 @@
 
   "_trans_intrans_people": ["Sanne", "Thomas", "Anna", "Lisa", "Mark", "Pieter", "Marieke", "Jan", "De docent", "De moeder"],
 
-  "_te_construction_comment": "Position verb + te + infinitief (Tweede ronde §21). Each activity is paired with the position verb that semantically fits — when context-dependent, the activity phrase includes the disambiguating context (bv. 'te lezen op de bank' vs. 'te lezen aan zijn bureau').",
+  "_te_construction_comment": "Position verb + te + infinitief (Tweede ronde §21). Each activity is paired with the position verb that semantically fits. CRUCIAL: only include activities whose posture is forced — either by the verb itself (zonnebaden→liggen, koken→staan, ijsberen→lopen) or by an explicit context (te dromen IN BED→liggen). Avoid posture-neutral activities (bellen, praten, lezen on a sofa): a learner can justifiably answer zit/staat/ligt, so there is no single correct cloze answer.",
   "position_te_pairs": [
     { "te_inf": "te slapen",                        "lemma": "liggen" },
     { "te_inf": "te rusten",                        "lemma": "liggen" },
     { "te_inf": "te dromen in bed",                 "lemma": "liggen" },
-    { "te_inf": "te lezen op de bank",              "lemma": "liggen" },
+    { "te_inf": "te lezen in de hangmat",           "lemma": "liggen" },
     { "te_inf": "te zonnebaden in de tuin",         "lemma": "liggen" },
 
     { "te_inf": "te eten aan tafel",                "lemma": "zitten" },
     { "te_inf": "te werken achter het bureau",      "lemma": "zitten" },
     { "te_inf": "te studeren in de bibliotheek",    "lemma": "zitten" },
-    { "te_inf": "te bellen met een vriend",         "lemma": "zitten" },
+    { "te_inf": "te puzzelen aan de tafel",         "lemma": "zitten" },
     { "te_inf": "te kijken naar de tv",             "lemma": "zitten" },
     { "te_inf": "te denken in een stoel",           "lemma": "zitten" },
 
@@ -131,7 +131,7 @@
     { "te_inf": "te wachten in de rij",             "lemma": "staan" },
     { "te_inf": "te koken in de keuken",            "lemma": "staan" },
     { "te_inf": "te kletsen voor de deur",          "lemma": "staan" },
-    { "te_inf": "te praten met de buren",           "lemma": "staan" },
+    { "te_inf": "te strijken",                      "lemma": "staan" },
     { "te_inf": "te roken voor het kantoor",        "lemma": "staan" },
 
     { "te_inf": "te zoeken naar de sleutels",       "lemma": "lopen" },

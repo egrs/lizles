@@ -1106,7 +1106,7 @@
   {
     "id": "lsz-rev-006",
     "type": "cloze",
-    "sentence": "Sinds zijn ontslag ___ hij maar wat op de bank.",
+    "sentence": "Sinds zijn ontslag ___ hij de hele dag in bed.",
     "answer": "ligt",
     "choices": [
       "ligt",
@@ -1114,12 +1114,12 @@
       "zit",
       "hangt"
     ],
-    "explanation": "Hier 'liggen' in de letterlijke zin: hij ligt op de bank (een platte positie op een bank).",
+    "explanation": "Letterlijke positie: in bed lig je → 'ligt'. (Op een bank zou het dubbelzinnig zijn: daar kun je net zo goed zitten of hangen.)",
     "tags": [
       "basic-rule",
       "review"
     ],
-    "source": "freeform:op-de-bank-liggen",
+    "source": "freeform:in-bed-liggen",
     "confidence": "review"
   },
   {
@@ -5594,7 +5594,7 @@
   {
     "id": "lsz-tpl-T8s-004",
     "type": "cloze",
-    "sentence": "Mijn opa ___ te praten met de buren.",
+    "sentence": "Mijn opa ___ te strijken.",
     "answer": "staat",
     "choices": [
       "ligt",
@@ -5602,7 +5602,7 @@
       "zit",
       "loopt"
     ],
-    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'staan' bij 'te praten met de buren'.",
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'staan' bij 'te strijken'.",
     "tags": [
       "construction",
       "te-infinitief",
@@ -5634,7 +5634,7 @@
   {
     "id": "lsz-tpl-T8s-006",
     "type": "cloze",
-    "sentence": "Hij ___ te lezen op de bank.",
+    "sentence": "Hij ___ te lezen in de hangmat.",
     "answer": "ligt",
     "choices": [
       "ligt",
@@ -5642,7 +5642,7 @@
       "zit",
       "loopt"
     ],
-    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'liggen' bij 'te lezen op de bank'.",
+    "explanation": "Met positie-werkwoord + 'te' + infinitief beschrijf je een actie die je in die positie doet. Hier past 'liggen' bij 'te lezen in de hangmat'.",
     "tags": [
       "construction",
       "te-infinitief",
@@ -5714,7 +5714,7 @@
   {
     "id": "lsz-tpl-T8p-010",
     "type": "cloze",
-    "sentence": "Wij ___ te lezen op de bank.",
+    "sentence": "Wij ___ te lezen in de hangmat.",
     "answer": "liggen",
     "choices": [
       "liggen",
@@ -5722,7 +5722,7 @@
       "zitten",
       "lopen"
     ],
-    "explanation": "Meervoud + 'te' + infinitief. Hier past 'liggen' (meervoud) bij 'te lezen op de bank'.",
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'liggen' (meervoud) bij 'te lezen in de hangmat'.",
     "tags": [
       "construction",
       "te-infinitief",
@@ -5854,7 +5854,7 @@
   {
     "id": "lsz-tpl-T8p-017",
     "type": "cloze",
-    "sentence": "De kinderen ___ te praten met de buren.",
+    "sentence": "De kinderen ___ te strijken.",
     "answer": "staan",
     "choices": [
       "liggen",
@@ -5862,7 +5862,7 @@
       "zitten",
       "lopen"
     ],
-    "explanation": "Meervoud + 'te' + infinitief. Hier past 'staan' (meervoud) bij 'te praten met de buren'.",
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'staan' (meervoud) bij 'te strijken'.",
     "tags": [
       "construction",
       "te-infinitief",
@@ -6014,7 +6014,7 @@
   {
     "id": "lsz-tpl-T8p-025",
     "type": "cloze",
-    "sentence": "De kinderen ___ te bellen met een vriend.",
+    "sentence": "De kinderen ___ te puzzelen aan de tafel.",
     "answer": "zitten",
     "choices": [
       "liggen",
@@ -6022,7 +6022,7 @@
       "zitten",
       "lopen"
     ],
-    "explanation": "Meervoud + 'te' + infinitief. Hier past 'zitten' (meervoud) bij 'te bellen met een vriend'.",
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'zitten' (meervoud) bij 'te puzzelen aan de tafel'.",
     "tags": [
       "construction",
       "te-infinitief",
@@ -6094,7 +6094,7 @@
   {
     "id": "lsz-tpl-T8p-029",
     "type": "cloze",
-    "sentence": "Mijn ouders ___ te praten met de buren.",
+    "sentence": "Mijn ouders ___ te strijken.",
     "answer": "staan",
     "choices": [
       "liggen",
@@ -6102,7 +6102,7 @@
       "zitten",
       "lopen"
     ],
-    "explanation": "Meervoud + 'te' + infinitief. Hier past 'staan' (meervoud) bij 'te praten met de buren'.",
+    "explanation": "Meervoud + 'te' + infinitief. Hier past 'staan' (meervoud) bij 'te strijken'.",
     "tags": [
       "construction",
       "te-infinitief",
@@ -6197,7 +6197,7 @@
   {
     "id": "lsz-tpl-T8b-004",
     "type": "cloze",
-    "sentence": "Zij heeft op de bank ___ lezen.",
+    "sentence": "Zij heeft in de hangmat ___ lezen.",
     "answer": "liggen",
     "choices": [
       "liggen",
@@ -6323,7 +6323,7 @@
   {
     "id": "lsz-tpl-T8b-010",
     "type": "cloze",
-    "sentence": "Wij hebben met een vriend ___ bellen.",
+    "sentence": "Wij hebben aan de tafel ___ puzzelen.",
     "answer": "zitten",
     "choices": [
       "liggen",
@@ -6331,7 +6331,7 @@
       "zitten",
       "lopen"
     ],
-    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben zitten bellen', niet '… te bellen'. Hier past 'zitten' bij 'bellen'.",
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben zitten puzzelen', niet '… te puzzelen'. Hier past 'zitten' bij 'puzzelen'.",
     "tags": [
       "construction",
       "te-infinitief",
@@ -6428,7 +6428,7 @@
   {
     "id": "lsz-tpl-T8b-015",
     "type": "cloze",
-    "sentence": "Mijn ouders hebben met de buren ___ praten.",
+    "sentence": "Mijn ouders hebben de hele middag ___ strijken.",
     "answer": "staan",
     "choices": [
       "liggen",
@@ -6436,7 +6436,7 @@
       "zitten",
       "lopen"
     ],
-    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben staan praten', niet '… te praten'. Hier past 'staan' bij 'praten'.",
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben staan strijken', niet '… te strijken'. Hier past 'staan' bij 'strijken'.",
     "tags": [
       "construction",
       "te-infinitief",
