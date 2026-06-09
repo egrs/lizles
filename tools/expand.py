@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import json
 import random
+import re
 import sys
 from collections import Counter
 from itertools import product
@@ -555,19 +556,60 @@ def _dedup_key(it: dict):
     return (it.get("sentence"), it.get("answer"))
 
 
+# Per-source cap overrides. The T7a/b/c trans-intrans templates are near-identical
+# frames (T7a/b are literally "<person> ___ <object> op tafel" — only the name and
+# noun change, and the answer is fixed per template), so a big sample just drills the
+# same rule dozens of times and drowns out the hand-curated contrasts/idioms. Cap them
+# hard; everything else keeps the global cap.
+CAP_OVERRIDES = {
+    "template:T7a-leggen-vs-liggen": 6,
+    "template:T7b-zetten-vs-staan": 6,
+    "template:T7c-stoppen-vs-zitten": 8,
+}
+
+
+def _variety_key(it: dict) -> str:
+    """Pedagogically-relevant slot of a trans-intrans item: the object (and, for T7c,
+    its container) — i.e. everything but the irrelevant person. Used to keep the small
+    capped sample maximally varied instead of repeating the same noun."""
+    m = re.search(r"___ (?:een |het |de )?(.+?)\.?$", it.get("sentence", ""))
+    return m.group(1) if m else it.get("sentence", "")
+
+
+def _diverse_sample(group: list[dict], cap: int, rng: random.Random) -> list[dict]:
+    """Pick `cap` items maximizing distinct _variety_key (one per object first, then
+    fill randomly if cap exceeds the number of distinct objects)."""
+    buckets: dict[str, list[dict]] = {}
+    for it in group:
+        buckets.setdefault(_variety_key(it), []).append(it)
+    keys = list(buckets.keys())
+    rng.shuffle(keys)
+    picked = [rng.choice(buckets[k]) for k in keys[:cap]]
+    if len(picked) < cap:  # cap larger than distinct objects — top up from the rest
+        rest = [it for it in group if it not in picked]
+        rng.shuffle(rest)
+        picked.extend(rest[: cap - len(picked)])
+    return picked
+
+
 def cap_per_template(items: list[dict], cap: int, seed: int = 1) -> list[dict]:
-    """Sample down to `cap` per source/template; re-id densely within each source."""
+    """Sample down to `cap` (or its CAP_OVERRIDES value) per source/template; re-id
+    densely within each source. Overridden templates sample for object variety."""
     by_src: dict[str, list[dict]] = {}
     for it in items:
         by_src.setdefault(it["source"], []).append(it)
 
-    rng = random.Random(seed)
     out: list[dict] = []
     for src, group in by_src.items():
-        if len(group) > cap:
-            sampled = rng.sample(group, cap)
-        else:
+        # Per-source rng so changing one template's cap never reshuffles the others.
+        rng = random.Random(f"{seed}:{src}")
+        c = CAP_OVERRIDES.get(src, cap)
+        if len(group) <= c:
             sampled = group
+        elif src in CAP_OVERRIDES:
+            sampled = _diverse_sample(group, c, rng)
+        else:
+            sampled = rng.sample(group, c)
         # Preserve id prefix (everything before the last '-NNN'), renumber densely.
         for i, it in enumerate(sampled, start=1):
             prefix = it["id"].rsplit("-", 1)[0]
