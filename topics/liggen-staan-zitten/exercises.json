@@ -1896,6 +1896,132 @@
     "confidence": "review"
   },
   {
+    "id": "lsz-wo-001",
+    "type": "cloze",
+    "sentence": "Mijn moeder ___ in de keuken een appeltaart te bakken.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Woordvolgorde: het positie-werkwoord staat op de tweede plaats; de plaatsbepaling en het lijdend voorwerp komen daarna, en 'te + infinitief' staat helemaal achteraan. Je bakt staand in de keuken → 'staat'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "woordvolgorde",
+      "verified"
+    ],
+    "source": "freeform:woordvolgorde-te-1",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-wo-002",
+    "type": "cloze",
+    "sentence": "De student ___ aan zijn bureau een lange brief te schrijven.",
+    "answer": "zit",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Woordvolgorde: het positie-werkwoord staat op de tweede plaats; de plaatsbepaling en het lijdend voorwerp komen daarna, en 'te + infinitief' staat helemaal achteraan. Aan een bureau zit je → 'zit'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "woordvolgorde",
+      "verified"
+    ],
+    "source": "freeform:woordvolgorde-te-2",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-wo-003",
+    "type": "cloze",
+    "sentence": "Hij ___ in bed nog een hoofdstuk te lezen.",
+    "answer": "ligt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Woordvolgorde: het positie-werkwoord staat op de tweede plaats; de plaatsbepaling en het lijdend voorwerp komen daarna, en 'te + infinitief' staat helemaal achteraan. In bed lig je → 'ligt'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "woordvolgorde",
+      "verified"
+    ],
+    "source": "freeform:woordvolgorde-te-3",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-wo-004",
+    "type": "cloze",
+    "sentence": "De monteur ___ in de garage mijn auto te repareren.",
+    "answer": "staat",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Woordvolgorde: het positie-werkwoord staat op de tweede plaats; de plaatsbepaling en het lijdend voorwerp komen daarna, en 'te + infinitief' staat helemaal achteraan. Repareren doe je staand → 'staat'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "woordvolgorde",
+      "verified"
+    ],
+    "source": "freeform:woordvolgorde-te-4",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-wo-005",
+    "type": "cloze",
+    "sentence": "De kinderen ___ aan de keukentafel hun huiswerk te maken.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Woordvolgorde: het positie-werkwoord staat op de tweede plaats; de plaatsbepaling en het lijdend voorwerp komen daarna, en 'te + infinitief' staat helemaal achteraan. Aan tafel zit je; meervoud → 'zitten'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "woordvolgorde",
+      "verified"
+    ],
+    "source": "freeform:woordvolgorde-te-5",
+    "confidence": "verified"
+  },
+  {
+    "id": "lsz-wo-006",
+    "type": "cloze",
+    "sentence": "De serveerster ___ met een dienblad de borden rond te brengen.",
+    "answer": "loopt",
+    "choices": [
+      "ligt",
+      "staat",
+      "zit",
+      "loopt"
+    ],
+    "explanation": "Woordvolgorde: het positie-werkwoord staat op de tweede plaats; de plaatsbepaling en het lijdend voorwerp komen daarna, en 'te + infinitief' staat helemaal achteraan. Rondbrengen doe je lopend → 'loopt'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "woordvolgorde",
+      "verified"
+    ],
+    "source": "freeform:woordvolgorde-te-6",
+    "confidence": "verified"
+  },
+  {
     "id": "lsz-tpl-T1p-001",
     "type": "cloze",
     "sentence": "De servetten ___ op de ladekast.",
@@ -6003,6 +6129,384 @@
       "template"
     ],
     "source": "template:T8-position-te-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-001",
+    "type": "cloze",
+    "sentence": "Mijn ouders hebben naar de sleutels ___ zoeken.",
+    "answer": "lopen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben lopen zoeken', niet '… te zoeken'. Hier past 'lopen' bij 'zoeken'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-002",
+    "type": "cloze",
+    "sentence": "Hij heeft in de keuken ___ koken.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'heeft staan koken', niet '… te koken'. Hier past 'staan' bij 'koken'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-003",
+    "type": "cloze",
+    "sentence": "Wij hebben door het huis ___ mopperen.",
+    "answer": "lopen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben lopen mopperen', niet '… te mopperen'. Hier past 'lopen' bij 'mopperen'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-004",
+    "type": "cloze",
+    "sentence": "Zij heeft op de bank ___ lezen.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'heeft liggen lezen', niet '… te lezen'. Hier past 'liggen' bij 'lezen'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-005",
+    "type": "cloze",
+    "sentence": "Wij hebben door de kamer ___ ijsberen.",
+    "answer": "lopen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben lopen ijsberen', niet '… te ijsberen'. Hier past 'lopen' bij 'ijsberen'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-006",
+    "type": "cloze",
+    "sentence": "Mijn ouders hebben aan tafel ___ eten.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben zitten eten', niet '… te eten'. Hier past 'zitten' bij 'eten'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-007",
+    "type": "cloze",
+    "sentence": "De kinderen hebben de hele middag ___ rusten.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben liggen rusten', niet '… te rusten'. Hier past 'liggen' bij 'rusten'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-008",
+    "type": "cloze",
+    "sentence": "De kinderen hebben in de rij ___ wachten.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben staan wachten', niet '… te wachten'. Hier past 'staan' bij 'wachten'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-009",
+    "type": "cloze",
+    "sentence": "Wij hebben in de bibliotheek ___ studeren.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben zitten studeren', niet '… te studeren'. Hier past 'zitten' bij 'studeren'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-010",
+    "type": "cloze",
+    "sentence": "Wij hebben met een vriend ___ bellen.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben zitten bellen', niet '… te bellen'. Hier past 'zitten' bij 'bellen'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-011",
+    "type": "cloze",
+    "sentence": "Hij heeft in een stoel ___ denken.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'heeft zitten denken', niet '… te denken'. Hier past 'zitten' bij 'denken'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-012",
+    "type": "cloze",
+    "sentence": "De kinderen hebben voor het kantoor ___ roken.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben staan roken', niet '… te roken'. Hier past 'staan' bij 'roken'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-013",
+    "type": "cloze",
+    "sentence": "Het kind heeft achter het bureau ___ werken.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'heeft zitten werken', niet '… te werken'. Hier past 'zitten' bij 'werken'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-014",
+    "type": "cloze",
+    "sentence": "Hij heeft voor de deur ___ kletsen.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'heeft staan kletsen', niet '… te kletsen'. Hier past 'staan' bij 'kletsen'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-015",
+    "type": "cloze",
+    "sentence": "Mijn ouders hebben met de buren ___ praten.",
+    "answer": "staan",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'hebben staan praten', niet '… te praten'. Hier past 'staan' bij 'praten'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-016",
+    "type": "cloze",
+    "sentence": "Het kind heeft naar de tv ___ kijken.",
+    "answer": "zitten",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'heeft zitten kijken', niet '… te kijken'. Hier past 'zitten' bij 'kijken'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-017",
+    "type": "cloze",
+    "sentence": "Hij heeft de hele middag ___ slapen.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'heeft liggen slapen', niet '… te slapen'. Hier past 'liggen' bij 'slapen'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
+    "confidence": "template"
+  },
+  {
+    "id": "lsz-tpl-T8b-018",
+    "type": "cloze",
+    "sentence": "Mijn opa heeft in de tuin ___ zonnebaden.",
+    "answer": "liggen",
+    "choices": [
+      "liggen",
+      "staan",
+      "zitten",
+      "lopen"
+    ],
+    "explanation": "Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief (dubbele infinitief). Dus 'heeft liggen zonnebaden', niet '… te zonnebaden'. Hier past 'liggen' bij 'zonnebaden'.",
+    "tags": [
+      "construction",
+      "te-infinitief",
+      "voltooide-tijd",
+      "template"
+    ],
+    "source": "template:T8b-perfect-double-inf",
     "confidence": "template"
   },
   {

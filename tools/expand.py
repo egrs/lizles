@@ -249,6 +249,39 @@ def expand_liggen_staan_zitten(W: dict) -> list[dict]:
                 "confidence": "template",
             })
 
+    # T8b — voltooide tijd van het positie-werkwoord + infinitief (Tweede ronde §21).
+    # In de voltooide tijd valt 'te' weg en krijg je een DUBBELE INFINITIEF:
+    # 'Hij heeft de hele middag liggen slapen' (niet 'gelegen te slapen').
+    # De locatie-bepaling komt vóór de werkwoordsgroep aan het eind.
+    def split_te(te_inf: str) -> tuple[str, str]:
+        rest = te_inf[3:] if te_inf.startswith("te ") else te_inf
+        head, _, tail = rest.partition(" ")
+        return head, tail  # 'te lezen op de bank' -> ('lezen', 'op de bank')
+
+    perf_choices = ["liggen", "staan", "zitten", "lopen"]
+    perf_subjects = [(s, "heeft") for s in W.get("_te_subjects_3sg", [])] + \
+                    [(s, "hebben") for s in W.get("_te_subjects_3pl", [])]
+    for pair in W.get("position_te_pairs", []):
+        lemma = pair["lemma"]
+        inf, pp = split_te(pair["te_inf"])
+        for subj, aux in perf_subjects:
+            mid_part = pp if pp else "de hele middag"
+            items.append({
+                "id": mid("T8b", len(items) + 1),
+                "type": "cloze",
+                "sentence": f"{subj} {aux} {mid_part} ___ {inf}.",
+                "answer": lemma,
+                "choices": perf_choices,
+                "explanation": (
+                    f"Voltooide tijd: 'te' valt weg en beide werkwoorden worden infinitief "
+                    f"(dubbele infinitief). Dus '{aux} {lemma} {inf}', niet '… te {inf}'. "
+                    f"Hier past '{lemma}' bij '{inf}'."
+                ),
+                "tags": ["construction", "te-infinitief", "voltooide-tijd", "template"],
+                "source": "template:T8b-perfect-double-inf",
+                "confidence": "template",
+            })
+
     # T9 — existential 'er + position verb + onbepaald' (Tweede ronde §27).
     # Reuses the existing wordlists but reshapes them into the existential frame.
     def bare_pl(de_pl: str) -> str:
@@ -565,6 +598,8 @@ CAP_OVERRIDES = {
     "template:T7a-leggen-vs-liggen": 6,
     "template:T7b-zetten-vs-staan": 6,
     "template:T7c-stoppen-vs-zitten": 8,
+    # Perfect double-infinitive: keep a focused set, one per distinct activity verb.
+    "template:T8b-perfect-double-inf": 18,
 }
 
 
