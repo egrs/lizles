@@ -16,6 +16,16 @@ const Exercises = (() => {
     return b;
   };
 
+  // Fisher–Yates shuffle (returns a new array).
+  const shuffled = arr => {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  };
+
   // Shared chip-question mounter: cloze / mcq / trans-intrans all use the same shape.
   // `choicesField` says whether to read item.choices (cloze) or item.options (mcq, trans-intrans).
   const mountChipQuestion = function (container, item, onSubmit, { promptText, choicesField }) {
@@ -39,7 +49,7 @@ const Exercises = (() => {
 
     const choices = document.createElement('div');
     choices.className = 'choices';
-    const buttons = (item[choicesField] || []).map(opt =>
+    const buttons = shuffled(item[choicesField] || []).map(opt =>
       chip(opt, () => {
         if (this._locked) return;
         this._locked = true;
